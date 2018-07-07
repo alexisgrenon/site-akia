@@ -1,0 +1,18 @@
+<head>
+{{- partial "head/noindex.html" . -}}
+{{- partial "head/tagmanager.html" . -}}
+{{- partial "head/notloaded.html" . -}}
+{{- partial "head/metadata-standard.html" . -}}
+{{- partial "head/metadata-opengraph.html" . -}}
+{{- partial "head/metadata-prefetch.html" . -}}
+{{- partial "head/metadata-schemaorg.html" . -}}
+{{- partial "head/metadata-favicons.html" . -}}
+{{- partial "head/site-style.html" . -}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ `<!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/js/vendor/html5shiv.js"></script>
+      <script src="/js/vendor/respond.js"></script>
+	<![endif]--> ` | safeHTML }}
+</head>

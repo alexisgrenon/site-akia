@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ $mymonths := $.Site.Data.mois.mois }}
+{{ $mydays := $.Site.Data.jour.jour }}
+{{ $text := split .Content "<!-- split -->" }}
+
+{{ end }}

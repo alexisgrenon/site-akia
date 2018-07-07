@@ -1,0 +1,34 @@
+@import "_variables.scss";
+
+/*----bootstrap css ----- */
+@import "vendor/bootstrap/bootstrap.scss";
+/*----bootstrap Select ----- */
+@import "vendor/bootstrap-select/dist/css/bootstrap-select.scss";
+/*----camera-slider---*/
+@import "vendor/Camera-master/css/camera.scss";
+/*------- Mega menu ------*/
+@import "vendor/bootstrap-mega-menu/css/animate.scss";
+@import "vendor/bootstrap-mega-menu/css/menu.scss";
+/*----font awesome -------*/
+@import "fonts/font-awesome/css/font-awesome.scss";
+/*----owl-carousel css----*/
+@import "vendor/owl-carousel/owl.carousel.scss";
+@import "vendor/owl-carousel/owl.theme.scss";
+/*-------- animated css ------*/
+@import "vendor/WOW-master/css/libs/animate.scss";
+/*-------Hover Css --------*/
+@import "vendor/hover.scss";
+/*--------- flat-icon ---------*/
+@import "fonts/icon/font/flaticon.scss";
+/*----------- Fancybox css -------*/
+@import "vendor/fancybox/dist/jquery.fancybox.scss";
+/*--------- Jquery ui ---------*/
+@import "vendor/jquery-ui/jquery-ui.scss";
+
+@import "theme/style.scss";
+@import "theme/responsive.scss";
+
+// @import "vendor/icomoon.scss";
+
+/* Custom Akia CSS */
+@import "_custom.scss";

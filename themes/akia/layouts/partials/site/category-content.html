@@ -1,0 +1,16 @@
+{{ $text := split . "<!-- split -->" }}
+<div class="section mcb-section equal-height" id="category-content">
+    <div class="section_wrapper mcb-section-inner">
+        <div class="wrap one column-margin-30px valign-top clearfix" style="max-width: 800px; margin: auto">
+            <div class="mcb-wrap-inner">
+                {{ index $text 0 | markdownify }}
+                <div class="column one-second">
+					{{ index $text 1 | markdownify }}
+                </div>
+                <div class="column one-second">
+                    {{ index $text 2 | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

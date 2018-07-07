@@ -1,0 +1,26 @@
+main:
+  # - fr: Accueil
+  #   en: Home
+  #   link: homePage
+  #   submenu: false
+  #   links:
+  #     - fr:
+  #       en:
+  #       link:
+  - fr: Accueil
+    en: Home
+    link: homePage
+  - fr: Articles
+    en: Articles
+    link: articlesPage
+  - fr: À propos
+    en: About
+    link: aboutPage
+  - fr: Contact
+    en: Contact
+    link: contactPage
+  - fr: Acheter un plan
+    en: Buy a plan
+    link: plansPage
+    color: "#f3c070"
+    space: true

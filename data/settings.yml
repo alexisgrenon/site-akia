@@ -1,0 +1,47 @@
+socials:
+  facebookurl: 'https://www.facebook.com/tinyhouseloversofficial/'
+  linkedinurl: ''
+  twitterurl: ''
+  youtubeurl: ''
+  instagramurl: 'https://www.instagram.com/tinyhouse_lovers/'
+  googleplusurl: ''
+  pinteresturl: ""
+  vimeourl: ""
+  dribbleurl: ""
+twitter:
+  share: false
+  id: ""
+address:
+  road:
+  app:
+  city:
+  province:
+  postal:
+  country:
+ouverture:
+  fr:
+    - jour: 
+      heures: 
+    - jour:
+      heures: 
+    - jour: 
+      heures: 
+    - jour: 
+      heures: 
+  en:
+    - jour: 
+      heures: 
+    - jour: 
+      heures: 
+    - jour:
+      heures: 
+    - jour: 
+      heures: 
+phone: 
+mphone: '+'
+email: 
+sitedescription: "Tiny House Society is your ultimate source of information to know anything about tiny homes. From building to legislation, we got you covered."
+sitetitle: "Tiny House Society | Your Only Source For Small Living"
+defaultsocialimage: "/img/tiny-house-logo-white.jpg"
+removefromexternalsearch: true
+titleautocompletion: false

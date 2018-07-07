@@ -1,0 +1,25 @@
+{{ if eq .Params.layout "contact" }}
+{{ with .Site.Params.googleapikey }}
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{.}}&callback=googleMap"
+  type="text/javascript"></script>
+{{ end }}
+{{ end }}
+{{ if .Params.notloaded.need }}
+<!-- <script>
+    var notLoaded = document.getElementsByClassName('not-loaded'),
+      slider = notLoaded[0];
+  
+  // Special loading - Slider
+  var imgLarge = new Image();
+  imgLarge.src = slider.dataset.large; 
+  imgLarge.onload = function () {
+    slider.style.backgroundImage = 'url('+slider.dataset.large+')';
+    slider.classList.add('loaded');
+  };
+</script> -->
+{{ end }}
+{{ if eq .Params.layout "contact" }}
+<script type="text/javascript" src="/js/main-contact.min.js"></script>
+{{ else }}
+<script type="text/javascript"src="/js/main.min.js"></script>
+{{ end }}

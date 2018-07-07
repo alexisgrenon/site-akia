@@ -1,0 +1,44 @@
+{{ $mymonths := $.Site.Data.mois.mois }}
+{{ $mydays := $.Site.Data.jour.jour }}
+<!-- <div class="date_label">
+    March 12, 2014
+</div> -->
+<div class="image_frame post-photo-wrapper scale-with-grid">
+    <div class="image_wrapper">
+        <a href="{{ .Permalink }}">
+            <!-- <div class="mask"></div> --><!-- <img src="{{ .Params.listing.image }}" class="scale-with-grid wp-post-image" alt="home_lifestyle_blog_hot_1" itemprop="image" /> -->
+            <div class="article-img-bg" style="background-image: url('/quart{{ .Params.image }}');"></div>
+        </a>
+        <!-- <div class="image_links double">
+            <a href="{{ .Params.listing.image }}" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="{{ .Permalink }}" class="link"><i class="icon-link"></i></a>
+        </div> -->
+    </div>
+</div>
+<div class="post-desc-wrapper">
+    <div class="post-desc">
+        <div class="post-head">
+            <div class="post-meta clearfix">
+                <div class="author-date">
+                    <span class="date"><i class="icon-calendar"></i> <span class="post-date updated">{{.Date.Month}} {{ index $mydays .Date.Day }}, {{.Date.Year}}</span></span><span class="categories-icon"><i class="moon-category"></i> <span class="post-date updated">{{ range first 1 (.Params.categories) }}<a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">{{ . }}</a>{{ end }}</span></span>
+                </div>
+                <div class="category">
+                    <span class="date"><i class="moon-timer"></i> <span class="post-date updated">Read time: {{.ReadingTime}} min</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="post-title">
+            <h2 class="entry-title" itemprop="headline"><a href="{{ .Permalink }}">{{ .Params.listing.title }}</a></h2>
+        </div>
+        <div class="post-excerpt">
+            {{ .Params.listing.description }}
+        </div>
+        <div class="post-footer">
+            <div class="button-love">
+                <!-- <span class="love-text">Do you like it?</span><a href="#giving-love" class="mfn-love " data-id="2269"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">{{ .Params.likes }}</span></a> -->
+            </div>
+            <div class="post-links">
+                <a href="{{ .Permalink }}" class="post-more">Read more <i class="moon-arrow"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

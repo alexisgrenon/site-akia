@@ -1,0 +1,257 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 24/09/2017.
+    Theme Name   : Gullu.
+    Description  : Gullu - Agency & Startup HTML Template
+    Version      : 1.1.
+    Author       : @CreativeGigs.
+    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
+   
+*/
+
+@media (min-width: 992px) {
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+@media (max-width: 1600px) {
+  .our-portfolio .theme-title:before {left:0;}
+  .banner-three .play-option {left: auto;right: -50px;}
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .more-about-us .image-box,.home-service-section img,.testimonial-section .image-box {left:-20%;}
+  .more-about-us .theme-shape-three,.testimonial-section .theme-shape-four {left:-25%;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .more-about-us .image-box,.home-service-section img,.testimonial-section .image-box {left:-35%;}
+  .more-about-us .theme-shape-three,.testimonial-section .theme-shape-four {left:-40%;}
+  .about-text .about-tab-wrapper {width: 75%;}
+}
+@media (max-width: 1199px) {
+  .contact-us-form {padding-right: 0;}
+  .banner-three .container h1 {margin-top: 150px;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .what-we-do .single-block .icon.middle-block:before, .what-we-do .single-block .icon.middle-block:after {width: 140px;}
+  .what-we-do .single-block .icon.middle-block:before {left: -180px;}
+  .what-we-do .single-block .icon.middle-block:after {right: -180px;}
+  .more-about-us .main-content .main-wrapper .button-wrapper {width: 240px;padding-left: 15px;}
+  .pricing-plan-one .tab-content .right-side {padding-left: 20px;}
+  .home-blog-section .single-blog h5 a {font-size: 18px;}
+  .testimonial-section .theme-title h2 br {display: none;}
+  .company-seo-text .theme-title-two h2,.testimonial-section.homeThree .theme-title-two h2 {font-size: 38px;}
+  .home-project .single-project-wrapper h2 a {font-size: 35px;}
+  .testimonial-section.homeThree .owl-theme .owl-nav {right: 61%;}
+  .our-blog.blog-v1 .single-blog .text,.our-blog .single-blog.solid-color .text {padding-left: 10px;}
+  .blog-details .blog-main-post h2 {padding-right: 40px;font-size: 29px;}
+  .service-version-two .single-service .text h2 {font-size: 62px;}
+  .service-version-two .single-service .text p {margin-top: 130px;}
+  .banner-one .image-shape-one {right: -35%;}
+  .banner-one .image-shape-two {right: -38%;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (max-width: 991px) {
+  header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav .quote-button a {margin: 0;}
+  header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav .quote-button {padding: 5px 8px 10px 8px;}
+  header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav>li>a:before {display: none;}
+  .what-we-do h3 {width: 100%;}
+  .more-about-us .image-box,.more-about-us .theme-shape-three,
+  .testimonial-section .image-box,.testimonial-section .theme-shape-four {display: none;}
+  .more-about-us .main-content {padding-left: 0;}
+  header.theme-menu-wrapper {padding-top: 35px;}
+  .theme-menu-wrapper .logo,.theme-menu-wrapper.menu-style-two.inner-menu .logo {position: absolute;z-index: 9;top:40px;left:80px;}
+  .theme-menu-wrapper.menu-style-two .container,.menu-style-three .container {position: relative;}
+  .theme-menu-wrapper.menu-style-two .logo {left: 15px; top:6px;}
+  .theme-menu-wrapper.menu-style-three .logo {left:15px;top:22px;}
+  .theme-menu-wrapper.menu-style-three.fixed .logo {top:0;}
+  .theme-menu-wrapper.fixed.menu-style-two .logo {top:6px;}
+  #mega-menu-wrapper {float: none;width: 100%;}
+  .theme-menu-wrapper.fixed,header.theme-menu-wrapper.menu-style-three.fixed {padding-top: 25px;}
+  .theme-menu-wrapper.fixed .logo,.theme-menu-wrapper.menu-style-two.inner-menu.fixed .logo {-webkit-transform:none;transform:none;top:30px;}
+  header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a,
+  header.theme-menu-wrapper.fixed #mega-menu-wrapper .nav>li.menu-list>a,
+  header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav>li>a {padding:0;margin: 0 8px;}
+  header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before {top:28px;}
+  header.theme-menu-wrapper #mega-menu-wrapper .nav .login-button a {margin: 10px 0 15px 5px;}
+  header.theme-menu-wrapper #mega-menu-wrapper .nav>li.active>a:before,
+  header.theme-menu-wrapper #mega-menu-wrapper .nav>li:hover>a:before {width: calc(100% - 60px);}
+  .more-about-us {margin-bottom: 0;}
+  .our-portfolio .theme-title a {position: relative;margin-top: 20px;right: auto;}
+  .our-portfolio .wrapper {margin-top: 100px;}
+  .home-service-section img {position: static;margin: 0 auto;}
+  .testimonial-section {padding:30px 0 0 0;}
+  .pricing-plan-one .nav-tabs {margin-bottom: 50px;}
+  .pricing-plan-one {padding-bottom: 100px;}
+  footer .bottom-footer ul,footer .bottom-footer p {float: none;text-align: center;}
+  footer .bottom-footer ul li {padding: 0 22px;float: none;display: inline-block;margin-bottom: 20px;}
+  footer .bottom-footer {padding-bottom: 35px;}
+  .more-about-us.bg-color:before {display: none;}
+  .what-we-do-styletwo {padding-top: 50px;}
+  .company-seo-text img {margin: 0 auto 80px auto;}
+  .short-banner .opacity h2 br,.about-text .title h2 br {display: none;}
+  .business-statics #chart {top:auto;bottom: 0;}
+  .testimonial-section.homeThree {padding-bottom: 70px;margin-top: 0;}
+  .testimonial-section.homeThree .owl-theme .owl-nav {right: 0;left:0;bottom:0;}
+  .testimonial-section.homeThree img {margin: 20px auto 0 auto;}
+  .home-project .single-project-wrapper {padding: 0;}
+  header.theme-menu-wrapper.menu-style-three {padding-top: 20px;}
+  .shop-sidebar,.blog-sidebar {margin-top: 80px;}
+  .shop-details .procuct-details .product-info h3 {margin-top: 50px;}
+  .about-text .about-tab-wrapper {width: 100%;}
+  .service-version-two .single-service .text p {margin-top: 60px;}
+  .service-version-two .single-service {margin-bottom: 100px;}
+  .project-details-wrapper .text {padding-left: 0;}
+  .project-details-wrapper .project-info-list {padding-right: 0;}
+  .portfolio-details .title ul {position: static;margin-top: 20px;}
+  .banner-one .image-shape-one,.banner-one .image-shape-two {display: none;}
+  .inner-page-banner {margin-bottom: 100px;}
+  .our-blog,.blog-details .comment-area {padding-bottom: 100px;}
+  .blog-details.blog-details-sidebar .comment-area {padding-bottom: 0;}
+  .service-details .box-wrapper {padding: 0;}
+  .service-details {padding-bottom: 70px;}
+  #video-banner .banner-wrapper h1 br {display: none;}
+} 
+/*(max-width: 991px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .what-we-do .single-block .icon.middle-block:before, .what-we-do .single-block .icon.middle-block:after {display: none;}
+  .theme-counter p,.what-we-do .container>h6 {font-size: 18px;}
+  .inner-page-banner .opacity {padding: 170px 0 100px 0;}
+  .blog-details .blog-main-post h2 {padding-right: 0;}
+  .banner-two h1,.banner-three .container h1 {font-size: 55px;}
+  .blog-masonary .grid-sizer, .blog-masonary .grid-item {width: 50%;}
+  #video-banner {height: 650px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+    .theme-menu-wrapper .logo,.theme-menu-wrapper.menu-style-two.inner-menu .logo {left: 15px;}
+    header.theme-menu-wrapper.full-width-menu {padding-left: 15px;padding-right: 15px;}
+    .what-we-do h3 {font-size: 28px;line-height: 48px;}
+    .what-we-do .container>h6 {font-size: 18px;line-height: 30px;margin-bottom: 80px;}
+    .what-we-do .single-block .icon.middle-block:before, .what-we-do .single-block .icon.middle-block:after {width: 80%;}
+    .what-we-do .single-block .icon.middle-block:before {left:-90%;}
+    .what-we-do .single-block .icon.middle-block:after {right:-90%;}
+    .what-we-do {padding-bottom: 70px;}
+    .more-about-us .main-content .main-wrapper .button-wrapper,
+    .our-team-styleOne .title a {position: static;margin-top: 20px;}
+    .home-service-section .theme-title p {display: block;}
+    .home-service-section .theme-title a {position: relative;border: 0;margin-top: 20px;}
+    .our-portfolio .wrapper {padding: 0 15px;}
+    .our-portfolio {padding: 150px 0 130px 0;}
+    .inner-page-banner .opacity {padding: 130px 0 90px 0;}
+    .our-blog.blog-v2,.shop-page.full-width,#google-map-area {padding-left: 15px;padding-right: 15px;}
+    .blog-v3 .wrapper {width: 100%;}
+    .blog-details .blog-main-post h2 {padding-right: 0;font-size: 28px;}
+    .about-text {padding-bottom: 0;}
+    .trusted-client .title {margin-bottom: 50px;}
+    .trusted-client {padding-bottom: 50px;}
+    .service-version-one h2 br,.portfolio-details .title h2 br {display: none;}
+    .project-details-wrapper .project-info-list {padding-bottom: 50px;}
+    .banner-one h5 {margin-top: 100px;}
+    #theme-main-banner .camera_prev, #theme-main-banner .camera_next {display: none;}
+    .banner-two h1,.banner-three .container h1 {font-size: 50px;line-height: 60px;}
+    .banner-two .play-option,.banner-three .play-option {position: static;margin-top: 40px;}
+    .banner-two .watch-video,.banner-three .watch-video {-webkit-transform:none;transform:none;}
+    .banner-three .container h5 {margin: 50px 0 30px 0;}
+    .banner-three .watch-video a {top:14px;}
+    .business-statics .main-content {padding-left: 0;}
+    .theme-modal-box .modal-dialog {width: 96%;margin: 0 2%;}
+    .blog-masonary .grid-sizer, .blog-masonary .grid-item {width: 100%;}
+    footer.bg-two,footer {padding-top: 100px;}
+    .partent-logo-section {padding-bottom: 60px;}
+    .testimonial-section.bg-image {padding: 80px 0 100px 0;}
+    .theme-counter.fix {padding-bottom: 50px;}
+    .blog-details .tag-option {margin: 45px 0 80px 0;}
+    .service-details .box-wrapper .title h3,.service-details .box-wrapper .title .loan {float: none;}
+    .service-details .box-wrapper .title .loan {margin-top: 30px;}
+    .service-details .box-wrapper .top-text h4 {font-size: 20px;line-height: 35px;}
+    .inner-page-banner .opacity h1 {font-size: 45px;}
+    .inner-page-banner .opacity ul li {margin-top: 20px;}
+    #video-banner .banner-wrapper h1 { font-size: 35px;line-height: 48px;margin: 20px 0 25px 0;}
+    #video-banner {height: 500px;}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 650px) {
+    #success, #error {
+        width: 86%;
+        height: auto;
+        top: calc(50% - 50px);
+        left: 7%;
+        padding: 30px 10px;
+    }
+    .our-portfolio .theme-title h2 br,.testimonial-section .theme-title br,
+    .gullu-portfolio .mixitUp-menu h2 br {display: none;}
+}
+
+@media (max-width: 600px) {
+  .our-team-styleOne.style-two .col-xs-6 {width: 100%;}
+}
+
+@media (max-width: 550px) {
+  .pricing-plan-one .tab-content .left-side,.pricing-plan-one .tab-content .right-side {width: 100%;}
+  .banner-one h1,.banner-two h1,.banner-three .container h1 {font-size: 35px;line-height: 48px;}
+  .banner-one h1 span:before {bottom: 10px;}
+  .theme-modal-box .modal-content .modal-body form .wrapper {padding: 0;}
+}
+@media (max-width: 520px) {
+    .theme-counter-styleTwo ul li {width: 100% !important;padding: 15px 0;}
+    .theme-counter-styleTwo ul li:nth-child(2) {
+        border-top: 1px solid rgba(0,0,0,0.1);
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        border-left: none;
+        border-right:none;
+    }
+    .about-text .about-tab-wrapper .tab-content {padding-left: 0;width: 100%;}
+    .about-text .about-tab-wrapper .nav {width: 100%;margin-bottom: 25px;}
+    .theme-modal-box .modal-content .modal-body {padding-left: 15px;padding-right: 15px;}
+}
+@media (max-width: 500px) {
+  .testimonial-section .main-container .item .wrapper {padding-left: 40px;}
+  .testimonial-section .main-container .item .wrapper p:before {left:-38px;font-size: 30px;top:4px;}
+  .testimonial-section .owl-theme .owl-nav {bottom: -50px;}
+  .our-blog.blog-v2 .col-xs-6,.shop-page .shop-product-wrapper .col-xs-6 {width: 100%;}
+  .blog-details .tag-option ul {float: none;}
+  .shop-details .procuct-details .product-info h3 br {display: none;}
+  .business-statics .statics.fix {margin: 20px 0 0 0;}
+  .business-statics .wrapper {margin-top: 70px;}
+  .theme-modal-box .modal-content .modal-body>ul li {width: 50%;}
+  .service-version-two .single-service .text h2 {font-size: 40px;line-height: 55px;margin-top: 5px;}
+}
+
+@media (max-width: 480px) {
+  .menu-style-three .top-header p, .menu-style-three .top-header ul {display: block;text-align: center;}
+  .menu-style-three .top-header ul li a {margin: 0 8px;}
+  .menu-style-three .top-header .float-right {float: none;}
+  .menu-style-three .top-header p a {margin-right: 0;}
+  .portfolio-grid .col-xs-6 {width: 100%;}
+}
+
+@media (max-width: 450px) {
+  .more-about-us .main-content .main-wrapper .button-wrapper {width: 100%;padding: 18px 0 15px 10px;}
+  .theme-counter p {font-size: 16px;}
+  .pricing-plan-one .theme-title h2 br {display: none;}
+  .our-team-styleOne .col-xs-6,.theme-counter .col-xs-6 {width: 100%;}
+  .pricing-plan-one .nav-tabs > li > a {width: 130px;}
+}
+
+@media (max-width: 400px) {
+  .more-about-us .main-content h2 {font-size: 30px;line-height: 48px;}
+  header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav .quote-button a {width: 100%;}
+  .blog-details .blog-main-post h2 {font-size: 25px;padding-left: 40px;}
+  .blog-details .blog-main-post h2:before {width: 35px;}
+  .blog-details .comment-area .comment-section .comment button {position: static;margin-top: 10px;}
+  .portfolio-full-width .col-xs-6 {width: 100%;}
+  .shop-page .shop-product-wrapper .shorting-option ul li {float: none;}
+  .theme-modal-box .modal-content .modal-body form ul li {width: 100%;}
+}
+@media (max-width: 350px) {
+  .pricing-plan-one .tab-content .right-side {padding-left: 15px;}
+  .theme-counter p {font-size: 20px;}
+}

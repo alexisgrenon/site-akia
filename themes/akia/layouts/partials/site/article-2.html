@@ -1,0 +1,27 @@
+{{ if .color }}
+<style>
+.{{ substr (.quote | urlize) 0 20 }}.highlight-right:after {
+    background-color: {{ .color }};
+}
+</style>
+{{ end }}
+<div class="section mcb-section highlight-right {{ substr (.quote | urlize) 0 20 }}" style="padding-top:0px; padding-bottom:0px; background-image:url(/xl{{ .images.link }}); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover" data-enllax-ratio="-0.3">
+    <div class="section_wrapper mcb-section-inner">
+        <div class="wrap mcb-wrap one-second  valign-top clearfix">
+            <div class="mcb-wrap-inner">
+                <div class="column mcb-column one column_divider ">
+                    <hr class="no_line" style="margin: 0 auto 200px;" />
+                </div>
+            </div>
+        </div>
+        <div class="wrap mcb-wrap one-second  valign-top clearfix">
+            <div class="mcb-wrap-inner">
+                <div class="column mcb-column one column_column">
+                    <div class="column_attr" style=" padding:120px 8% 70px;">
+                        <h4 style="color: #fff;">{{ .quote }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

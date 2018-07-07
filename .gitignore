@@ -1,0 +1,5 @@
+nodes_modules
+/node_modules
+public
+/public
+.DS_Store

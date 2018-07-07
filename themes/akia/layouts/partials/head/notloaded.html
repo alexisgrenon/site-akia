@@ -1,0 +1,7 @@
+{{ if .Params.notloaded.need }}
+<style>
+.not-loaded {
+	background-image:url({{ if .Params.notloaded.image }}{{- .Params.notloaded.image -}}{{ else }}/load{{- .Params.image }}{{ end }});
+}
+</style>
+{{ end }}

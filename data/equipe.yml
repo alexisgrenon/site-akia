@@ -1,0 +1,7 @@
+equipe:
+  - description: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cupiditate, reiciendis impedit unde similique sit nesciunt ex sapiente quidem aspernatur provident expedita corrupti nulla laborum corporis incidunt vel nostrum! Debitis?
+    nom: 'John Doe'
+    ordre: 1
+    photo: /images/johndoe.jpg
+    titre: A really good guy

@@ -1,0 +1,25 @@
+<div class="section mcb-section full-width no-margin-h no-margin-v  " style="padding-top:0px; padding-bottom:0px; background-color:#f0f1f2" id="hot-articles">
+    <div class="section_wrapper mcb-section-inner">
+        <div class="wrap mcb-wrap one  valign-top clearfix">
+            <div class="mcb-wrap-inner">
+                <div class="column mcb-column one column_blog ">
+                    <div class="column_filters">
+                        <div class="blog_wrapper isotope_wrapper clearfix">
+                            <div class="other-title">
+                                <h4>Other posts that could interest you</h4>
+                            </div>
+                            <div class="posts_group lm_wrapper col-3 masonry tiles isotope" id="related_posts">
+                                {{ $slug := .Params.slug }}
+                                {{ range $i, $e := first 3 (where (where $.Site.RegularPages "Type" "articles") ".Params.slug" "!=" $slug) }}
+                                <div class="post-item isotope-item clearfix post format-standard has-post-thumbnail category-hot-articles">
+                                    {{- partial "site/articles-post.html" . $ -}}
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
