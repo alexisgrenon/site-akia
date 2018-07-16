@@ -1708,6 +1708,9 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   background-attachment: fixed;
   position: relative;
   margin-bottom: 190px;
+  &.services-indiv {
+    margin-bottom: 20px;
+  }
 }
 .inner-page-banner .opacity {
   text-align: center;

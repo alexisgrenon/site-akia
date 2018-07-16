@@ -3,14 +3,13 @@
 	{{ $.Scratch.Add "homePage" ("/" | absLangURL) }}
 	{{ $.Scratch.Add "articlesPage" ("articles/" | absLangURL) }}
 	{{ $.Scratch.Add "servicesPage" ("services/" | absLangURL) }}
-	{{ $.Scratch.Add "faqPage" ("faq/" | absLangURL) }}
+	{{ $.Scratch.Add "clientsPage" ("clients/" | absLangURL) }}
 	{{ if eq .Lang "fr" }}
 	{{ $.Scratch.Add "contactPage" ("contact/" | absLangURL) }}
-	{{ $.Scratch.Add "aboutPage" ("a-propos/" | absLangURL) }}
+	{{ $.Scratch.Add "aboutPage" ("notre-equipe/" | absLangURL) }}
 	{{ else if eq .Lang "en" }}
 	{{ $.Scratch.Add "contactPage" ("contact-us/" | absLangURL) }}
-	{{ $.Scratch.Add "writePage" ("write-for-us/" | absLangURL) }}
-	{{ $.Scratch.Add "aboutPage" ("about-us/" | absLangURL) }}
+	{{ $.Scratch.Add "aboutPage" ("our-team/" | absLangURL) }}
 	{{ end }}
 	{{- partial "site-head.html" . -}}
 	<body class="">

@@ -21,11 +21,11 @@
     Theme Header
 ============================================== 
 -->
-<header class="theme-menu-wrapper {{ if eq .Params.layout "contact" }}inner-menu menu-style-two {{ end }}full-width-menu">
+<header class="theme-menu-wrapper {{ if .Params.headerwhite }}inner-menu menu-style-two {{ end }}full-width-menu">
     <div class="header-wrapper">
         <div class="clearfix">
             <!-- Logo -->
-            <div class="logo float-left tran4s"><a href="index.html"><img src="/images/logo/logo.png" alt="Logo"></a></div>
+            <div class="logo float-left tran4s"><a href='{{ $.Scratch.Get "homePage" }}'><img src="/images/logo/logo.png" alt="Logo"></a></div>
 
             <!-- ============================ Theme Menu ========================= -->
             <nav class="theme-main-menu float-right navbar" id="mega-menu-wrapper">
@@ -41,57 +41,32 @@
                <!-- Collect the nav links, forms, and other content for toggling -->
                <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav">
-                        <li class="dropdown-holder menu-list active"><a href="index.html" class="tran3s">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home version one</a></li>
-                                <li><a href="index-2.html">Home version Two</a></li>
-                                <li><a href="index-3.html">Home version Three</a></li>
-                                <li><a href="index-video.html">Home video version</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-holder menu-list"><a href="#" class="tran3s">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-v1.html">Blog Grid</a></li>
-                                <li><a href="blog-v2.html">Blog List</a></li>
-                                <li><a href="blog-v4.html">Blog List Sidebar</a></li>
-                                <li class="dropdown-holder"><a href="blog-v3.html">Blog Full Width</a>
-                                    <ul class="second-sub-menu">
-                                        <li><a href="blog-details.html">Blog details</a></li>
-                                        <li><a href="blog-details-sidebar.html">Blog details Sidebar</a></li>
+                        {{ $active := .Params.menuid }}
+                        {{ range .Site.Data.menu.main }}
+                        {{ if .submenu }}
+                               <li class="dropdown-holder menu-list{{ if eq .active $active }} active{{ end }}"><a href="javascript:void(0);" class="tran3s">{{ if eq $.Lang "fr" }}{{.fr}}{{ else if eq $.Lang "en" }}{{.en}}{{end}}</a>
+                                    <!-- start sub menu -->
+                                    <ul class="sub-menu">
+                                        {{ range .links }}
+                                        {{ $link := .link }}
+                                        <li><a href='{{ $.Scratch.Get $link }}'>{{ if eq $.Lang "fr" }}{{.fr}}{{ else if eq $.Lang "en" }}{{.en}}{{end}}</a></li>
+                                        {{ end }}
                                     </ul>
                                 </li>
-                                <li class="dropdown-holder"><a href="shop.html">Shop Page</a>
-                                    <ul class="second-sub-menu">
-                                        <li><a href="shop-details.html">Shop Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about-us.html">About us</a></li>
-                                <li><a href="team-v1.html">Team Version one</a></li>
-                                <li><a href="team-v2.html">Team Version Two</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-holder menu-list"><a href="#" class="tran3s">Services</a>
-                            <ul class="sub-menu">
-                                <li><a href="service-v1.html">Service Version One</a></li>
-                                <li><a href="service-v2.html">Service Version Two</a></li>
-                                <li><a href="service-details.html">Service Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-holder menu-list"><a href="#" class="tran3s">Portfolio</a>
-                            <ul class="sub-menu">
-                                <li><a href="portfolio-v1.html">Portfolio version one</a></li>
-                                <li><a href="portfolio-v2.html">Portfolio version Two</a></li>
-                                <li><a href="portfolio-v3.html">Portfolio version Three</a></li>
-                                <li class="dropdown-holder"><a href="portfolio-v4.html">Portfolio version Four</a>
-                                    <ul class="second-sub-menu">
-                                        <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                        <li><a href="portfolio-details-v2.html">Portfolio Details v2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-list"><a href="contact.html" class="tran3s">Contact Us</a></li>
-                        <li class="login-button"><a href="#" class="tran3s" data-toggle="modal" data-target=".signUpModal">login</a></li>
+                            {{ else }}
+                                {{ $link := .link }}
+                                <li class="{{ if eq .active $active }}active{{ end }} menu-list tran3s"><a href='{{ $.Scratch.Get $link }}'>{{ if eq $.Lang "fr" }}{{.fr}}{{ else if eq $.Lang "en" }}{{.en}}{{end}}</a></li>
+                            {{ end }}
+                        {{ end }} 
+                        {{ if .Params.translationlink }}
+                            {{ $link := .Params.translationlink }}
+                            <li><a href='{{ $link | absURL }}' class="title lang" title=>{{ if eq $.Lang "fr" }}EN{{ else if eq $.Lang "en" }}FR{{ end }}</a></li>
+                        {{ else if .Translations }}
+                            {{ range .Translations }}
+                            <li><a href="{{.Permalink}}" class="title lang">{{ i18n (upper (.Lang)) }}</a></li>
+                            {{ end }}
+                        {{ end }}
+                        <!-- <li class="login-button"><a href="#" class="tran3s" data-toggle="modal" data-target=".signUpModal">login</a></li> -->
                     </ul>
                </div><!-- /.navbar-collapse -->
             </nav> <!-- /.theme-main-menu -->

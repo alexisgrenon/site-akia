@@ -1,0 +1,97 @@
+{{ define "main" }}
+<!-- 
+=============================================
+	Theme Inner Banner 
+============================================== 
+-->
+<div class="inner-page-banner">
+	<div class="opacity">
+		<h1>Portfolio</h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li>/</li>
+			<li>Portfolio</li>
+		</ul>
+	</div> <!-- /.opacity -->
+</div> <!-- /inner-page-banner -->
+
+
+
+<!-- 
+=============================================
+	Our Portfolio V1
+============================================== 
+-->
+<div class="gullu-portfolio portfolio-full-width">
+	<div class="container">
+		<div class="mixitUp-menu">
+			<h2>We’ve done lot’s of work, Let’s <br>Check some from here</h2>
+			<ul>
+				<li class="filter active tran3s" data-filter="all">All</li>
+				<li class="filter tran3s" data-filter=".business">Business</li>
+				<li class="filter tran3s" data-filter=".finance">Finance</li>
+				<li class="filter tran3s" data-filter=".technical">Technical</li>
+				<li class="filter tran3s" data-filter=".marketing">Marketing</li>
+				<li class="filter tran3s" data-filter=".investment">Inesment</li>
+			</ul>
+		</div> <!-- End of .mixitUp-menu -->
+	</div> <!-- /.container -->
+
+	<div class="row" id="mixitUp-item">
+		<div class="col-md-4 col-xs-6 mix finance marketing">
+			<div class="single-item">
+				<img src="/images/portfolio/5.jpg" alt="">
+				<div class="opacity tran3s">
+					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
+				</div>
+			</div> <!-- /.single-item -->
+		</div> <!-- /.col-md-4 -->
+		<div class="col-md-4 col-xs-6 mix technical investment">
+			<div class="single-item">
+				<img src="/images/portfolio/6.jpg" alt="">
+				<div class="opacity tran3s">
+					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
+				</div>
+			</div> <!-- /.single-item -->
+		</div> <!-- /.col-md-4 -->
+		<div class="col-md-4 col-xs-6 mix business technical marketing">
+			<div class="single-item">
+				<img src="/images/portfolio/7.jpg" alt="">
+				<div class="opacity tran3s">
+					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
+				</div>
+			</div> <!-- /.single-item -->
+		</div> <!-- /.col-md-4 -->
+		<div class="col-md-4 col-xs-6 mix business finance investment">
+			<div class="single-item">
+				<img src="/images/portfolio/8.jpg" alt="">
+				<div class="opacity tran3s">
+					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
+				</div>
+			</div> <!-- /.single-item -->
+		</div> <!-- /.col-md-4 -->
+		<div class="col-md-4 col-xs-6 mix business technical">
+			<div class="single-item">
+				<img src="/images/portfolio/9.jpg" alt="">
+				<div class="opacity tran3s">
+					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
+				</div>
+			</div> <!-- /.single-item -->
+		</div> <!-- /.col-md-4 -->
+		<div class="col-md-4 col-xs-6 mix finance marketing investment">
+			<div class="single-item">
+				<img src="/images/portfolio/10.jpg" alt="">
+				<div class="opacity tran3s">
+					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
+				</div>
+			</div> <!-- /.single-item -->
+		</div> <!-- /.col-md-4 -->
+	</div> <!-- /.row -->
+</div> <!-- /.gullu-portfolio -->
+		<!-- {{ .Content}}
+			{{ range $i, $e := sort .Pages ".Params.ordre" "asce" }}
+			{{ $mod1 := modBool $i 1}}
+			{{ $mod2 := modBool $i 2}}
+			{{ $mod3 := modBool $i 3}}
+		{{ end }} -->
+{{ end }}

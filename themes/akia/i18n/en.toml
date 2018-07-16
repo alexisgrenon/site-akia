@@ -1,0 +1,126 @@
+[contact]
+  other = "Contact us"
+
+[home]
+  other = "Home"
+
+[services]
+  other = "Services"
+
+[our_services]
+  other = "Our services"
+
+[about]
+  other = "About us"
+
+[clients]
+  other = "Our clients"
+
+[blog]
+  other = "Blog"
+
+[find]
+  other = "Find us"
+
+[call_us]
+  other = "Call us"
+
+[sitemap]
+  other = "Sitemap"
+
+[copyright]
+  other = "All rights reserved"
+
+[akiatagline]
+  other = 'Made with <i class="fa fa-heart"></i> by <a href="https://www.akiamarketing.ca/" target="_blank">Akia Marketing</a>'
+
+[read_more]
+  other = "Read more"
+
+[know_more]
+  other = "More"
+
+[view_project]
+  other = "View projects"
+  one = "View project"
+
+[see_client]
+  other = "Our clients"
+  one = "Our client"
+
+[service_offered]
+  other = "Services offered"
+  one = "Service offered"
+
+[category]
+  other = "Categories"
+  one = "Category"
+
+[link_en]
+  other = "en/"
+
+[write_us]
+  other = "Email us"
+
+[contact_us]
+  other = "Contact us"
+
+[we_are_here]
+  other = "We are here"
+
+[office_hours]
+  other = "Office hours"
+
+[view_map]
+  other = "View map"
+
+[required_fields]
+  other = "Required fields are marked"
+
+[other_service]
+  other = "Other services"
+  one = "Other service"
+
+[get_quote]
+  other = "Get a quote"
+
+[headertagline]
+  other = "Key-in-hand AirBnb management in Montreal"
+
+[newsletter]
+  other = "Newsletter"
+
+[subscribe_newsletter]
+  other = "Subscribe to our newsletter to get our lastest tips on AirBnb management"
+
+[recent_news]
+  other = "Recent news"
+
+# Form elements
+
+[name]
+  other = "Name"
+
+[first_name]
+  other = "First name"
+
+[last_name]
+  other = "Last name"
+
+[phone]
+  other = "Phone"
+
+[phone_numer]
+  other = "Phone number"
+
+[email]
+  other = "Email"
+
+[send]
+  other = "Send"
+
+[send_message]
+  other = "Send message"
+
+[subscribe]
+  other = "Subscribe"

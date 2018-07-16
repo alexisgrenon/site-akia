@@ -129,11 +129,11 @@ gulp.task('scripts', ['scripts-normal', 'scripts-contact']);
 // watching
 gulp.task("watch", function() {
 
-  browserSync.init({
-      proxy: "http://localhost:1313/"
-  });
+  // browserSync.init({
+  //     proxy: "http://localhost:1313/"
+  // });
 
-  gulp.watch('themes/akia/source-images/*.{jpg,png,jpeg,gif}', ['image-resize'] );
+  gulp.watch('themes/akia/source-images/*.{jpg,png,jpeg,gif,JPG}', ['image-resize'] );
   gulp.watch('themes/akia/assets/scss/**/*.scss', ['sass']);
   gulp.watch('themes/akia/assets/js/**/*.js', ['scripts']);
 });

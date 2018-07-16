@@ -5,7 +5,7 @@ description: >-
 titre: Drop us a line, our tiny house fanatics are ready to help!
 identifiant: contact
 i18nlanguage: fr
-slug: contact-us
+slug: contact
 layout: contact
 image: /img/tiny-house-lovers-contact.jpg
 menuid: contact
@@ -19,4 +19,5 @@ section1: "You can contact our team at all times. We will get back to you as soo
 section2:
   subtitle: Do you have any question ?
   description: "Drop us a few lines and we will get back to you as soon as possible. Since we are busy writing articles, it may take a few days, but we’ll be happy to get back to you between two paragraphs."
+headerwhite:  true
 ---
