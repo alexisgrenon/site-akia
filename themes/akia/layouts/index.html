@@ -5,20 +5,24 @@
     Theme Main Banner
 ============================================== 
 -->
+{{ with .Params.section1 }}
 <div id="theme-main-banner" class="banner-one">
     <div data-src="images/home/slide-1.jpg">
         <div class="camera_caption">
             <div class="container">
-                <h5 class="wow fadeInUp animated">Akia Marketing</h5>
-                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s"><span>Marketing</span><br><span>web pour les</span><br><span>PME</span></h1>
-                <a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">Nos projets</a>
+                <!-- <h5 class="wow fadeInUp animated">{{ .subtitle }}</h5> -->
+                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s"><span>{{ .line1 }}</span><br><span>{{ .line2 }}</span>{{ with .line3 }}<br><span>{{ . }}</span>{{ end }}</h1>
+                {{ with .btn }}
+                {{ $link := .link }}
+                <a href='{{ $.Scratch.Get $link }}' class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">{{ .title }}</a>
+                {{ end }}
                 <div class="wow fadeInRight animated image-shape-one" data-wow-delay="0.33s">
                     <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="576">
                         <clipPath class="clip1">
                             <use xlink:href="#shape-one" />
                         </clipPath>
                         <g clip-path="url(#shape-one)">
-                            <image href="/images/Graph-30.gif" class="banner-img-one" style="width: 100%; height: auto;">
+                            <image href="{{ .image }}" class="banner-img-one" style="width: 100%; height: auto;">
                             </image>
                         </g>
                     </svg>
@@ -27,50 +31,8 @@
             </div> <!-- /.container -->
         </div> <!-- /.camera_caption -->
     </div>
-    <!-- <div data-src="images/home/slide-1.jpg">
-        <div class="camera_caption">
-            <div class="container">
-                <h5 class="wow fadeInUp animated">Vente en ligne</h5>
-                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s"><span>Boutique</span><br><span>En Ligne</span><br><span>Sur Mesure</span></h1>
-                <a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">En savoir plus</a>
-                <div class="wow fadeInRight animated image-shape-one" data-wow-delay="0.33s">
-                    <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="576">
-                        <clipPath class="clip1">
-                            <use xlink:href="#shape-one" />
-                        </clipPath>
-                        <g clip-path="url(#shape-one)">
-                            <image width="778" height="576" href="/images/content-strategy.png" class="banner-img-one">
-                            </image>
-                        </g>
-                    </svg>
-                </div>
-                <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div>
-            </div> 
-        </div> 
-    </div>
-    <div data-src="images/home/slide-1.jpg">
-        <div class="camera_caption">
-            <div class="container">
-                <h5 class="wow fadeInUp animated">Référencement</h5>
-                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s"><span>Générer</span><br><span>Du Traffic</span><br><span>Organique</span></h1>
-                <a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">Nos services</a>
-                <div class="wow fadeInRight animated image-shape-one" data-wow-delay="0.33s">
-                    <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="576">
-                        <clipPath class="clip1">
-                            <use xlink:href="#shape-one" />
-                        </clipPath>
-                        <g clip-path="url(#shape-one)">
-                            <image width="778" height="576" href="images/home/1.jpg" class="banner-img-one">
-                            </image>
-                        </g>
-                    </svg>
-                </div>
-                <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div>
-            </div> 
-        </div> 
-    </div> -->
 </div> <!-- /#theme-main-banner -->
-
+{{ end }}
 
 
 <!-- 
@@ -78,37 +40,26 @@
     What We Do
 ============================================== 
 -->
+{{ with .Params.section2 }}
 <div class="what-we-do">
     <div class="container">
-        <h3>Akia Marketing a comme mission d’outiller les PME de Montréal et des environs dans leur virage numérique en offrant de la conception de site web et du référencement performant.</h3>
-        <h6>Comptez sur nous pour un travail de qualité et à votre image!</h6>
+        <h3>{{ .description1 }}</h3>
+        <h6>{{ .description2 }}</h6>
 
         <div class="row">
+            {{ range .blocks }}
             <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
                 <div class="single-block">
-                    <div class="icon color-one"><i class="flaticon-round-chart"></i></div>
-                    <h6>La qualité à prix abordable</h6>
-                    <h5><a href="#" class="tran3s">Des services de qualité au meilleur prix du marché, voilà notre proposition! </a></h5>
+                    <div class="icon color-one"><i class="{{ .icon }}"></i></div>
+                    <h6>{{ .title }}</h6>
+                    <h5><a href="{{ .link }}" class="tran3s">{{ .description }}</a></h5>
                 </div> <!-- /.single-block -->
             </div> <!-- /.col- -->
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp">
-                <div class="single-block">
-                    <div class="icon color-two middle-block"><i class="flaticon-computer"></i></div>
-                    <h6>Un produit qui vous ressemble</h6>
-                    <h5><a href="#" class="tran3s">Le but ultime? Un produit 100% à votre image!</a></h5>
-                </div> <!-- /.single-block -->
-            </div> <!-- /.col- -->
-            <div class="col-md-4 hidden-sm col-xs-12 wow fadeInRight">
-                <div class="single-block">
-                    <div class="icon color-three"><i class="flaticon-user"></i></div>
-                    <h6>Une équipe à votre écoute</h6>
-                    <h5><a href="#" class="tran3s">Votre satisfaction est notre plus grande préoccupation, alors nous vous écoutons!</a></h5>
-                </div> <!-- /.single-block -->
-            </div> <!-- /.col- -->
+            {{ end }}
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </div> <!-- /.what-we-do -->
-
+{{ end }}
 
 
 <!-- 
@@ -116,6 +67,7 @@
     More About Us
 ============================================== 
 -->
+{{ with .Params.section3 }}
 <div class="more-about-us">
     <div class="image-box">
         <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="854" height="632">
@@ -123,7 +75,7 @@
                 <use xlink:href="#shape-one" />
             </clipPath>
             <g clip-path="url(#shape-one)">
-                <image width="854" height="632" href="images/home/2.jpg" class="image-shape">
+                <image width="854" height="632" href="{{ .image }}" class="image-shape">
                 </image>
             </g>
         </svg>
@@ -133,73 +85,63 @@
         <div class="row">
             <div class="col-lg-7 col-md-offset-5">
                 <div class="main-content">
-                    <h2>We’r a dynamic team of creatives people innovation &amp; Marketing Expert.</h2>
+                    <h2>{{ .title }}</h2>
                     <div class="main-wrapper">
-                        <h4>Best Digital Agency in Asia</h4>
-                        <p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
+                        <h4>{{ .subtitle }}</h4>
+                        <p>{{ .description | markdownify }}</p>
                         <img src="images/home/sign.png" alt="sign">
+                        {{ with .btn }}
+                        {{ $link := .link }}
                         <div class="button-wrapper p-bg-color">
-                            <span>Learn More</span>
-                            <a href="about-us.html" class="hvr-icon-wobble-horizontal">More About us <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            <span>{{ .subtitle }}</span>
+                            <a href='{{ $.Scratch.Get $link }}' class="hvr-icon-wobble-horizontal">{{ .title }} <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                         </div> <!-- /.button-wrapper -->
+                        {{ end }}
                     </div> <!-- /.main-wrapper -->
                 </div> <!-- /.main-content -->
             </div> <!-- /.col- -->
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </div> <!-- /.more-about-us -->
-
-
-
+{{ end }}
 
 <!-- 
 =============================================
     Theme Counter
 ============================================== 
 -->
+{{ with .Params.section4 }}
 <div class="theme-counter">
     <div class="container">
         <div class="row">
+            {{ range . }}
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                 <div class="single-box">
-                    <h2 class="number"><span class="timer" data-from="0" data-to="2730" data-speed="1000" data-refresh-interval="5">0</span>+</h2>
-                    <p>Completed Projects</p>
+                    <h2 class="number"><span class="timer" data-from="0" data-to="{{ .number }}" data-speed="1000" data-refresh-interval="5">0</span>{{ with .suffix }}{{ . }}{{ end }}</h2>
+                    <p>{{ .title }}</p>
                 </div> <!-- /.single-box -->
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <div class="single-box">
-                    <h2 class="number"><span class="timer" data-from="0" data-to="39" data-speed="1000" data-refresh-interval="5">0</span></h2>
-                    <p>Availble Country</p>
-                </div> <!-- /.single-box -->
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <div class="single-box">
-                    <h2 class="number"><span class="timer" data-from="0" data-to="125" data-speed="1000" data-refresh-interval="5">0</span>M</h2>
-                    <p>User Worldwide</p>
-                </div> <!-- /.single-box -->
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <div class="single-box border-fix">
-                    <h2 class="number"><span class="timer" data-from="0" data-to="12" data-speed="1000" data-refresh-interval="5">0</span></h2>
-                    <p>Award Winner</p>
-                </div> <!-- /.single-box -->
-            </div>
+            {{ end }}
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </div> <!-- /.theme-counter -->
-
+{{ end }}
 
 <!-- 
 =============================================
     Our Portfolio
 ============================================== 
 -->
+{{ with .Params.section5 }}
 <div class="our-portfolio">
     <div class="container">
         <div class="theme-title">
-            <h6>Recent work</h6>
-            <h2>We’ve done lot’s of work, Let’s <br>Check some from here</h2>
-            <a href="portfolio-v1.html" class="tran3s">See All projects</a>
+            <h6>{{ .title }}</h6>
+            <h2>{{ .description | markdownify }}</h2>
+            {{ with .btn }}
+            {{ $link := .link }}
+            <a href='{{ $.Scratch.Get $link }}' class="tran3s">{{ .title }}</a>
+            {{ end }}
         </div> <!-- /.theme-title -->
     </div> <!-- /.container -->
 
@@ -234,59 +176,44 @@
         </div> <!-- /.row -->
     </div> <!-- /.wrapper -->
 </div> <!-- /.our-portfolio -->
-
+{{ end }}
 
 <!-- 
 =============================================
     Home Service Section
 ============================================== 
 -->
+{{ with .Params.section6 }}
 <div class="home-service-section">
     <div class="container">
         <div class="col-md-9 col-md-offset-3 main-container">
             <div class="theme-title">
-                <h6>Our Services</h6>
-                <h2>We provide wide range of web &amp; <br>business services.</h2>
-                <p>We’ve strong  work history with different business services</p>
-                <a href="service-v1.html" class="tran3s">See All Services</a>
+                <h6>{{ .title }}</h6>
+                <h2>{{ .description1 | markdownify }}</h2>
+                <p>{{ .description2 | markdownify }}</p>
+                {{ with .btn }}
+                {{ $link := .link }}
+                <a href='{{ $.Scratch.Get $link }}' class="tran3s">{{ .title }}</a>
+                {{ end }}
             </div> <!-- /.theme-title -->
             <ul class="clearfix row">
+                {{ range .blocks }}
                 <li class="col-md-6">
                     <div>
-                        <i class="flaticon-user"></i>
-                        <h5><a href="service-v1.html" class="tran3s">Business Consulting</a></h5>
-                        <p>Lorem ipsum dolor sit amet, percipitur sadipscing. </p>
+                        <i class="{{ .icon }}"></i>
+                        <h5><a href="{{ .link }}" class="tran3s">{{ .title }}</a></h5>
+                        <p>{{ .description }} </p>
                     </div>
                 </li>
-                <li class="col-md-6">
-                    <div>
-                        <i class="flaticon-layers"></i>
-                        <h5><a href="service-v1.html" class="tran3s">Interface Design</a></h5>
-                        <p>Lorem ipsum dolor sit amet, percipitur sadipscing. </p>
-                    </div>
-                </li>
-                <li class="col-md-6">
-                    <div>
-                        <i class="flaticon-bar-chart"></i>
-                        <h5><a href="service-v1.html" class="tran3s">SEO &amp; SMM services</a></h5>
-                        <p>Lorem ipsum dolor sit amet, percipitur sadipscing. </p>
-                    </div>
-                </li>
-                <li class="col-md-6">
-                    <div>
-                        <i class="flaticon-smartphone"></i>
-                        <h5><a href="service-v1.html" class="tran3s">Apps Development</a></h5>
-                        <p>Lorem ipsum dolor sit amet, percipitur sadipscing. </p>
-                    </div>
-                </li>
+                {{ end }}
             </ul>
         </div> <!-- /.main-container -->
-        <img src="images/home/shape-2.png" alt="Image" class="wow fadeInLeft">
+        <img src="{{ .image }}" alt="Image" class="wow fadeInLeft">
     </div> <!-- /.container -->
 </div> <!-- /.home-service-section -->
+{{ end }}
 
-
-
+{{ with .Params.section7 }}
 <!-- ==================== TWO SECTION WRAPPER ====================== -->
 <div class="two-section-wrapper">
     <!-- 
@@ -301,7 +228,7 @@
                     <use xlink:href="#shape-one" />
                 </clipPath>
                 <g clip-path="url(#shape-one)">
-                    <image width="854" height="630" href="images/home/5.jpg" class="image-shape">
+                    <image width="854" height="630" href="{{ .image }}" class="image-shape">
                     </image>
                 </g>
             </svg>
@@ -338,74 +265,8 @@
             </div> <!-- /.main-container -->
         </div> <!-- /.container -->
     </div> <!-- /.testimonial-section -->
-
-    <!-- 
-    =============================================
-        Pricing Plan Style One
-    ============================================== 
-    -->
-    <div class="pricing-plan-one">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-xs-12 wow fadeInLeft">
-                    <div class="theme-title">
-                        <h6>Our pricing</h6>
-                        <h2>Not any hidden <br>charge, Choose you <br>pricing plan</h2>
-                        <p>We have differe type of pricing table to choose with <br>your need with resonable price. </p>
-                    </div> <!-- /.theme-title -->
-                    <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#monthly">Monthly</a></li>
-                        <li><a data-toggle="tab" href="#yearly">Yearly</a></li>
-                    </ul>
-                </div> <!-- /.col- -->
-
-                <div class="col-md-6 col-xs-12 wow fadeInRight">
-                    <div class="tab-content">
-                        <div id="monthly" class="tab-pane fade in active">
-                            <div class="clearfix">
-                                <div class="float-left left-side">
-                                    <span><sub>$</sub>96.<sup>99</sup></span>
-                                    <h6>Business</h6>
-                                    <a href="#">+</a>
-                                </div> <!-- /.left-side -->
-                                <div class="right-side float-left">
-                                    <h6>40% OFF</h6>
-                                    <h4>Weekly Package</h4>
-                                    <ul>
-                                        <li>50GB Bandwidth</li>
-                                        <li>Business & Financ Analysing</li>
-                                        <li>24 hour support</li>
-                                        <li>Customer Managemet</li>
-                                    </ul>
-                                </div> <!-- /.right-side -->
-                            </div>
-                        </div> <!-- /#monthly -->
-                        <div id="yearly" class="tab-pane fade">
-                            <div class="clearfix">
-                                <div class="float-left left-side">
-                                    <span><sub>$</sub>296.<sup>99</sup></span>
-                                    <h6>Business</h6>
-                                    <a href="#">+</a>
-                                </div> <!-- /.left-side -->
-                                <div class="right-side float-left">
-                                    <h6>40% OFF</h6>
-                                    <h4>Weekly Package</h4>
-                                    <ul>
-                                        <li>50GB Bandwidth</li>
-                                        <li>Business & Financ Analysing</li>
-                                        <li>24 hour support</li>
-                                        <li>Customer Managemet</li>
-                                    </ul>
-                                </div> <!-- /.right-side -->
-                            </div>
-                        </div> <!-- /#yearly -->
-                    </div>
-                </div>
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
-    </div> <!-- /.pricing-plan-one -->
 </div> <!-- /.two-section-wrapper -->
-
+{{ end }}
 
 
 <!-- 
@@ -413,11 +274,12 @@
     Home Blog Section
 ============================================== 
 -->
+{{ with .Params.section8 }}
 <div class="home-blog-section">
     <div class="container">
         <div class="theme-title text-center">
-            <h6>Our News</h6>
-            <h2>News from our company</h2>
+            <h6>{{ .title }}</h6>
+            <h2>{{ .description }}</h2>
         </div> <!-- /.theme-title -->
         <div class="row">
             <div class="col-md-6 col-xs-12">
@@ -459,6 +321,7 @@
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </div> <!-- /.home-blog-section -->
+{{ end }}
 
 
 {{ end }}
