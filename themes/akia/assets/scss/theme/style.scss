@@ -88,7 +88,7 @@
   position: absolute;
   width: 2px;
   height: 0;
-  background-color: #00d747;
+  background-color: $vert;
   bottom: 0;
 }
 @keyframes sequence1 {
@@ -223,21 +223,21 @@ footer .footer-logo h5 a:hover,footer .footer-list ul li a:hover,footer .footer-
 .shop-page .shop-sidebar .sidebar-categories li a:hover,.shop-page .shop-product-wrapper .single-product:hover h6 a,.shop-page .shop-product-wrapper .single-product>a:hover,
 header.theme-menu-wrapper.menu-style-two #mega-menu-wrapper .nav .login-button a:hover,.blog-sidebar .sidebar-recent-post li a:hover,.blog-sidebar .blog-categories ul li a:hover,
 .theme-modal-box .modal-content .modal-body form ul li label:before,.service-details .box-wrapper .middle-text ul li:before  {
-  color:#00d747;
+  color:$vert;
 }
 .p-bg-color,header.theme-menu-wrapper #mega-menu-wrapper .nav .login-button a:hover,.our-portfolio .theme-title a:hover,.home-service-section .theme-title a:hover:before,
 .pricing-plan-one .nav-tabs > li.active > a,.pricing-plan-one .nav-tabs > li.active > a:hover,.pricing-plan-one .nav-tabs > li.active > a:focus,.banner-two .watch-video a:hover,
 .our-team-styleOne .title a:hover,.our-blog.blog-v2 .load-more:hover,.bootstrap-select.btn-group .dropdown-menu li.selected a,.bootstrap-select.btn-group .dropdown-menu li:hover a,
 .shop-details .procuct-details .product-info>div>a.cart-button,.shop-details .procuct-details .product-info>div>a.wishlist-button:hover,#mega-menu-wrapper .navbar-toggle .icon-bar,
 .blog-sidebar .sidebar-keyword ul li a:hover,.service-details .box-wrapper .title .loan {
-  background: #00d747;
+  background: $vert;
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav .login-button a:hover,.our-portfolio .theme-title a:hover,.banner-two .watch-video a:hover,.our-team-styleOne .title a:hover,
 header.theme-menu-wrapper.menu-style-two #mega-menu-wrapper .nav .login-button a:hover,.gullu-portfolio .single-item .opacity a.view-more:hover:before,.our-blog.blog-v2 .load-more:hover,
 .contact-us .contact-address ul li a:hover,.shop-page .shop-sidebar .sidebar-search input:focus,.shop-details .procuct-details .product-info>div>a.cart-button,
 .shop-details .procuct-details .product-info>div>a.wishlist-button:hover,.blog-sidebar .sidebar-keyword ul li a:hover {
   border-style: solid;
-  border-color:#00d747;
+  border-color:$vert;
 }
 /*------------------- Theme Title ------------------*/
 .theme-title {position: relative;}
@@ -255,7 +255,7 @@ header.theme-menu-wrapper.menu-style-two #mega-menu-wrapper .nav .login-button a
   width: 100%;
   height: 5px;
   position: absolute;
-  background: #99efb5;
+  background: $vert;
   border-radius: 2.5px;
   left:0;
   bottom: 0;
@@ -308,7 +308,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before,
   height: 5px;
   opacity: 0;
   position: absolute;
-  background: #99efb5;
+  background: $vert;
   border-radius: 2.5px;
   left:0;
   z-index: -1;
@@ -590,7 +590,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   bottom: 0;
 }
 #theme-main-banner.banner-one .camera_overlayer {
-  background: url(../images/home/shape-1.png) no-repeat center center;
+  background: url(../img/slider-background-akia.png) no-repeat center center;
 }
 #theme-main-banner.camera_wrap .camera_pag .camera_pag_ul {
   position: absolute;
@@ -632,7 +632,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   width: 97%;
   height: 7px;
   position: absolute;
-  background: #99efb5;
+  background: $vert;
   border-radius: 2.5px;
   left:3px;
   bottom: 17px;
@@ -884,9 +884,10 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   margin: 0 auto;
   position: relative;
 }
-.what-we-do .single-block .icon.color-one {color: #00d747;}
-.what-we-do .single-block .icon.color-two {color: #ff3838;}
-.what-we-do .single-block .icon.color-three {color: #9262ff;}
+.what-we-do .single-block .icon.color-one {color: $vert;}
+.what-we-do .single-block .icon.color-two {color: $jaune;}
+.what-we-do .single-block .icon.color-three {color: $rouge;}
+.what-we-do .single-block .icon.color-four {color: $orange;}
 .what-we-do .single-block h6 {
   color: rgba(37,47,62,0.5);
   font-size: 18px;
@@ -1024,7 +1025,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 /*------------------------ Our Portfolio ----------------------*/
 .our-portfolio {padding: 180px 0 200px 0;}
 .our-portfolio .theme-title:before {
-  content: 'C';
+  content: 'AKIA';
   font-size: 300px;
   color: rgba(9,9,19,0.03);
   position: absolute;
@@ -1090,7 +1091,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .our-portfolio .wrapper .image .opacity a:after {
   content: '';
   position: absolute;
-  background: #99efb5;
+  background: $vert;
 }
 .our-portfolio .wrapper .image .opacity a:before {
   width: 2px;
@@ -1169,10 +1170,10 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   -webkit-transform:scale(0.9);
           transform:scale(0.9);
 }
-.home-service-section ul li div i.flaticon-user {color: #088ed3;}
-.home-service-section ul li div i.flaticon-layers {color: #ff5757;}
-.home-service-section ul li div i.flaticon-bar-chart {color: #2ed876;}
-.home-service-section ul li div i.flaticon-smartphone {color: #ffba34;}
+.home-service-section ul li div i.color-one {color: $vert;}
+.home-service-section ul li div i.color-two {color: $jaune;}
+.home-service-section ul li div i.color-three {color: $rouge;}
+.home-service-section ul li div i.color-four {color: $orange;}
 /*------------------- Two Section Wrapper -----------------*/
 .two-section-wrapper {background: url(../images/home/shape-3.png) no-repeat center;}
 /*--------------------- Testimonial ---------------------*/
@@ -1385,10 +1386,10 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   bottom: 3px;
   z-index: -1;
 }
-.home-blog-section .single-blog.color-one h5 a:before{background: #edceff;}
-.home-blog-section .single-blog.color-two h5 a:before{background: #adf2c4;}
-.home-blog-section .single-blog.color-three h5 a:before{background: #ffe8bf;}
-.home-blog-section .single-blog.color-four h5 a:before{background: #ffdada;}
+.home-blog-section .single-blog.color-one h5 a:before{background: $vert;}
+.home-blog-section .single-blog.color-two h5 a:before{background: $jaune;}
+.home-blog-section .single-blog.color-three h5 a:before{background: $rouge;}
+.home-blog-section .single-blog.color-four h5 a:before{background: $orange;}
 
 .home-blog-section .single-blog img {
   width: 70px;
@@ -2523,7 +2524,7 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 }
 .contact-us-form form input:focus,
 .contact-us-form form textarea:focus {
-  border-bottom-color: #00d747;
+  border-bottom-color: $vert;
 }
 .contact-us-form form input {height: 50px;}
 .contact-us-form form textarea {
@@ -2704,12 +2705,12 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   margin-bottom: 28px;
 }
 .shop-page .shop-sidebar .price-ranger .ui-widget-header {
-  background: #00d747;
+  background: $vert;
 }
 .shop-page .shop-sidebar .price-ranger .ui-slider-handle {
   width: 12px;
   height: 12px;
-  background: #00d747;
+  background: $vert;
   border-radius: 50%;
   border: none;
   outline: none;
