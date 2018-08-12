@@ -10,52 +10,49 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="footer-logo">
-                    <a href="index.html"><img src="/images/logo/logo.png" alt="Logo"></a>
-                    <h5><a href="#" class="tran3s">gulluinc@gmail.com</a></h5>
-                    <h6 class="p-color">202. 277. 3894</h6>
+                    <a href='{{ $.Scratch.Get "homePage" }}'><img src="/img/logo-akia-couleur-sm.png" alt="Akia Marketing" style="width: 100px"></a>
+                    <h5><a href="mailto:{{ .Site.Data.settings.email }}" class="tran3s">{{ .Site.Data.settings.email }}</a></h5>
+                    <h6 class="p-color">{{ .Site.Data.settings.phone }}</h6>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 footer-list">
-                <h4>Quick Links</h4>
+            <div class="col-md-2 col-sm-6 col-xs-12 footer-list">
+                <h4>{{ i18n "sitemap" }}</h4>
                 <ul>
-                    <li><a href="#" class="tran3s">How it Works</a></li>
-                    <li><a href="#" class="tran3s">Guarantee</a></li>
-                    <li><a href="#" class="tran3s">Security</a></li>
-                    <li><a href="#" class="tran3s">Report Bug</a></li>
-                    <li><a href="#" class="tran3s">Pricing</a></li>
+                    {{ range .Site.Data.menu.footer.left }}
+                    {{ $link := .link }}
+                    <li><a href='{{ $.Scratch.Get $link }}' class="tran3s">{{ if eq $.Lang "fr" }}{{.fr}}{{ else if eq $.Lang "en" }}{{.en}}{{end}}</a></li>
+                    {{ end }}
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 footer-list">
-                <h4>About Us</h4>
+            <div class="col-md-4 col-sm-6 col-xs-12 footer-list">
+                <h4>{{ i18n "articles" }}</h4>
                 <ul>
-                    <li><a href="#" class="tran3s">About Singleton</a></li>
-                    <li><a href="#" class="tran3s">Jobs</a></li>
-                    <li><a href="#" class="tran3s">Team</a></li>
-                    <li><a href="#" class="tran3s">Testimonials</a></li>
-                    <li><a href="#" class="tran3s">Blog</a></li>
+                    {{ range $i, $e := (first 3 (where $.Site.RegularPages "Type" "articles")) }}
+                    {{ $link := .Permalink }}
+                    <li><a href='{{ $link }}' class="tran3s">{{ .Params.listing.title }}</a></li>
+                    {{ end }}
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 footer-subscribe">
-                <h4>Subscribe Us</h4>
-                <form action="#">
-                    <input type="text" placeholder="Enter your mail">
-                </form>
+                <h4>{{ i18n "follow_us" }}</h4>
                 <ul>
-                    <li><a href="" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                    <li><a href="" class="tran3s"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    {{ with .Site.Data.settings.socials}}
+                        <li><a href="{{ .facebookurl }}" class="tran3s" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="{{ .instagramurl }}" class="tran3s" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="{{ .pinteresturl }}" class="tran3s" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                        <li><a href="{{ .linkedinurl }}" class="tran3s" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    {{ end }}
                 </ul>
             </div>
         </div> <!-- /.row -->
 
         <div class="bottom-footer clearfix">
-            <ul class="float-right">
+<!--             <ul class="float-right">
                 <li><h3><span class="timer p-color" data-from="0" data-to="8997" data-speed="5000" data-refresh-interval="50">0</span> Products</h3></li>
                 <li><h3><span class="timer p-color" data-from="0" data-to="53701" data-speed="5000" data-refresh-interval="50">0</span> Members</h3></li>
                 <li><h3><span class="timer p-color" data-from="0" data-to="1110" data-speed="5000" data-refresh-interval="50">0</span> Shops</h3></li>
-            </ul>
-            <p class="float-left">&copy; 2017 <a href="#" class="tran3s p-color">CreativeGigs</a>. All rights reserved</p>
+            </ul> -->
+            <p class="float-left">&copy; 2018 <a href="{{ .Site.BaseURL }}" class="tran3s p-color">Akia Marketing</a>. {{ i18n "copyright" }}</p>
         </div>
     </div> <!-- /.container -->
 </footer>

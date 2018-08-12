@@ -421,7 +421,7 @@ header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper {margin-top: 20px;
   left:0;
   z-index: 999;
   background: #fff;
-  padding-top: 35px;
+  padding-top: 20px;
   -webkit-box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
     box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
   -webkit-animation: menu_sticky 0.7s ease-in-out;
@@ -431,7 +431,7 @@ header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper {margin-top: 20px;
 .theme-menu-wrapper.fixed.menu-style-two.inner-menu {background: rgba(21,21,21,0.9);}
 
 .menu-style-two #mega-menu-wrapper .navbar-toggle .icon-bar {background: #fff !important;}
-header.theme-menu-wrapper.fixed #mega-menu-wrapper .nav>li.menu-list>a {padding-bottom: 38px;}
+header.theme-menu-wrapper.fixed #mega-menu-wrapper .nav>li.menu-list>a {padding-bottom: 20px;}
 .theme-menu-wrapper.fixed .logo {
   // -webkit-transform:rotate(90deg);
   //         transform:rotate(90deg);
@@ -1423,6 +1423,7 @@ footer .footer-list ul li {line-height: 40px;}
 footer .footer-list ul li a {
   color: rgba(0,0,0,0.65);
   font-weight: 500;
+  line-height: 22px;
 }
 footer .footer-subscribe input {
   width: 100%;
@@ -1990,7 +1991,7 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   font-weight: 500;
   font-size: 20px;
   color: rgba(0,0,10,0.3);
-  margin-top: 165px;
+  margin-top: 40px;
 }
 .service-version-two .single-service .text h2 {
   font-size: 72px;

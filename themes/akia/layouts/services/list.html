@@ -4,13 +4,13 @@
 	Theme Inner Banner 
 ============================================== 
 -->
-<div class="inner-page-banner">
+<div class="inner-page-banner" style="background-image: url({{ .Params.image }});">
 	<div class="opacity">
-		<h1>Our Services</h1>
+		<h1>{{ .Params.titre }}</h1>
 		<ul>
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">{{ i18n "home" }}</a></li>
 			<li>/</li>
-			<li>Services</li>
+			<li>{{ .Params.breadcrumbs }}</li>
 		</ul>
 	</div> <!-- /.opacity -->
 </div> <!-- /inner-page-banner -->
@@ -24,87 +24,31 @@
 -->
 <div class="service-version-two">
 	<div class="container">
+		{{ range $i, $e := sort .Pages ".Params.ordre" "asce"}}
+		{{ $index := (add $i 1)}}
 		<div class="single-service">
 			<div class="row">
-				<div class="col-md-6 col-xs-12">
+				<div class="col-md-6 col-xs-12{{ if eq (mod $index 2) 0}} float-right{{ end }}">
 					<div class="image-box">
-						<img src="/images/inner-page/2.jpg" alt="">
-						<div class="opacity tran3s">
-							<p class="one">Gullu went to the woods. He took a fun ride and never came back.</p>
-							<p class="two">Gullu went to the woods. He took a fun ride and never came back.</p>
-						</div>
+						<a href="{{ .Permalink }}">
+							<img src="{{ .Params.listing.image }}" alt="">
+							<div class="opacity tran3s">
+								<!-- <p class="one">{{ .Params.listing.description }}</p> -->
+								<p class="two">{{ .Params.listing.description }}</p>
+							</div>
+						</a>
 					</div>
 				</div> <!-- /.col-lg-6 -->
 				<div class="col-md-6 col-xs-12 text">
-					<p>Mobile App</p>
-					<h2>Mobile Game Devlo.</h2>
-					<a href="#" class="tran3s"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+					<p>{{ .Params.listing.subtitle }}</p>
+					<h2>{{ .Params.listing.title }}</h2>
+					<a href="{{ .Permalink }}" class="tran3s"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 				</div>
 			</div> <!-- /.row -->
 		</div> <!-- /.single-service -->
+		{{ end }}
 
-		<div class="single-service">
-			<div class="row">
-				<div class="col-md-6 col-xs-12 float-right">
-					<div class="image-box">
-						<img src="/images/inner-page/3.jpg" alt="">
-						<div class="opacity tran3s">
-							<p class="one">Gullu went to the woods. He took a fun ride and never came back.</p>
-							<p class="two">Gullu went to the woods. He took a fun ride and never came back.</p>
-						</div>
-					</div>
-				</div> <!-- /.col-lg-6 -->
-				<div class="col-md-6 col-xs-12 text">
-					<p>Development</p>
-					<h2>Be Wordpress Theme.</h2>
-					<a href="#" class="tran3s"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-				</div>
-			</div> <!-- /.row -->
-		</div> <!-- /.single-service -->
-
-		<div class="single-service">
-			<div class="row">
-				<div class="col-md-6 col-xs-12">
-					<div class="image-box">
-						<img src="/images/inner-page/4.jpg" alt="">
-						<div class="opacity tran3s">
-							<p class="one">Gullu went to the woods. He took a fun ride and never came back.</p>
-							<p class="two">Gullu went to the woods. He took a fun ride and never came back.</p>
-						</div>
-					</div>
-				</div> <!-- /.col-lg-6 -->
-				<div class="col-md-6 col-xs-12 text">
-					<p>Graphic Design</p>
-					<h2>User Interface Desing.</h2>
-					<a href="#" class="tran3s"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-				</div>
-			</div> <!-- /.row -->
-		</div> <!-- /.single-service -->
-
-		<div class="single-service">
-			<div class="row">
-				<div class="col-md-6 col-xs-12 float-right">
-					<div class="image-box">
-						<img src="/images/inner-page/5.jpg" alt="">
-						<div class="opacity tran3s">
-							<p class="one">Gullu went to the woods. He took a fun ride and never came back.</p>
-							<p class="two">Gullu went to the woods. He took a fun ride and never came back.</p>
-						</div>
-					</div>
-				</div> <!-- /.col-lg-6 -->
-				<div class="col-md-6 col-xs-12 text">
-					<p>Photography</p>
-					<h2>Photography Model.</h2>
-					<a href="#" class="tran3s"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-				</div>
-			</div> <!-- /.row -->
-		</div> <!-- /.single-service -->
+		
 	</div> <!-- /.container -->
 </div> <!-- /.service-version-two -->
-		<!-- {{ .Content}}
-			{{ range $i, $e := sort .Pages ".Params.ordre" "asce" }}
-			{{ $mod1 := modBool $i 1}}
-			{{ $mod2 := modBool $i 2}}
-			{{ $mod3 := modBool $i 3}}
-		{{ end }} -->
 {{ end }}

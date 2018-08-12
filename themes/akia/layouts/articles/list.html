@@ -1,3 +1,43 @@
 {{ define "main" }}
+<!-- 
+=============================================
+	Theme Inner Banner 
+============================================== 
+-->
+<div class="inner-page-banner" style="background-image: url({{ .Params.image }}); margin-bottom: 60px;">
+	<div class="opacity">
+		<h1>{{ .Params.titre }}</h1>
+		<ul>
+			<li><a href="index.html">{{ i18n "home" }}</a></li>
+			<li>/</li>
+			<li>{{ .Params.breadcrumbs }}</li>
+		</ul>
+	</div> <!-- /.opacity -->
+</div> <!-- /inner-page-banner -->
 
+<!-- 
+=============================================
+    Home Blog Section
+============================================== 
+-->
+<div class="home-blog-section">
+    <div class="container">
+        <div class="row">
+            {{ range $i, $e := .Pages }}
+            <div class="col-md-6 col-xs-12">
+                <div class="single-blog color-{{ if eq (mod $i 4) 0 }}one{{ else if eq (mod $i 3) 0}}two{{ else if eq (mod $i 2) 0 }}three{{ else }}four{{ end }}">
+                    <img src="images/home/6.jpg" alt="">
+                    {{ if isset .Params "author" }}
+                        {{ $author := index .Site.Data.authors .Params.author }}
+                        <h6>{{ $author.name }}</h6>
+                    {{ end }}
+                    <h5><a href="blog-details.html" class="tran3s">{{ .Params.listing.title }}.</a></h5>
+                    <p>{{ .Params.listing.description }}</p>
+                    <a href="{{ .Permalink }}" class="tran3s hvr-icon-wobble-horizontal">Lire la suite <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div> <!-- /.single-blog -->
+            </div> <!-- /.col- -->
+            {{ end }}
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+</div> <!-- /.home-blog-section -->
 {{ end }}

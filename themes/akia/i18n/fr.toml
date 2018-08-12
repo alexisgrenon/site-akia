@@ -16,6 +16,9 @@
 [clients]
   other = "Nos clients"
 
+[articles]
+  other = "Nos articles"
+
 [blog]
   other = "Blogue"
 
@@ -65,6 +68,9 @@
 [contact_us]
   other = "Nous contacter"
 
+[follow_us]
+  other = "Suivez-nous"
+
 [we_are_here]
   other = "Nous trouver"
 
@@ -105,6 +111,9 @@
 
 [last_name]
   other = "Nom"
+
+[subject]
+  other = "Sujet"
 
 [phone]
   other = "Téléphone"

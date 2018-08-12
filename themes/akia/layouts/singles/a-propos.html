@@ -4,13 +4,13 @@
 	Theme Inner Banner 
 ============================================== 
 -->
-<div class="inner-page-banner">
+<div class="inner-page-banner" style="background-image: url({{ .Params.image }}); margin-bottom: 60px;">
 	<div class="opacity">
-		<h1>Company Story</h1>
+		<h1>{{ .Params.titre }}</h1>
 		<ul>
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">{{ i18n "home" }}</a></li>
 			<li>/</li>
-			<li>About us</li>
+			<li>{{ .Params.breadcrumbs }}</li>
 		</ul>
 	</div> <!-- /.opacity -->
 </div> <!-- /inner-page-banner -->

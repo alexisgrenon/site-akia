@@ -197,7 +197,8 @@ function googleMap () {
         var mapZoom = 12;
       };
       // init map
-      var map;
+      var map,
+          marker;
       map = new GMaps({
           div: '#'+mapName,
           scrollwheel: false,
@@ -206,6 +207,11 @@ function googleMap () {
           styles: styles,
           zoom: mapZoom
       });
+      map.addMarker({
+			  lat: mapLat,
+			  lng: mapLng,
+			  title: 'Akia Marketing',
+			});
     });  
   };
 }

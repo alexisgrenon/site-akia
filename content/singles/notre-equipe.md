@@ -11,6 +11,6 @@ notloaded:
 slug: notre-equipe
 layout: a-propos
 menuid: about
-image: /img/tiny-house-society-7.jpg
+image: /img/a-propos-agence-e-commerce.jpg
 headerwhite: true
 ---

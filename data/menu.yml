@@ -55,9 +55,6 @@ footer:
     - fr: Services
       en: Services
       link: servicesPage
-    - fr: Avis
-      en: Testimonials
-      link: avisPage
     - fr: Clients
       en: Clients
       link: clientsPage

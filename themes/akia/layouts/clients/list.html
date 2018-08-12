@@ -4,13 +4,13 @@
 	Theme Inner Banner 
 ============================================== 
 -->
-<div class="inner-page-banner">
+<div class="inner-page-banner" style="background-image: url({{ .Params.image }}); margin-bottom: 60px;">
 	<div class="opacity">
-		<h1>Portfolio</h1>
+		<h1>{{ .Params.titre }}</h1>
 		<ul>
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">{{ i18n "home" }}</a></li>
 			<li>/</li>
-			<li>Portfolio</li>
+			<li>{{ .Params.breadcrumbs }}</li>
 		</ul>
 	</div> <!-- /.opacity -->
 </div> <!-- /inner-page-banner -->
@@ -25,7 +25,7 @@
 <div class="gullu-portfolio portfolio-full-width">
 	<div class="container">
 		<div class="mixitUp-menu">
-			<h2>We’ve done lot’s of work, Let’s <br>Check some from here</h2>
+			<h2>{{ .Params.subtitle | markdownify }}</h2>
 			<ul>
 				<li class="filter active tran3s" data-filter="all">All</li>
 				<li class="filter tran3s" data-filter=".business">Business</li>
@@ -38,60 +38,16 @@
 	</div> <!-- /.container -->
 
 	<div class="row" id="mixitUp-item">
+		{{ range $i, $e := sort .Pages ".Params.ordre" "asce" }}
 		<div class="col-md-4 col-xs-6 mix finance marketing">
 			<div class="single-item">
-				<img src="/images/portfolio/5.jpg" alt="">
+				<img src="{{ .Params.image }}" alt="">
 				<div class="opacity tran3s">
-					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
+					<a href="{{ .Permalink }}" class="view-more tran3s"><i class="flaticon-plus"></i></a>
 				</div>
 			</div> <!-- /.single-item -->
 		</div> <!-- /.col-md-4 -->
-		<div class="col-md-4 col-xs-6 mix technical investment">
-			<div class="single-item">
-				<img src="/images/portfolio/6.jpg" alt="">
-				<div class="opacity tran3s">
-					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
-				</div>
-			</div> <!-- /.single-item -->
-		</div> <!-- /.col-md-4 -->
-		<div class="col-md-4 col-xs-6 mix business technical marketing">
-			<div class="single-item">
-				<img src="/images/portfolio/7.jpg" alt="">
-				<div class="opacity tran3s">
-					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
-				</div>
-			</div> <!-- /.single-item -->
-		</div> <!-- /.col-md-4 -->
-		<div class="col-md-4 col-xs-6 mix business finance investment">
-			<div class="single-item">
-				<img src="/images/portfolio/8.jpg" alt="">
-				<div class="opacity tran3s">
-					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
-				</div>
-			</div> <!-- /.single-item -->
-		</div> <!-- /.col-md-4 -->
-		<div class="col-md-4 col-xs-6 mix business technical">
-			<div class="single-item">
-				<img src="/images/portfolio/9.jpg" alt="">
-				<div class="opacity tran3s">
-					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
-				</div>
-			</div> <!-- /.single-item -->
-		</div> <!-- /.col-md-4 -->
-		<div class="col-md-4 col-xs-6 mix finance marketing investment">
-			<div class="single-item">
-				<img src="/images/portfolio/10.jpg" alt="">
-				<div class="opacity tran3s">
-					<a href="portfolio-details.html" class="view-more tran3s"><i class="flaticon-plus"></i></a>
-				</div>
-			</div> <!-- /.single-item -->
-		</div> <!-- /.col-md-4 -->
+		{{ end }}
 	</div> <!-- /.row -->
 </div> <!-- /.gullu-portfolio -->
-		<!-- {{ .Content}}
-			{{ range $i, $e := sort .Pages ".Params.ordre" "asce" }}
-			{{ $mod1 := modBool $i 1}}
-			{{ $mod2 := modBool $i 2}}
-			{{ $mod3 := modBool $i 3}}
-		{{ end }} -->
 {{ end }}

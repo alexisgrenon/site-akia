@@ -1,6 +1,7 @@
 <!-- ===================================================
     Loading Transition
 ==================================================== -->
+{{ if .IsHome }}
 <div id="loader-wrapper">
     <div id="loader">
         <ul>
@@ -13,6 +14,7 @@
         </ul>
     </div>
 </div>
+{{ end }}
 
 
 
@@ -25,7 +27,7 @@
     <div class="header-wrapper">
         <div class="clearfix">
             <!-- Logo -->
-            <div class="logo float-left tran4s"><a href='{{ $.Scratch.Get "homePage" }}'><img src="/img/logo-akia-cercle-couleur.png" alt="Akia Marketing Logo" style="height: 50px; width: auto; margin-top: -15px;"></a></div>
+            <div class="logo float-left tran4s"><a href='{{ $.Scratch.Get "homePage" }}'><img {{ if .Params.headerwhite }}src="/img/logo-akia-cercle-blanc.png"{{ else }}src="/img/logo-akia-cercle-couleur.png"{{ end }} alt="Akia Marketing Logo" style="height: 50px; width: auto; margin-top: -15px;"></a></div>
 
             <!-- ============================ Theme Menu ========================= -->
             <nav class="theme-main-menu float-right navbar" id="mega-menu-wrapper">
