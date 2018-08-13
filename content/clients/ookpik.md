@@ -9,7 +9,10 @@ slug:
 ordre: 17
 image: /img/ookpik-reseaux-sociaux.jpg
 i18n: fr
+portfolios:
+  - Marketing
+  - Réseaux sociaux
 link:
   external: true
-  url: 
+  url: https://ookpik.world/
 ---

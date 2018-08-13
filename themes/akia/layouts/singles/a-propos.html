@@ -22,46 +22,46 @@
 	About Text
 ============================================== 
 -->
+{{ with .Params.section1 }}
 <div class="about-text">
 	<div class="container">
 		<div class="title">
-			<h6>WELCOME TO GULL.LY</h6>
-			<h2>We’r a dynamic team of creatives people <br>innovation &amp; Marketing Expert.</h2>
+			<h6>{{ .subtitle }}</h6>
+			<h2>{{ .title | markdownify }}</h2>
 		</div>
-		<img src="/images/inner-page/1.jpg" alt="">
+		<img src="{{ .image }}" alt="Akia Marketing">
 		<div class="about-tab-wrapper clearfix">
 			<ul class="nav nav-tabs float-left">
-				<li class="active"><a data-toggle="tab" href="#history">Our History</a></li>
+				<li class="active"><a data-toggle="tab" href="#history">Histoire</a></li>
 				<li><a data-toggle="tab" href="#vision">Vision</a></li>
-				<li><a data-toggle="tab" href="#contact">Contact Us</a></li>
-				<li><a data-toggle="tab" href="#news">News</a></li>
+				<!-- <li><a data-toggle="tab" href="#contact">Contact Us</a></li> -->
+				<!-- <li><a data-toggle="tab" href="#news">News</a></li> -->
 			</ul>
 			<div class="tab-content float-left">
 				<div id="history" class="tab-pane fade in active">
-			    	<p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
-			    	<img src="/images/home/sign.png" alt="">
+			    	<p>Akia est né en 2015 avec comme mission d’aider les PME à faire leur virage numérique. De fil en aiguille, nous avons raffiné notre alignement pour se spécialiser dans la conception, optimisation et marketing de plateformes web et E-commerce.</p>
 				</div> <!-- /#history -->
 			  	<div id="vision" class="tab-pane fade">
-			    	<p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
+			    	<p>Vous aider à comprendre et apprécier le web.</p>
 			  	</div> <!-- /#vision -->
-			  	<div id="contact" class="tab-pane fade">
+			  	<!-- <div id="contact" class="tab-pane fade">
 			    	<p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
-			  	</div> <!-- /#contact -->
-			  	<div id="news" class="tab-pane fade">
+			  	</div> --> <!-- /#contact -->
+			  	<!-- <div id="news" class="tab-pane fade">
 			    	<p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
-			  	</div> <!-- /#news -->
+			  	</div> --> <!-- /#news -->
 			</div>
 		</div> <!-- /.about-tab-wrapper -->
 	</div> <!-- /.container -->
 </div> <!-- /.about-text -->
-
-
+{{ end }}
 
 <!-- 
 =============================================
 	Theme Counter
 ============================================== 
 -->
+{{ with .Params.section2 }}
 <div class="theme-counter no-border fix">
 	<div class="container">
 		<div class="row">
@@ -92,7 +92,7 @@
     	</div> <!-- /.row -->
 	</div> <!-- /.container -->
 </div> <!-- /.theme-counter -->
-
+{{ end }}
 
 
 <!-- 
@@ -100,6 +100,7 @@
 	Testimonial
 ============================================== 
 -->
+{{ with .Params.section3 }}
 <div class="testimonial-section bg-image">
 	<div class="container">
 		<div class="main-container col-md-6 col-md-offset-6">
@@ -132,7 +133,7 @@
 		</div> <!-- /.main-container -->
 	</div> <!-- /.container -->
 </div> <!-- /.testimonial-section -->
-
+{{ end }}
 
 
 <!-- 
@@ -140,6 +141,7 @@
 	Our Team Style One 
 ============================================== 
 -->
+{{ with .Params.section4 }}
 <div class="our-team-styleOne">
 	<div class="container">
 		<div class="title">
@@ -201,17 +203,18 @@
 		</div> <!-- /.row -->
 	</div> <!-- /.container -->
 </div> <!-- /.our-team-styleOne -->
-
+{{ end }}
 
 <!-- 
 =============================================
 	Trusted Client
 ============================================== 
 -->
+{{ with .Params.section5 }}
 <div class="trusted-client">
 	<div class="container">
 		<div class="title">
-			<h2>Our trusted client</h2>
+			<h2>Ils nous fon</h2>
 			<p>We have show that some of our best partners ho all beside us</p>
 		</div>
 		<div class="row">
@@ -236,4 +239,6 @@
 		</div>
 	</div> <!-- /.container -->
 </div> <!-- /.trusted-client -->
+{{ end }}
+
 {{ end }}

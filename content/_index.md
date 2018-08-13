@@ -46,7 +46,7 @@ section3:
   btn:
     subtitle: En apprendre plus
     title: Plus à propos d’Akia
-    link: aboutPage
+    link: servicesPage
 section4:
   - title: Projets Complétés
     suffix: "+"
@@ -80,7 +80,7 @@ section6:
     - icon: flaticon-computer
       title: Conception de E-commerce
       description: Pour créer un commerce en ligne efficace et fait sur mesure pour vos besoins.
-      link:
+      link: 
       class: color-one
     - icon: flaticon-round-chart
       title: Marketing pour E-commerce

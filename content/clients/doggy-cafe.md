@@ -9,7 +9,9 @@ slug:
 ordre: 2
 image: /img/doggy-cafe-reseaux-sociaux.jpg
 i18n: fr
+portfolios:
+  - Réseaux sociaux
 link:
   external: true
-  url: 
+  url: https://www.facebook.com/LeDoggyCafe/
 ---

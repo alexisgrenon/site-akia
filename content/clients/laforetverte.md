@@ -9,6 +9,9 @@ slug:
 ordre: 11
 image: /img/laforetverte-boutique-en-ligne.jpg
 i18n: fr
+portfolios:
+  - E-commerce
+  - SEO
 link:
   external: true
   url: https://www.laforetverte.ca

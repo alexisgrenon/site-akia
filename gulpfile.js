@@ -24,6 +24,7 @@ const jsFiles = [
                   'themes/akia/assets/js/vendor/jquery.2.2.3.min.js',
                   'themes/akia/assets/js/vendor/bootstrap-select/dist/js/bootstrap-select.js',
                   'themes/akia/assets/js/vendor/bootstrap/bootstrap.min.js',
+                  'themes/akia/assets/js/vendor/masonry.pkgd.js',
                   'themes/akia/assets/js/vendor/Camera-master/scripts/jquery.mobile.customized.min.js',
                   'themes/akia/assets/js/vendor/Camera-master/scripts/jquery.easing.1.3.js', 
                   'themes/akia/assets/js/vendor/Camera-master/scripts/camera.min.js',

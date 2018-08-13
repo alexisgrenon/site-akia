@@ -9,6 +9,10 @@ slug:
 ordre: 18
 image: /img/artebeaute-site-web.jpg
 i18n: fr
+portfolios:
+  - Site web
+  - SEO
+  - Design
 link:
   external: true
   url: https://arte-beaute.com

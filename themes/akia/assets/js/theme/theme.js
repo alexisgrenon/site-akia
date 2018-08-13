@@ -105,8 +105,35 @@ function wowAnimation () {
 // Mixitup gallery
 function mixitupGallery () {
   if ($("#mixitUp-item").length) {
-    $("#mixitUp-item").mixItUp()
+    $("#mixitUp-item").mixItUp({
+      callbacks: { 
+          onMixStart: function(state) {
+              showLoader();
+          },
+          onMixEnd: function(state){
+              masonryGrid(); // ******* here call masonry function
+              hideLoader();
+          }
+      }
+    })
   };
+  function masonryGrid(){
+      var $container = $('#mixitUp-item');
+      // initialize
+      $container.masonry({
+          itemSelector: '.grid-item',
+          columnWidth: '.grid-item-placeholder', //as you wish , you can use numeric 
+          isAnimated: true,
+      });
+      $container.masonry('reloadItems');
+      $container.masonry('layout');
+  }
+  function showLoader(){
+    $('.loader-gif').show();
+  }
+  function hideLoader() {
+    $('.loader-gif').hide();
+  }
 }
 
 

@@ -26,15 +26,15 @@ main:
       - fr:
         en:
         link:
-  - fr: Notre équipe
-    en: Team
-    link: aboutPage
-    submenu: false
-    active: about
-    links:
-      - fr:
-        en:
-        link:
+  # - fr: Notre équipe
+  #   en: Team
+  #   link: aboutPage
+  #   submenu: false
+  #   active: about
+  #   links:
+  #     - fr:
+  #       en:
+  #       link:
   - fr: Contact
     en: Contact
     link: contactPage
@@ -49,25 +49,18 @@ footer:
     - fr: Accueil
       en: Home
       link: homePage
-    - fr: À propos
-      en: About Us
-      link: aboutPage
+    # - fr: À propos
+    #   en: About Us
+    #   link: aboutPage
     - fr: Services
       en: Services
       link: servicesPage
     - fr: Clients
       en: Clients
       link: clientsPage
-  right:
     - fr: Contact
       en: Contact
       link: contactPage
     - fr: Articles
       en: Articles
       link: articlesPage
-    - fr: CGV
-      en: Terms and conditions
-      link: termsPage
-    - fr: Mentions légales
-      en: Legal Mentions
-      link: legalPage

@@ -9,6 +9,8 @@ slug:
 ordre: 4
 image: /img/localc-catalogue.jpg
 i18n: fr
+portfolios:
+  - E-commerce
 link:
   external: true
   url: https://www.localc.ca

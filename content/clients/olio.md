@@ -9,6 +9,8 @@ slug:
 ordre: 25
 image: /img/olio-cie-boutique-en-ligne.jpg
 i18n: fr
+portfolios:
+  - E-commerce
 link:
   external: true
   url: https://oliocie.com

@@ -10,7 +10,10 @@ ordre: 3
 image: /img/poulet3pattes-reseaux-sociaux.jpg
 i18n: fr
 tall: true
+portfolios:
+  - Réseaux sociaux
 link:
   external: true
   url: 
+draft: true
 ---

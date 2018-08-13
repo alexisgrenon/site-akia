@@ -3,7 +3,7 @@ title: 'L’économie circulaire, ce modèle du futur : l’exemple d’ecocup.'
 description: >-
   Utiliser une matière première, fabriquer un produit, le consommer, le jeter. On parle alors d’économie linéaire. Les failles de ce modèle sont malheureusement sa propension à surexploiter des ressources naturelles, à encourager à la surconsommation et à générer une importante pollution.
 listing:
-  title: "L’économie circulaire, ce modèle du futur : l’exemple d’ecocup."
+  title: "L’économie circulaire, ce modèle du futur : l’exemple d’ecocup"
   description: >-
     Utiliser une matière première, fabriquer un produit, le consommer, le jeter. On parle alors d’économie linéaire. Les failles de ce modèle sont malheureusement sa propension à surexploiter des ressources naturelles, à encourager à la surconsommation et à générer une importante pollution.
 author: robin
@@ -12,11 +12,13 @@ slug: leconomie-circulaire-ce-modele-du-futur
 image: /img/economie-circulaire-avantages.png
 
 ---
+# L’économie circulaire, ce modèle du futur : l’exemple d’ecocup.
+
 Lorsque l’on schématise le modèle économique actuel dominant, on le détermine ainsi :
 
 Utiliser une matière première, fabriquer un produit, le consommer, le jeter. On parle alors d’économie linéaire. Les failles de ce modèle sont malheureusement sa propension à surexploiter des ressources naturelles, à encourager à la surconsommation et à générer une importante pollution.
 
-**L’économie circulaire cherche à rompre avec ce modèle, en proposant une approche bien différente.**
+##### L’économie circulaire cherche à rompre avec ce modèle, en proposant une approche bien différente.
 
 Cette approche vise à allonger la durée de vie des produits, à leur partage, leur réutilisation, leur aptitude à être réparés et recyclés. Un modèle donnant donc une valeur à tous les produits en circulation sur le marché et souvent schématisé sous la forme d’économie des 4R : Réduire, Réutiliser, Recycler, Récupérer.
 
@@ -26,7 +28,7 @@ On ne réfléchit donc plus en bien consommable, le produit est assimilé au ser
 
 L’entreprise Ecocup a par exemple parfaitement compris ce modèle en choisissant de produire des gobelets consignés et réutilisables lors de manifestations de grande ampleur telles que des festivals, qui devenaient rapidement une montagne de plastique.
 
-<img class="alignnone size-medium wp-image-6229 aligncenter" src="http://akiamarketing.ca/wp-content/uploads/2017/06/aaa-300x196.jpg" alt="aaa" width="300" height="196" srcset="http://akiamarketing.ca/wp-content/uploads/2017/06/aaa-300x196.jpg 300w, http://akiamarketing.ca/wp-content/uploads/2017/06/aaa-350x229.jpg 350w, http://akiamarketing.ca/wp-content/uploads/2017/06/aaa.jpg 351w" sizes="(max-width: 300px) 100vw, 300px" />
+![Économie circulaire](/img/aaa.jpg)
 
 On ne fabrique ici plus un gobelet à usage unique qui sera jeté dès lors que la boisson sera finie, mais un gobelet consigné, qui accompagnera le festivalier tout au long de sa soirée ! Enfin, une fois la manifestation terminée, le gobelet est récupéré en échange de la caution ou alors conservé en souvenir.
 

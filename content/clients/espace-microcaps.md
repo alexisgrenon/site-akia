@@ -9,6 +9,8 @@ slug:
 ordre: 15
 image: /img/espacemicrocaps-site-web.jpg
 i18n: fr
+portfolios:
+  - Site web
 link:
   external: true
   url: https://espacemc.com

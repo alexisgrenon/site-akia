@@ -9,7 +9,9 @@ slug:
 ordre: 19
 image: /img/soslabyrinthe-reseaux-sociaux.jpg
 i18n: fr
+portfolios:
+  - Réseaux sociaux
 link:
   external: true
-  url: 
+  url: https://www.facebook.com/soslabyrinthe/
 ---

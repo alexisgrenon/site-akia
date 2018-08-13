@@ -9,6 +9,8 @@ slug:
 ordre: 16
 image: /img/gabriellebelanger-site-web.jpg
 i18n: fr
+portfolios:
+  - Site web
 link:
   external: true
   url: http://gabriellebelanger.com

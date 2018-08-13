@@ -9,7 +9,9 @@ slug:
 ordre: 6
 image: /img/tricoteuses-boutique-en-ligne.jpg
 i18n: fr
+portfolios:
+  - E-commerce
 link:
   external: true
-  url: https://boutique.ecoledetricot.com/
+  url: https://ecoledetricot.com/
 ---

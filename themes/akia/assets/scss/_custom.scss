@@ -134,10 +134,86 @@ div.overlayed {
 	}
 }
 
+/******** CLIENTS ********/
+.gullu-portfolio.portfolio-full-width {
+	.grid-item {
+		.tran3s {
+			a {
+				width: 90% !important;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.client-title {
+				font-size: 20px;
+				display: block;
+				color: black;
+				width: 80%;
+				margin: 0 auto 10px
+			}
+			.client-type {
+				font-size: 15px;
+				display: block;
+				color: black;
+				width: 70%;
+				margin: auto;
+			}
+		}
+	}
+}
 /******** BLOG *********/
 
 /******** ARTICLE ********/
 
+.blog-details .blog-main-post {
+	h1 {
+		line-height: 40px;
+		margin-bottom: 40px;
+		font-size: 30px;
+		font-weight: 500;
+	}
+	h2 {
+		font-size: 26px;
+	    line-height: 30px;
+	    font-weight: normal;
+	    padding: 0 85px;
+	    margin: 80px 0 80px 0;
+	    position: relative;
+	    &:before {
+	    	content: '';
+		    width: 40px;
+		    height: 2px;
+		    background: #000;
+		    position: absolute;
+		    top: 15px;
+		    left: 0;
+	    }
+	}
+	h5 {
+		font-size: 20px;
+	    line-height: 35px;
+	    margin-bottom: 15px;
+	    padding-top: 10px;
+	    color: #000000;
+	}
+	p {
+		margin-bottom: 20px;
+	}
+	ul, ol {
+		margin-bottom: 20px;
+		margin-left: 20px;
+		li {
+			font-size: 16px;
+			color: rgba(0,0,0,0.65);
+			padding: 5px 0;
+			font-weight: 500;
+		}
+	}
+	ul li {
+		list-style-type: disc;
+	}
+} 
 /******** ABOUT **********/
 
 /******** CONTACT ********/

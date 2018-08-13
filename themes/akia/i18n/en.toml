@@ -102,6 +102,9 @@
 [recent_news]
   other = "Recent news"
 
+[all]
+  other = "All"
+
 # Form elements
 
 [name]

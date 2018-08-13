@@ -9,7 +9,10 @@ slug:
 ordre: 7 
 image: /img/norplan-reseaux-sociaux.jpg
 i18n: fr
+portfolios:
+  - Marketing
+  - Réseaux sociaux
 link:
   external: true
-  url: 
+  url: https://www.hameauchampetre.com/
 ---

@@ -9,6 +9,8 @@ slug:
 ordre: 13
 image: /img/the-regulars-site-web.jpg
 i18n: fr
+portfolios:
+  - Site web
 link:
   external: true
   url: http://www.theregulars.co/

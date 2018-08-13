@@ -101,6 +101,9 @@
 
 [recent_news]
   other = "Publié récemment"
+
+[all]
+  other = "Tous"
 # Form elements
 
 [name]

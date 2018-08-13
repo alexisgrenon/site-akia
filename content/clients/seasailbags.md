@@ -9,6 +9,9 @@ slug:
 ordre: 12
 image: /img/seasailbags-boutique-en-ligne.jpg
 i18n: fr
+portfolios:
+  - E-commerce
+  - Design
 link:
   external: true
   url: https://seasailbags.com/

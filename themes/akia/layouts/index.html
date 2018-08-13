@@ -16,6 +16,18 @@
                 {{ $link := .link }}
                 <a href='{{ $.Scratch.Get $link }}' class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">{{ .title }}</a>
                 {{ end }}
+                <!-- <div class="wow fadeInRight animated image-shape-one" data-wow-delay="0.33s">
+                    <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="576">
+                        <clipPath class="clip1">
+                            <use xlink:href="#shape-one" />
+                        </clipPath>
+                        <g clip-path="url(#shape-one)">
+                            <image width="778" height="576" href="/img/annie-spratt-608001-unsplash.jpg" class="banner-img-one">
+                            </image>
+                        </g>
+                    </svg>
+                </div>
+                <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div> -->
                 <div class="gif-box">
                     <img class="wow fadeInRight animated" src="{{ .image }}" alt="">
                 </div>
@@ -44,7 +56,7 @@
                 <div class="single-block {{ .class }}">
                     <div class="icon {{ .class }}"><i class="{{ .icon }}"></i></div>
                     <h6>{{ .title }}</h6>
-                    <h5><a href="{{ .link }}" class="tran3s">{{ .description }}</a></h5>
+                    <h5><a href='{{ $.Scratch.Get "servicesPage" }}' class="tran3s">{{ .description }}</a></h5>
                 </div> <!-- /.single-block -->
             </div> <!-- /.col- -->
             {{ end }}
@@ -145,7 +157,7 @@
                     <div class="image" style="height: 275px; overflow: hidden; text-align: center; position: relative;">
                         <img src="{{ .Params.image }}" alt="" style="min-height: 100%; height:auto; width: 200%; max-width: 200% !important; position: absolute; top: -9999px; bottom: -9999px; left: -9999px; right: -9999px; margin: auto;">
                         <div class="opacity tran4s">
-                            <a data-fancybox="project" href="{{ .Permalink }}" class="tran3s" title="{{ .Params.resume.titre }}">
+                            <a data-fancybox="project" href="{{ if .Params.link.external }}{{ .Params.link.url }}{{ else }}{{ .Permalink }}{{ end }}" {{ if .Params.link.external }}target="_blank" {{ end }}class="tran3s" title="{{ .Params.resume.titre }}">
                                 <span class="client-title">{{ .Params.resume.titre }}</span>
                                 <span class="client-type">{{ .Params.resume.court }}</span>
                             </a>
@@ -196,12 +208,7 @@
 
 {{ with .Params.section7 }}
 <!-- ==================== TWO SECTION WRAPPER ====================== -->
-<div class="two-section-wrapper">
-    <!-- 
-    =============================================
-        Testimonial
-    ============================================== 
-    -->
+<!-- <div class="two-section-wrapper">
     <div class="testimonial-section">
         <div class="image-box wow fadeInLeft">
             <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="854" height="630">
@@ -220,7 +227,7 @@
                 <div class="theme-title">
                     <h6>{{ .title }}</h6>
                     <h2>{{ .description | markdownify }}</h2>
-                </div> <!-- /.theme-title -->
+                </div>
                 <div class="testimonial-slider">
                     {{ range .blocks }}
                     <div class="item">
@@ -231,14 +238,14 @@
                                 <h5>{{ .name }}</h5>
                                 <span>{{ .company }}</span>
                             </div>
-                        </div> <!-- /.wrapper -->
-                    </div> <!-- /.item -->
+                        </div> 
+                    </div>
                     {{ end }}
-                </div> <!-- /.testimonial-slider -->
-            </div> <!-- /.main-container -->
-        </div> <!-- /.container -->
-    </div> <!-- /.testimonial-section -->
-</div> <!-- /.two-section-wrapper -->
+                </div>
+            </div> 
+        </div> 
+    </div> 
+</div>  -->
 {{ end }}
 
 
@@ -258,12 +265,12 @@
             {{ range $i, $e := (first 4 (where $.Site.RegularPages "Type" "articles")) }}
             <div class="col-md-6 col-xs-12">
                 <div class="single-blog color-{{ if eq $i 0 }}one{{ else if eq $i 1}}two{{ else if eq $i 2 }}three{{ else }}four{{ end }}">
-                    <img src="images/home/6.jpg" alt="">
                     {{ if isset .Params "author" }}
                         {{ $author := index .Site.Data.authors .Params.author }}
+                        <img src="{{ $author.image }}" alt="{{ $author.name }}">
                         <h6>{{ $author.name }}</h6>
                     {{ end }}
-                    <h5><a href="blog-details.html" class="tran3s">{{ .Params.listing.title }}</a></h5>
+                    <h5><a href="{{ .Permalink }}" class="tran3s">{{ .Params.listing.title }}</a></h5>
                     <p>{{ .Params.listing.description }}</p>
                     <a href="{{ .Permalink }}" class="tran3s hvr-icon-wobble-horizontal">Lire la suite <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div> <!-- /.single-blog -->
