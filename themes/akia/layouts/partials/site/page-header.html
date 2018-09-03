@@ -1,0 +1,10 @@
+<div class="inner-page-banner{{ if .Params.notloaded }} not-loaded{{ end }}" data-large="/half{{- .Params.image -}}" style="margin-bottom: 60px;">
+	<div class="opacity">
+		<h1>{{ .Params.titre }}</h1>
+		<ul>
+			<li><a href="{{ $.Scratch.Get "homePage" }}">{{ i18n "home" }}</a></li>
+			<li>/</li>
+			<li>{{ .Params.breadcrumbs }}</li>
+		</ul>
+	</div> <!-- /.opacity -->
+</div> <!-- /inner-page-banner -->

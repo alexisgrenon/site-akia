@@ -9,6 +9,7 @@ slug:
 ordre: 19
 image: /img/soslabyrinthe-reseaux-sociaux.jpg
 i18n: fr
+draft: true
 portfolios:
   - Réseaux sociaux
 link:

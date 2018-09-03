@@ -9,6 +9,7 @@ slug:
 ordre: 12
 image: /img/seasailbags-boutique-en-ligne.jpg
 i18n: fr
+draft: true
 portfolios:
   - E-commerce
   - Design

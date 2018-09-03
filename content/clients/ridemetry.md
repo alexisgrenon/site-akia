@@ -9,6 +9,7 @@ slug:
 ordre: 5
 image: /img/ridemetry-site-web.jpg
 i18n: fr
+draft: true
 portfolios:
   - Site web
   - Design

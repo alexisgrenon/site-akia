@@ -6,7 +6,7 @@ resume:
   court: Site web
 identifiant:
 slug:
-ordre: 20
+ordre: 3
 image: /img/clinique-tandem-site-web.jpg
 i18n: fr
 portfolios:

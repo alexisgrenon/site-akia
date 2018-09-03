@@ -41,7 +41,7 @@ section3:
   title: Plus que du web, on s’investit pour vivre dans un monde meilleur.
   subtitle: Notre touche environnementale
   description: >-
-    Faisons ensemble des pas vers l’avant pour développer la conscience écologique des gens et des entreprises. Donnons un futur propre et convivial pour la prochaine génération. Akia s’implique avec plusieurs projets et organisations dont l'[Association québecoise Zéro Déchet](https://www.aqzd.ca/).
+    Faisons ensemble des pas vers l’avant pour développer la conscience écologique des gens et des entreprises. Donnons un futur propre et convivial pour la prochaine génération. Akia s’implique avec plusieurs projets et organisations dont l'[Association Québecoise Zéro Déchet](https://www.aqzd.ca/).
   image: /img/teamwork-environment.jpg
   btn:
     subtitle: En apprendre plus
@@ -80,24 +80,24 @@ section6:
     - icon: flaticon-computer
       title: Conception de E-commerce
       description: Pour créer un commerce en ligne efficace et fait sur mesure pour vos besoins.
-      link: 
+      link: services/conception-e-commerce
       class: color-one
     - icon: flaticon-round-chart
       title: Marketing pour E-commerce
       description: >-
         Que ce soit par l’optimisation de la structure du site web, le SEO, la publicité payante ou la création de canaux marketings, nous vous aiderons à mettre en place une stratégie efficace
-      link:
+      link: services/marketing-pour-e-commerce
       class: color-two
-    - icon: flaticon-smartphone
-      title: Conception de plateforme web
-      description: Pour concrétiser votre idée et la conceptualiser à votre image
-      link:
-      class: color-three
+    ## - icon: flaticon-smartphone
+      ## title: Conception de plateforme web
+      ## description: Pour concrétiser votre idée et la conceptualiser à votre image
+      ## link:
+      ## class: color-three
     - icon: flaticon-bar-chart
       title: Stratégie marketing globale
       description: >-
         Pour déterminer le meilleur angle d’attaque pour votre entreprise et attirer plus de clientèle.
-      link:
+      link: services/strategie-marketing-digital
       class: color-four
 section7:
   title: Commentaires

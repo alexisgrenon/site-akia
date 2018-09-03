@@ -1,12 +1,12 @@
 ---
-title: "Conseils web et études de cas | Akia Marketing"
+title: "Stratégies de marketing digital et études de cas | Akia Marketing"
 description: >-
-  Discover our numerous articles about tiny homes and join us in the tiny house movement. From plans to energy, we got you covered. 
+  Pour vous informer sur les dernières tendances en matière de E-commerce et de marketing en ligne. 
 image: /img/conseils-web-e-commerce.jpg
 titre: Conseils web et études de cas
 breadcrumbs: Articles
 notloaded:
-  need: false
+  need: true
 subtitle:
 draft: false
 noindex: false

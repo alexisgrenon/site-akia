@@ -1711,7 +1711,8 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 /*----------------------- End Hone Three Version -------------------*/
 /*------------------ Theme Inner Banner -----------------*/
 .inner-page-banner {
-  background: url(../images/inner-page/banner.jpg) no-repeat center;
+  background-repeat: no-repeat; 
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;

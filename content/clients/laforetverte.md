@@ -1,9 +1,9 @@
 ---
 title: La forêt verte 
-description: Site web & Boutique en ligne
+description: Site web & E-commerce
 resume:
   titre: La forêt verte 
-  court: Site web & Boutique en ligne
+  court: Site web & E-commerce
 identifiant:
 slug:
 ordre: 11

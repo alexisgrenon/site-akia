@@ -6,7 +6,7 @@ resume:
   court: Réseaux sociaux
 identifiant:
 slug:
-ordre: 2
+ordre: 1
 image: /img/doggy-cafe-reseaux-sociaux.jpg
 i18n: fr
 portfolios:

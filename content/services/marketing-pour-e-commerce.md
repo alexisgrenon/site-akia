@@ -1,5 +1,5 @@
 ---
-title: Marketing pour E-commerce
+title: "Marketing pour E-commerce | Akia Marketing"
 description: >-
   Du marketing pour E-commerce adapté à votre réalité. Parce que votre panier mérite d’être bien traité! 
 slug: marketing-pour-e-commerce
@@ -11,7 +11,7 @@ listing:
   subtitle: Marketing
   image: /img/e-commerce-marketing-square.jpg
 notloaded:
-  need: false
+  need: true
 i18nlanguage: fr
 menuid: services
 ordre: '0'

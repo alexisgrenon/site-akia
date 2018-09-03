@@ -1,5 +1,5 @@
 ---
-title: Akia Marketing | Contact us
+title: "Dites-nous bonjour | Akia Marketing"
 description: >-
   Vous pouvez contactez notre équipe d'experts e-commerce à n'importe quel moment. Nous vous répondrons dès que possible!
 identifiant: contact
@@ -9,7 +9,7 @@ layout: contact
 image: /img/contact-akia.jpg
 menuid: contact
 notloaded:
-  need: false
+  need: true
 titre: Contactez-nous
 breadcrumbs: Contactez-nous
 section1: 

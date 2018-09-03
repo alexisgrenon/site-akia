@@ -6,7 +6,7 @@ image: /img/e-commerce-services.jpg
 titre: Nos services
 breadcrumbs: Nos services
 notloaded:
-  need: false
+  need: true
 subtitle:
 draft: false
 noindex: false

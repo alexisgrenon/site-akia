@@ -6,7 +6,7 @@ resume:
   court: Site web
 identifiant:
 slug:
-ordre: 13
+ordre: 4
 image: /img/the-regulars-site-web.jpg
 i18n: fr
 portfolios:

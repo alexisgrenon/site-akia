@@ -6,7 +6,7 @@ resume:
   court: Catalogue en ligne
 identifiant:
 slug:
-ordre: 4
+ordre: 1
 image: /img/localc-catalogue.jpg
 i18n: fr
 portfolios:

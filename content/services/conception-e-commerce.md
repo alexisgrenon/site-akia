@@ -1,8 +1,8 @@
 ---
-title: Conception d'E-commerce
+title: "Conception de commerce en ligne | Akia Marketing"
 description: >-
-  De la conception à votre première livraison, bâtir une boutique en ligne n'est pas tâche facile. Laissez-nous vous donner un coup de main! 
-slug: marketing-pour-e-commerce
+  Nous créons un commerce en ligne sur mesure pour répondre à vos besoins. Efficacité, qualité et sécurité sont nos priorités! 
+slug: conception-e-commerce
 image: /img/conception-e-commerce-square.jpg
 overlay: true
 listing:
@@ -11,7 +11,7 @@ listing:
   subtitle: Programmation
   image: /img/conception-e-commerce.jpg
 notloaded:
-  need: false
+  need: true
 i18nlanguage: fr
 menuid: services
 ordre: '0'

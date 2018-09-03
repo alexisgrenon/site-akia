@@ -6,7 +6,7 @@ resume:
   court: Design web
 identifiant:
 slug:
-ordre: 14
+ordre: 4
 image: /img/eatizz-design-web.jpg
 i18n: fr
 portfolios:

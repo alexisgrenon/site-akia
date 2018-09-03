@@ -7,7 +7,7 @@ resume:
 identifiant:
 slug:
 ordre: 18
-image: /img/artebeaute-site-web.jpg
+image: /img/arte-beaute-site-web.jpg
 i18n: fr
 portfolios:
   - Site web

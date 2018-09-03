@@ -1,4 +1,4 @@
-baseURL = "https://dev.akiamarketing.ca/"
+baseURL = "https://www.akiamarketing.ca/"
 DefaultContentLanguage = "fr"
 title = "Akia Marketing"
 theme = "akia"
@@ -24,15 +24,15 @@ defaultContentLanguageInSubdir = false
   ## Include google maps, with API Key
   googleapikey = "AIzaSyDhBhixIN3u8BHQ86aS_TD0D0W9J2w9ikg"
   ## This is used when the BaseURL does not need to modified (eg, in share links)
-  siteaddress = "https://dev.akiamarketing.ca/"
-  siteaddressno = "https://dev.akiamarketing.ca"
+  siteaddress = "https://www.akiamarketing.ca/"
+  siteaddressno = "https://www.akiamarketing.ca"
   ## FB share info
   fbpagename = ""
   fbappid = ""
   ## Business name in Schema.org
   schemabiz = "Akia Marketing"
   ## Google Tag Manager tracking ID
-  gtmid = ""
+  gtmid = "GTM-P4S6BJQ"
 
 # MARKDOWN
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday

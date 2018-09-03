@@ -11,7 +11,7 @@ listing:
   subtitle: Marketing
   image: /img/strategie-marketing-digital-square.jpg
 notloaded:
-  need: false
+  need: true
 i18nlanguage: fr
 menuid: services
 ordre: '0'

@@ -1,6 +1,16 @@
 # Redirect with a 200
 
-/this /that 301
+/blog /articles 301
+/portfolio /clients 301
+/contacts /contact 301
+/contacts/ /contact 301
+/2017/06/07/leconomie-circulaire-ce-modele-du-futur/ /articles/leconomie-circulaire-ce-modele-du-futur 301
+/2017/04/14/les-differents-points-cles-pour-une-entreprise-responsable/ /articles/les-differents-points-cles-pour-une-entreprise-responsable 301
+/2018/03/23/top-5-des-banques-dimages-libres-de-droits/ /articles/top-5-des-banques-dimages-libres-de-droits/ 301      
+/2017/04/06/les-6-elements-indispensables-dune-bonne-landing-page/ /articles/les-6-elements-indispensables-dune-bonne-landing-page/ 301
+/2017/04/21/les-6-avantages-et-opportunites-dune-entreprise-responsable/ /articles/les-6-avantages-et-opportunites-dune-entreprise-responsable/ 301
+/2017/03/08/comment-faire-de-la-publicite-avec-200-et-moins-sur-facebook/ /articles/comment-faire-de-la-publicite-avec-200-et-moins-sur-facebook/ 301
+/2016/09/29/facebook-7-trucs-pme/ /articles/facebook-7-trucs-pme/ 301
 
 
 

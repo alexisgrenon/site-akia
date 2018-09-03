@@ -1,14 +1,13 @@
 ---
-title: Histoire, vision et équipe | Akia Marketing
+title: "Histoire, vision et équipe | Akia Marketing"
 description: >-
-  Tiny House Society is dedicated to offer the best tiny house content and plans. All of our stuff is put together by professionals.
+  Les gens derrière vos projets.
 titre: "À propos d’Akia"
 breadcrumbs: "À propos"
 identifiant: notre-equipe
 i18nlanguage: fr
 notloaded:
   need: false
-  image: /img/tiny-house-society-7-loader.jpg
 slug: notre-equipe
 layout: a-propos
 menuid: about
@@ -29,4 +28,5 @@ section4:
 section5:
   title: Test
 draft: true
+noindex: true
 ---

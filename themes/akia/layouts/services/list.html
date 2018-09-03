@@ -4,17 +4,7 @@
 	Theme Inner Banner 
 ============================================== 
 -->
-<div class="inner-page-banner" style="background-image: url({{ .Params.image }});">
-	<div class="opacity">
-		<h1>{{ .Params.titre }}</h1>
-		<ul>
-			<li><a href="index.html">{{ i18n "home" }}</a></li>
-			<li>/</li>
-			<li>{{ .Params.breadcrumbs }}</li>
-		</ul>
-	</div> <!-- /.opacity -->
-</div> <!-- /inner-page-banner -->
-
+{{- partial "site/page-header.html" . -}}
 
 
 <!-- 
@@ -22,7 +12,7 @@
 	Our Service V2
 ============================================== 
 -->
-<div class="service-version-two">
+<div class="service-version-two" style="margin-top: 100px">
 	<div class="container">
 		{{ range $i, $e := sort .Pages ".Params.ordre" "asce"}}
 		{{ $index := (add $i 1)}}

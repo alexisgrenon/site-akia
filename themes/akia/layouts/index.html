@@ -10,8 +10,8 @@
     <div data-src="images/home/slide-1.jpg">
         <div class="camera_caption">
             <div class="container">
-                <h5 class="wow fadeInUp animated">{{ .subtitle }}</h5>
-                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s"><span>{{ .line1 }}</span><br><span>{{ .line2 }}</span>{{ with .line3 }}<br><span>{{ . }}</span>{{ end }}</h1>
+                <h5 class="wow fadeInUp animated" data-wow-offset="-100">{{ .subtitle }}</h5>
+                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s" data-wow-offset="-100"><span>{{ .line1 }}</span><br><span>{{ .line2 }}</span>{{ with .line3 }}<br><span>{{ . }}</span>{{ end }}</h1>
                 {{ with .btn }}
                 {{ $link := .link }}
                 <a href='{{ $.Scratch.Get $link }}' class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">{{ .title }}</a>
@@ -29,9 +29,15 @@
                 </div>
                 <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div> -->
                 <div class="gif-box">
-                    <img class="wow fadeInRight animated" src="{{ .image }}" alt="">
+                    <!-- <img class="wow fadeInRight animated" src="{{ .image }}" alt=""> -->
+                    <div class="cui-embed"
+                         data-cui-uid="AIMe7p"
+                         data-cui-avatar="https://labs-assets.typeform.com/cui/avatars/AIMe7p/81566dc527f3f5d9584e.jpg"
+                         data-cui-theme="#C7E6DA">
+                    </div>
+                    <script src="https://labs-assets.typeform.com/cui/cui-embed.js" async></script>
                 </div>
-                <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div>
+                <!-- <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div> -->
             </div> <!-- /.container -->
         </div> <!-- /.camera_caption -->
     </div>
@@ -152,7 +158,7 @@
     <div class="wrapper">
         <div class="row">
             <div class="portfolio-slider">
-                {{ range $i, $e := (first 8 (where $.Site.RegularPages "Type" "clients")) }}
+                {{ range $i, $e := (first 8 (sort (where $.Site.RegularPages "Type" "clients") ".Params.ordre" "asce")) }}
                 <div class="item">
                     <div class="image" style="height: 275px; overflow: hidden; text-align: center; position: relative;">
                         <img src="{{ .Params.image }}" alt="" style="min-height: 100%; height:auto; width: 200%; max-width: 200% !important; position: absolute; top: -9999px; bottom: -9999px; left: -9999px; right: -9999px; margin: auto;">
@@ -194,7 +200,7 @@
                 <li class="col-md-6">
                     <div class="{{ .class }}">
                         <i class="{{ .icon }} {{ .class }}"></i>
-                        <h5><a href="{{ .link }}" class="tran3s">{{ .title }}</a></h5>
+                        <h5><a href="{{ .Site.BaseURL }}{{ .link }}" class="tran3s">{{ .title }}</a></h5>
                         <p>{{ .description }} </p>
                     </div>
                 </li>
@@ -280,6 +286,5 @@
     </div> <!-- /.container -->
 </div> <!-- /.home-blog-section -->
 {{ end }}
-
 
 {{ end }}
