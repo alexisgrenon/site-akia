@@ -222,6 +222,14 @@ div.overlayed {
 
 /******** CONTACT ********/
 
+/******** OTHER ********/
+.main#merci {
+	padding-top: 200px;
+	a {
+		color: $vert;
+	}
+}
+
 /******** RESPONSIVE ********/
 @media only screen and (max-width: 1199px) {
 	#theme-main-banner {
@@ -241,6 +249,9 @@ div.overlayed {
 				display: none !important;
 			}
 		}
+	}
+	.main#merci {
+		padding-top: 120px;
 	}
 }
 

@@ -2,7 +2,7 @@
 title: "Merci | Akia Marketing"
 description: >-
   Merci de votre intérêt envers nos services.
-slug: thank-you
+slug: merci
 layout: merci
 titre: "Merci de votre intérêt envers nos services"
 notloaded:
