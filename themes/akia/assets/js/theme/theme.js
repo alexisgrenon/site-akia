@@ -402,7 +402,6 @@ jQuery(document).on('ready', function() {
 	   removePlaceholder ();
      BannerSlider ();
      wowAnimation ();
-     mixitupGallery ();
      testimonialSlider ();
      portfolioSlider ();
      partnersLogo ();
@@ -429,6 +428,7 @@ jQuery(window).on('scroll', function () {
 // Window load function
 jQuery(window).on('load', function () {
    (function ($) {
+    mixitupGallery ();
     masonaryBlog ();
     prealoader ()
   })(jQuery);
