@@ -18,40 +18,33 @@ collections:
     extension: "md"
     format: "yaml-frontmatter"
     editor:
-      preview: false
+      preview: true
     create: true # Allow users to create new documents in this collection
     filter: 
       field: "i18nlanguage"
-      value: "en"
+      value: "fr"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Description", name: "description", widget: "text", required: false}
-      - {label: "Slug/Link (if link is https://www.tinysociety.co/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Slug/Link (if link is https://www.akiamarketing.ca/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
       - label: "Author" 
         name: "author"
         widget: "select"
         options:
-          - { label: "Michelle Garofano", value: "michelleg" }
-          - { label: "David Morneau", value: "davidm" }
-          - { label: "Jubaer Ahmed Prodhan", value: "jubaer" }
-      - {label: "Banner and share image (rectangle - 2700px by 1800px)", name: "image", widget: "image" , required: false}
-      - {label: "Add a black overlay?", name: "overlay", widget: "boolean", required: false, default: false}
+          - { label: "Alexis Grenon", value: "alexis" }
+          - { label: "Robin Lamoureux", value: "robin" }
+          - { label: "Kamel Gorieze", value: "kamel" }
+          - { label: "Félix DeBlois-Beaucage", value: "felix" }
+      - {label: "Share image (1200px by 630px)", name: "image", widget: "image" , required: false}
       - {label: "Publication date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - name: notloaded
-        label: "Loading effect"
-        widget: object
-        fields:
-          - {label: "Do you need it?", name: "need", required: false, default: true}
       - name: listing
         label: "Home page and articles page"
         widget: object
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Summary", name: "description", widget: "text"}
-          - {label: "Square Image (square - 800px by 800px)", name: "image", widget: "image", required: false}
-      - {label: "Likes", name: "likes", widget: "string"}
       - {label: "Categories (separate with commas)", name: "categories", widget: "list", required: false}
-      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Menu ID", name: "menuid", widget: "hidden", default: "articles"}
       - {label: "Priority (0 is the most important)", name: "ordre", widget: "number", default: 0, required: false}
       - {label: "Text", name: "body", widget: "markdown"}

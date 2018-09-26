@@ -10,6 +10,7 @@ author: robin
 date: 2017-04-14T17:56:59+00:00
 slug: les-differents-points-cles-pour-une-entreprise-responsable
 image: /img/banner-blog.jpg
+i18nlanguage: fr
 ---
 # Les différents points clés pour une entreprise responsable
 

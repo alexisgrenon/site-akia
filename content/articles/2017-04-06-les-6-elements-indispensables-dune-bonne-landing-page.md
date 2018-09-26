@@ -10,6 +10,7 @@ author: kamel
 date: 2017-04-06T18:24:04+00:00
 slug: les-6-elements-indispensables-dune-bonne-landing-page
 image: /img/landing_page.jpg
+i18nlanguage: fr
 ---
 
 # 6 conseils pour optimiser le taux de conversions de vos landing Pages

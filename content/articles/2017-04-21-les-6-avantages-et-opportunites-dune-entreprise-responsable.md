@@ -10,6 +10,7 @@ author: robin
 date: 2017-04-21T21:07:05+00:00
 slug: les-6-avantages-et-opportunites-dune-entreprise-responsable
 image: /img/6-avatanges-responsable.jpg
+i18nlanguage: fr
 
 ---
 # Les 6 avantages et opportunités d’une entreprise responsable

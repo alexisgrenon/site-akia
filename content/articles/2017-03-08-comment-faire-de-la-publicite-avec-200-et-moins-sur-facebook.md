@@ -1,7 +1,7 @@
 ---
 title: Comment faire de la publicité avec 200$ et moins sur Facebook ?
 description: >-
-  This is a desc
+  Plusieurs se demandent si ça vaut la peine d’investir de l’argent sur la plateforme publicitaire de Facebook. Beaucoup de sources d’information sur le web nous mentionnent qu’il faut dépenser des gros montants rapidement pour que ça vaille la peine d’investir dans la publicité Facebook. Mais je ne suis pas toujours d’accord avec cette affirmation.
 author: alexis
 listing:
   title: Comment faire de la publicité avec 200$ et moins sur Facebook ?
@@ -10,6 +10,7 @@ listing:
 date: 2017-03-08T17:03:59+00:00
 slug: comment-faire-de-la-publicite-avec-200-et-moins-sur-facebook
 image: /img/facebook_result.jpg
+i18nlanguage: fr
 ---
 # Comment faire de la publicité avec 200$ et moins sur Facebook?
 

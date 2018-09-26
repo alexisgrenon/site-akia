@@ -1,5 +1,7 @@
 ---
 title: 'Comment utiliser Facebook: 7 trucs de base pour les PME'
+description: >-
+  Les propriétaires de petites entreprises sont des passionnés. Ils se lèvent chaque jour pour travailler dans le domaine qu’ils aiment, et avec un projet qui leur tient à coeur. Mais être propriétaire d’une petite entreprise , ce n’est pas seulement de faire les choses qui nous passionnent.
 author: alexis
 listing:
   title: "Comment utiliser Facebook: 7 trucs de base pour les PME"
@@ -8,6 +10,7 @@ listing:
 date: 2016-09-29T15:53:41+00:00
 slug: facebook-7-trucs-pme
 image: /img/pineapples-150879.jpg
+i18nlanguage: fr
 ---
 
 # Comment utiliser Facebook: 7 trucs de base pour les PME

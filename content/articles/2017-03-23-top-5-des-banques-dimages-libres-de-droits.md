@@ -1,7 +1,7 @@
 ---
 title: Top 5 des banques d’images libres de droits
 description: >-
-  This is a desc
+  Trouver des photos pour illustrer vos blogues, vos campagnes marketing ou même votre site web peut s’avérer être une tâche ingrate, difficile et souvent longue. Cependant en cherchant un peu il est possible de rendre cette tâche plaisante, simple et même rapide ! Pour vous aider dans votre quête, je vous propose une sélection des meilleurs sites offrant de nombreux choix pertinents, de qualité et surtout gratuits.
 author: kamel
 listing:
   title: Top 5 des banques d’images libres de droits
@@ -10,6 +10,7 @@ listing:
 date: 2017-03-23T20:41:25+00:00
 slug: top-5-des-banques-dimages-libres-de-droits
 image: /img/article_photo.jpg
+i18nlanguage: fr
 ---
 # Top 5 des banques d’images libres de droits
 

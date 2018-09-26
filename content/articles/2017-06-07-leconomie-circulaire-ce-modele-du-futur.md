@@ -10,6 +10,7 @@ author: robin
 date: 2017-06-07T18:12:29+00:00
 slug: leconomie-circulaire-ce-modele-du-futur
 image: /img/economie-circulaire-avantages.png
+i18nlanguage: fr
 
 ---
 # L’économie circulaire, ce modèle du futur : l’exemple d’ecocup.
