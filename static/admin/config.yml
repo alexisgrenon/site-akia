@@ -58,7 +58,7 @@ collections:
     extension: "md"
     format: "yaml-frontmatter"
     editor:
-      preview: true
+      preview: false
     create: true # Allow users to create new documents in this collection
     filter: 
       field: "i18nlanguage"
@@ -66,30 +66,143 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Description", name: "description", widget: "text", required: false}
-      # - {label: "Slug/Link (if link is https://www.akiamarketing.ca/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-      # - label: "Author" 
-      #   name: "author"
-      #   widget: "select"
-      #   options:
-      #     - { label: "Alexis Grenon", value: "alexis" }
-      #     - { label: "Robin Lamoureux", value: "robin" }
-      #     - { label: "Kamel Gorieze", value: "kamel" }
-      #     - { label: "Félix DeBlois-Beaucage", value: "felix" }
-      # - {label: "Share image (1200px by 630px)", name: "image", widget: "image" , required: false}
-      # - {label: "Publication date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      # - name: listing
-      #   label: "Home page and articles page"
-      #   widget: object
-      #   fields:
-      #     - {label: "Title", name: "title", widget: "string"}
-      #     - {label: "Summary", name: "description", widget: "text"}
-      # - {label: "Categories (separate with commas)", name: "categories", widget: "list", required: false}
-      # - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
-      # - {label: "Menu ID", name: "menuid", widget: "hidden", default: "articles"}
-      # - {label: "Priority (0 is the most important)", name: "ordre", widget: "number", default: 0, required: false}
-      # - {label: "Text", name: "body", widget: "markdown"}
-      # - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
-      # - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+      - {label: "Slug/Link (if link is https://www.akiamarketing.ca/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Image", name: "image", widget: "image" , required: false}
+      - {label: "Overlay", name: "overlay", widget: "hidden", default: true, required: false}
+      - name: listing
+        label: "Home page and articles page"
+        widget: object
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Summary", name: "description", widget: "text"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+      - name: notloaded
+        label: "Loading effect"
+        widget: object
+        fields:
+          - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Menu ID", name: "menuid", widget: "hidden", default: "services"}
+      - {label: "Priority (0 is the most important)", name: "ordre", widget: "number", default: 0, required: false}
+      - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+      - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+      - label: "Section 1"
+        name: "section1"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+      - label: "Section 2"
+        name: "section2"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Points" 
+            name: "points" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - label: "Section 3"
+        name: "section3"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Column 1" 
+            name: "col1" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Column 2" 
+            name: "col2" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+  - name: "services-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Services EN" # Used in the UI
+    folder: "content/services" # The path to the folder where the documents are stored
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "SEO Description", name: "description", widget: "text", required: false}
+      - {label: "Slug/Link (if link is https://www.akiamarketing.ca/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Image", name: "image", widget: "image" , required: false}
+      - {label: "Overlay", name: "overlay", widget: "hidden", default: true, required: false}
+      - name: listing
+        label: "Home page and articles page"
+        widget: object
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Summary", name: "description", widget: "text"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+      - name: notloaded
+        label: "Loading effect"
+        widget: object
+        fields:
+          - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Menu ID", name: "menuid", widget: "hidden", default: "services"}
+      - {label: "Priority (0 is the most important)", name: "ordre", widget: "number", default: 0, required: false}
+      - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+      - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+      - label: "Section 1"
+        name: "section1"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+      - label: "Section 2"
+        name: "section2"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Points" 
+            name: "points" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - label: "Section 3"
+        name: "section3"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Column 1" 
+            name: "col1" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Column 2" 
+            name: "col2" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
 ### PAGES
   - name: "pages-fr"
     label: "Pages FR"
