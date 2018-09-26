@@ -2,11 +2,9 @@
 title: "Akia Marketing | Développement web et marketing pour E-commerce"
 description: >-
    Akia Marketing est une agence spécialisée dans la conception et le marketing de boutique en ligne pour tous les types d'entreprise.
-image: 
+image: /img/e-commerce-services.jpg
 menuid: home
 draft: false
-notloaded: 
-  need: false
 section1:
   subtitle: Akia Marketing
   line1: Solution complète
