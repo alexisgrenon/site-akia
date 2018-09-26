@@ -2,6 +2,8 @@
 	<meta name="robots" content="noindex">
 {{- else if .Params.noindex }}
 	<meta name="robots" content="noindex">
+{{- else if eq .Lang "en" -}}
+	<meta name="robots" content="noindex">
 {{- else if and (eq .Type "clients") (not .IsNode) -}}
 	<meta name="robots" content="noindex">
 {{- else if and (eq .Type "singles") .IsNode -}}

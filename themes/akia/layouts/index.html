@@ -7,7 +7,7 @@
 -->
 {{ with .Params.section1 }}
 <div id="theme-main-banner" class="banner-one">
-    <div data-src="images/home/slide-1.jpg">
+    <div data-src="/images/home/slide-1.jpg">
         <div class="camera_caption">
             <div class="container">
                 <h5 class="wow fadeInUp animated" data-wow-offset="-100">{{ .subtitle }}</h5>
@@ -99,7 +99,7 @@
                     <div class="main-wrapper">
                         <h4>{{ .subtitle }}</h4>
                         <p>{{ .description | markdownify }}</p>
-                        <img src="images/home/sign.png" alt="sign">
+                        <img src="/images/home/sign.png" alt="sign">
                         {{ with .btn }}
                         {{ $link := .link }}
                         <div class="button-wrapper p-bg-color">

@@ -49,3 +49,8 @@ defaultContentLanguageInSubdir = false
 [Languages.fr.Taxonomies]
 category = "categories"
 portfolio = "portfolios"
+
+[Languages.en]
+[Languages.en.Taxonomies]
+category = "categories"
+portfolio = "portfolios"
