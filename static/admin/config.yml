@@ -88,81 +88,29 @@ collections:
                       - {label: "Page services", value: "servicesPage"}
                       - {label: "Page articles", value: "articlesPage"}
                       - {label: "Page contact", value: "contactPage"}
+          - label: "Section 2" 
+            name: "section1" 
+            widget: "object" 
+            fields:
+              - {label: "Description 1", name: "description1", widget: "text", required: false}
+              - {label: "Description 2", name: "description2", widget: "text", required: false}
+              - label: "3 columns section" 
+                name: "blocks" 
+                widget: "list" 
+                create: false
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
           - {label: "Services - Titre", name: "servicestitle", widget: "string"}
           - {label: "À propos - Gauche", name: "aboutleft", widget: "markdown"}
           - {label: "À propos - Droite", name: "aboutright", widget: "markdown"}
           - {label: "Contact - Entête", name: "contact", widget: "markdown"} 
           - {label: "Texte du bouton", name: "btntext", widget: "string"}  
-      - name: "services"
-        label: "Services"
-        file: "content/services/_index.md"
-        fields:
-          - {label: "Titre SEO", name: "title", widget: "string"}
-          - {label: "Description SEO", name: "description", widget: "text", required: false}
-          - {label: "Root page", name: "rootPage", widget: "hidden", default: "true"}
-          - {label: "Image", name: "image", widget: "image", required: false}
-      - name: "formations"
-        label: "Formations"
-        file: "content/formations/_index.md"
-        fields:
-          - {label: "Titre SEO", name: "title", widget: "string"}
-          - {label: "Description SEO", name: "description", widget: "text", required: false}
-          - {label: "Image", name: "image", widget: "image", required: false}
-          - {label: "Texte", name: "body", widget: "markdown", required: false}
-      - name: "a-propos"
-        label: "À propos"
-        file: "content/singles/a-propos.md"
-        fields:
-          - {label: "Titre SEO", name: "title", widget: "string"}
-          - {label: "Description SEO", name: "description", widget: "text", required: false}
-          - {label: "Titre", name: "titre", widget: "string"}
-          - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "a-propos"}
-          - {label: "Image", name: "image", widget: "image", required: false}
-          - {label: "Texte", name: "body", widget: "markdown", required: false}
-      - name: "equipe"
-        label: "Équipe"
-        file: "content/singles/equipe.md"
-        fields:
-          - {label: "Titre SEO", name: "title", widget: "string"}
-          - {label: "Description SEO", name: "description", widget: "text", required: false}
-          - {label: "Titre", name: "titre", widget: "string"}
-          - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "equipe"}
-          - {label: "Image", name: "image", widget: "image", required: false}
-      - name: "liens-utiles"
-        label: "Liens utiles"
-        file: "content/ressources/liens-utiles.md"
-        fields:
-          - {label: "Titre SEO", name: "title", widget: "string"}
-          - {label: "Description SEO", name: "description", widget: "text", required: false}
-          - {label: "Titre", name: "titre", widget: "string"}
-          - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "liens-utiles"}
-          - {label: "Image", name: "image", widget: "image", required: false}
-          - {label: "Texte", name: "body", widget: "markdown", required: false}
-      - name: "faq"
-        label: "FAQ"
-        file: "content/ressources/faq.md"
-        fields:
-          - {label: "Titre SEO", name: "title", widget: "string"}
-          - {label: "Description SEO", name: "description", widget: "text", required: false}
-          - {label: "Titre", name: "titre", widget: "string"}
-          - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "faq"}
-          - {label: "Image", name: "image", widget: "image", required: false}
-          - {label: "Texte", name: "body", widget: "markdown", required: false}
-      - name: "contact"
-        label: "Page contact"
-        file: "content/singles/contact.md"
-        fields:
-          - {label: "Titre SEO", name: "title", widget: "string"}
-          - {label: "Description SEO", name: "description", widget: "text", required: false}
-          - {label: "Titre", name: "titre", widget: "string"}
-          - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "contact"}
-          - {label: "Heures d'ouverture", name: "heures", widget: "string"}
-          - {label: "Services - Menu déroulant", name: "services", widget: "list"}
-          - {label: "Titre du formulaire", name: "sectiontitle", widget: "string"}
-          - {label: "Description sous le formulaire", name: "sectiondescription", widget: "text"}
-          - {label: "Image", name: "image", widget: "image", required: false}

@@ -23,17 +23,14 @@ section2:
     - icon: "fa fa-tachometer"
       title: De la qualité sans se ruiner
       description: "Akia c’est une petite équipe dynamique. Soudée pour l’efficacité, parfaite pour lancer un projet de qualité rapidement."
-      link:
       class: color-one
     - icon: "fa-heart fa"
       title: Un produit qui vous ressemble
       description: "Original, corporatif, clean, élégant, artistique, il y en a pour tous les goûts. Mais l’important, c’est que ce soit fidèle à l’identité de votre entreprise"
-      link:
       class: color-two
     - icon: "fa fa-question"
       title: Une équipe à l’écoute
       description: "Notre équipe est là pour répondre à vos questions et écouter vos préoccupations. Parce que le web c’est pas toujours facile à comprendre!"
-      link: 
       class: color-three
 section3:
   title: Plus que du web, on s’investit pour vivre dans un monde meilleur.
