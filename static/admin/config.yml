@@ -89,7 +89,7 @@ collections:
                       - {label: "Page articles", value: "articlesPage"}
                       - {label: "Page contact", value: "contactPage"}
           - label: "Section 2" 
-            name: "section1" 
+            name: "section2" 
             widget: "object" 
             fields:
               - {label: "Description 1", name: "description1", widget: "text", required: false}
@@ -98,6 +98,51 @@ collections:
                 name: "blocks" 
                 widget: "list" 
                 create: false
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Icon (don't change)", name: "icon", widget: "string", default: "fa fa-question"}
+                  - {label: "Classe CSS (don't change)", name: "class", widget: "string", default: "color-one"}
+          - label: "Section 3"
+            name: "section3"
+            widget: "object"
+            fields:
+              - {label: "Titre", name: "title", widget: "string", required: false}
+              - {label: "Sous-ttre", name: "subtitle", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "markdown", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Sous-ttre", name: "subtitle", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+          - label: "Section 4"
+            name: "section4"
+            widget: "list"
+            create: false
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Suffix after the number", name: "suffix", widget: "string", required: false}
+              - {label: "Number", name: "number", widget: "number"}
+          - label: "Section 5"
+            name: "section5"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
                 fields:
                   - {label: "Text", name: "title", widget: "string", required: false}
                   - label: "Link"
@@ -109,8 +154,56 @@ collections:
                       - {label: "Page services", value: "servicesPage"}
                       - {label: "Page articles", value: "articlesPage"}
                       - {label: "Page contact", value: "contactPage"}
-          - {label: "Services - Titre", name: "servicestitle", widget: "string"}
-          - {label: "À propos - Gauche", name: "aboutleft", widget: "markdown"}
-          - {label: "À propos - Droite", name: "aboutright", widget: "markdown"}
-          - {label: "Contact - Entête", name: "contact", widget: "markdown"} 
-          - {label: "Texte du bouton", name: "btntext", widget: "string"}  
+          - label: "Section 6" 
+            name: "section6" 
+            widget: "object" 
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description 1", name: "description1", widget: "text", required: false}
+              - {label: "Description 2", name: "description2", widget: "text", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - label: "Services columns section" 
+                name: "blocks" 
+                widget: "list" 
+                create: false
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Icon (don't change)", name: "icon", widget: "string", default: "fa fa-question"}
+                  - {label: "Classe CSS (don't change)", name: "class", widget: "string", default: "color-one"}
+                  - {label: "Link (only the end of it, see default value)", name: "link", widget: "string", default: "services/strategie-marketing-digital"}
+          - label: "Section 7 (invisible currently)"
+            name: "section7"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - label: "Testimonials" 
+                name: "blocks" 
+                widget: "list" 
+                fields:
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Company", name: "company", widget: "string"}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+          - label: "Section 8"
+            name: "section8"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
