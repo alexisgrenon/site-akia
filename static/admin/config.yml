@@ -446,8 +446,8 @@ collections:
     editor:
       preview: false
     files:
-      - name: "accueil"
-        label: "Accueil"
+      - name: "home"
+        label: "Home"
         file: "content/_index.en.md"
         fields:
           - {label: "Titre SEO", name: "title", widget: "string"}
