@@ -59,13 +59,12 @@ section2:
         your day (even if it's rainy).
 section3:
   col1:
-    - title: Découverte de votre entreprise
+    - title: Discover your business
       description: >-
-        Il faut se mettre dans l’ambiance. On veut en savoir le plus possible
-        sur votre entreprise! Même l’histoire que tout le monde est tanné
-        d’entendre au bureau, on veut la savoir. Bref, plus on a d’informations,
-        plus on est armé pour bâtir une boutique en ligne que vous et vos
-        clients aimerez!
+        The mood needs to be set. We want to know as much as possible about your
+        company! Even the story that everyone is tired of hearing as the office,
+        we want to know. Basically, the more information you give us, the more
+        we can build an online store that you and your customers will love!
     - title: Analyse et planification
       description: >-
         Une fois qu’on comprends bien votre entreprise, c’est le temps de
