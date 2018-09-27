@@ -38,11 +38,11 @@ section2:
         La sécurité et la crédibilité de votre boutique en ligne seront basées
         sur son apparence. Laissez-nous le soin de bâtir une plateforme à votre
         image et dont vous serez fier.
-    - title: Conception de votre boutique en ligne
+    - title: Online store conception
       description: >-
-        C’est bien beau avoir une plateforme web à votre image, mais elle doit
-        fonctionner comme du monde. De la sécurité à l’expérience d’achat, nous
-        mettons en place une plateforme que vous clients adoreront utiliser.
+        Having a web platform that reflects your style is good, but having one
+        that works properly is better. From security to the buying experience,
+        we are building a platform that your customers will love to use.
     - title: Transactions et livraison
       description: >-
         Il nous fera plaisir de vous guider dans le choix et la mise en place de
