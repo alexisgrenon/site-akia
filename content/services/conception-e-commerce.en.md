@@ -33,7 +33,7 @@ section2:
   description: |
     Here are our team's fields of expertise:
   points:
-    - title: Design de votre E-commerce
+    - title: E-commerce design
       description: >-
         La sécurité et la crédibilité de votre boutique en ligne seront basées
         sur son apparence. Laissez-nous le soin de bâtir une plateforme à votre
