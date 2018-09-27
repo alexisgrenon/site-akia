@@ -43,11 +43,11 @@ section2:
         Having a web platform that reflects your style is good, but having one
         that works properly is better. From security to the buying experience,
         we are building a platform that your customers will love to use.
-    - title: Transactions et livraison
+    - title: Transactions and delivery
       description: >-
-        Il nous fera plaisir de vous guider dans le choix et la mise en place de
-        la bonne plateforme de paiement en ligne, mais aussi dans toute la
-        logistique la gestion de votre nouvelle plateforme web.
+        It will be our pleasure to guide you in choosing and setting up the
+        right online payment platform, but also in all logistics and management
+        of your new web platform.
     - title: Répondre à vos questions
       description: >-
         C’est pas simple toute cette histoire d’E-commerce. À travers notre
