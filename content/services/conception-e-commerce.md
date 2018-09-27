@@ -68,10 +68,10 @@ section3:
         clients aimerez!
     - title: Analyse et planification
       description: >-
-        Une fois qu’on comprends bien votre entreprise, c’est le temps de
-        trouver la meilleure solution pour vous. Chaque entreprise a des besoins
+        Une fois qu’on comprend bien votre entreprise, c’est le temps de trouver
+        la meilleure solution pour vous. Chaque entreprise a des besoins
         spécifiques, donc nous prenons le temps de choisir les outils et les
-        technologies les mieux adaptés à vos besoins  
+        technologies les mieux adaptés à ceux-ci.  
   col2:
     - title: Conception
       description: >-
