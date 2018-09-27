@@ -73,15 +73,14 @@ section3:
   col2:
     - title: Conception
       description: >-
-        Une fois le plan approuvé, nous entrons en phase de conception. À chaque
-        2 semaines, notre équipe aura un visuel à vous présenter pour que vous
-        puissiez suivre l'avancement de votre projet. 
-    - title: Mise en ligne
-      description: >-
-        Une mise en ligne mal planifiée peut causer d'énormes problèmes de
-        logistique. Nous prenons donc soin de bien planifier la mise en ligne
-        avec vous, et ferons tous les ajustements pour que votre boutique en
-        ligne soit parfaite!
+        Once the plan is approved, we enter the design phase. Every 2 weeks, our
+        team will have a visual to present you so that you can follow your
+        project's progress. 
+    - title: Going online
+      description: >
+        Poorly scheduled uploading can cause huge logistical problems. We take
+        care to plan the publishing with you as best as possible, and will make
+        all the adjustments so that your online store is perfect!
   title: Our approach
   description: Each step is a big one in getting your project to succeed.
 ---
