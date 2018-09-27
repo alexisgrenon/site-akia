@@ -84,7 +84,7 @@ section3:
         logistique. Nous prenons donc soin de bien planifier la mise en ligne
         avec vous, et ferons tous les ajustements pour que votre boutique en
         ligne soit parfaite!
-  title: Notre démarche
-  description: Chaque étape est importante dans la réussite de votre projet.
+  title: Our approach
+  description: Each step is a big one in getting your project to succeed.
 ---
 
