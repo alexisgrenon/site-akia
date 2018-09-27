@@ -65,12 +65,11 @@ section3:
         company! Even the story that everyone is tired of hearing as the office,
         we want to know. Basically, the more information you give us, the more
         we can build an online store that you and your customers will love!
-    - title: Analyse et planification
-      description: >-
-        Une fois qu’on comprends bien votre entreprise, c’est le temps de
-        trouver la meilleure solution pour vous. Chaque entreprise a des besoins
-        spécifiques, donc nous prenons le temps de choisir les outils et les
-        technologies les mieux adaptés à vos besoins  
+    - title: Analysis and planning
+      description: >
+        Once we understand your business, it's time to find the best solution
+        for you. Each company has specific needs, so we take the time to choose
+        the tools and technologies best suited to them. 
   col2:
     - title: Conception
       description: >-
