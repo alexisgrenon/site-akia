@@ -3,16 +3,16 @@ title: ' Online business design | Akia Marketing'
 description: >-
   We create an online business that's tailored to your needs. Efficiency,
   quality and safety are our priorities!
-slug: conception-e-commerce
+slug: e-commerce-conception
 image: /img/conception-e-commerce-square.jpg
 overlay: true
 listing:
-  title: Conception d'E-commerce
+  title: E-commerce conception
   description: >-
-    De la conception à votre première livraison, bâtir une boutique en ligne
-    n'est pas tâche facile. Laissez-nous vous donner un coup de main!
+    From design to your first delivery, building an online store is no easy
+    task. Let us give you a hand!
   image: /img/conception-e-commerce.jpg
-  subtitle: Programmation
+  subtitle: Programming
 notloaded:
   need: true
 i18nlanguage: en
@@ -21,13 +21,13 @@ ordre: '0'
 draft: false
 headerwhite: true
 section1:
-  title: Conception d'E-commerce
+  title: E-commerce conception
   description: >-
-    Plus d’un québécois sur deux achète aujourd’hui en ligne. Plus important
-    encore, parmi tout ceux qui n’achète pas, la grande majorité magasine quand
-    même en ligne. On ne le dira jamais assez: en 2018, votre entreprise se doit
-    d’offrir ses services et ses produits en ligne. Découvrez comment Akia peut
-    vous aider à améliorer ou à lancer votre boutique en ligne. 
+    In Quebec, more than one person out of two buys online today. More
+    importantly, of all those who do not buy, the vast majority still shop
+    online. There's no other way to say it: in 2018, your company must offer its
+    services and products online. Find out how Akia can help you improve or
+    launch your online store.
 section2:
   title: Inclus dans notre service
   description: 'Voici les champs d’expertise de notre équipe:'
