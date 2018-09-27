@@ -29,8 +29,9 @@ section1:
     services and products online. Find out how Akia can help you improve or
     launch your online store.
 section2:
-  title: Inclus dans notre service
-  description: 'Voici les champs d’expertise de notre équipe:'
+  title: ' Included in our service'
+  description: |
+    Here are our team's fields of expertise:
   points:
     - title: Design de votre E-commerce
       description: >-
