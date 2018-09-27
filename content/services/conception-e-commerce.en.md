@@ -53,10 +53,10 @@ section2:
         This whole E-commerce thing is no joke! Throughout our work, we educate
         our clients to better understand what we do. You're still the one who
         will use the platform every day!
-    - title: La bonne humeur
+    - title: A good mood
       description: >-
-        On le dit pas assez souvent, mais c’est important. Laissez-nous mettre
-        du soleil dans votre journée (même s’il pleut).
+        It's not said often enough, but it's oh so important. Let us brighten
+        your day (even if it's rainy).
 section3:
   col1:
     - title: Découverte de votre entreprise
