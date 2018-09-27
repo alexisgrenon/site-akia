@@ -1,8 +1,8 @@
 ---
 title: ' Online business design | Akia Marketing'
 description: >-
-  Nous créons un commerce en ligne sur mesure pour répondre à vos besoins.
-  Efficacité, qualité et sécurité sont nos priorités! 
+  We create an online business that's tailored to your needs. Efficiency,
+  quality and safety are our priorities!
 slug: conception-e-commerce
 image: /img/conception-e-commerce-square.jpg
 overlay: true
