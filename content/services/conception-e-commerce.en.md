@@ -48,12 +48,11 @@ section2:
         It will be our pleasure to guide you in choosing and setting up the
         right online payment platform, but also in all logistics and management
         of your new web platform.
-    - title: Répondre à vos questions
-      description: >-
-        C’est pas simple toute cette histoire d’E-commerce. À travers notre
-        travail, nous éduquons nos clients pour qu’ils comprennent mieux notre
-        travail. C’est quand même vous qui utiliserez votre plateforme au
-        quotidien!
+    - title: Answering your questions
+      description: >
+        This whole E-commerce thing is no joke! Throughout our work, we educate
+        our clients to better understand what we do. You're still the one who
+        will use the platform every day!
     - title: La bonne humeur
       description: >-
         On le dit pas assez souvent, mais c’est important. Laissez-nous mettre
