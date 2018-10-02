@@ -72,9 +72,13 @@ const jsDest = 'themes/akia/static/js';
  
 // resize and optimize images
 gulp.task("image-resize", () => {
-  return gulp.src("themes/akia/source-images/*.{jpg,png,jpeg,JPG}")
+  return gulp.src("themes/akia/source-images/*.{jpg,png,jpeg,JPG,gif}")
     .pipe(newer("themes/akia/static/img"))
-    .pipe(imagemin())
+    .pipe(imagemin([
+        imagemin.gifsicle({interlaced: true}),
+        imagemin.jpegtran({progressive: true}),
+        imagemin.optipng({optimizationLevel: 5})
+      ]))
     .pipe(imageresize({ width: imagexl}))
     .pipe(gulp.dest("themes/akia/static/xl/img"))
     .pipe(imageresize({ width: imagefull }))

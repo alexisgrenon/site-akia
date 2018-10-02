@@ -1,15 +1,15 @@
 ---
-title: 'Optimisation de vos données : les 5 raisons d''adopter Google Data Studio.'
+title: "Optimisation de vos données : les 5 raisons d'adopter Google Data Studio"
 description: >-
   Facebook, Adwords, Analytics, Instagram, Twitter, les données concernant votre
   activité en ligne sont infinies, et il est souvent long et difficile de
-  retrouver vos données pertinentes parmi cet amas de nombres et graphiques
+  retrouver vos données pertinentes parmi cet amas de nombres et graphiques.
 slug: optimisation-donnees-google-data-studio
 author: robin
 image: /img/company-data.jpg
 date: '2018-10-01'
 listing:
-  title: 'Optimisation de vos données : les 5 raisons d''adopter Google Data Studio.'
+  title: "Optimisation de vos données : les 5 raisons d'adopter Google Data Studio."
   description: >-
     Data Studio c’est un avant tout un moyen de gagner un temps précieux en
     sélectionnant toutes les données que vous souhaitez pouvoir consulter sur un
@@ -22,6 +22,8 @@ ordre: '0'
 draft: false
 noindex: false
 ---
+# Optimisation de vos données : les 5 raisons d'adopter Google Data Studio
+
 Vous gérez votre compagnie, commerce en ligne ou bien êtes responsables de la présence en ligne d’une entreprise ? Alors vous êtes probablement chaque jour en train de consulter vos données et résultats. Facebook, Adwords, Analytics, Instagram, Twitter, les données concernant votre activité en ligne sont infinies et il est souvent long et difficile de retrouver vos données pertinentes parmi cet amas de nombres et graphiques.
 
 ![data-studio](/img/data-studio1.jpg)

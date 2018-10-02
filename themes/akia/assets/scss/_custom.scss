@@ -182,7 +182,7 @@ div.overlayed {
 	    line-height: 30px;
 	    font-weight: normal;
 	    padding: 0 85px;
-	    margin: 80px 0 80px 0;
+	    margin: 80px 0 40px 0;
 	    position: relative;
 	    &:before {
 	    	content: '';
@@ -216,6 +216,11 @@ div.overlayed {
 	}
 	ul li {
 		list-style-type: disc;
+	}
+	img {
+		max-height: 350px;
+		max-width: 800px;
+		margin: 20px auto 40px;
 	}
 } 
 /******** ABOUT **********/
@@ -256,6 +261,18 @@ div.overlayed {
 }
 
 @media only screen and (max-width: 767px) {
+	.blog-details .blog-main-post {
+		h2 {
+			padding: 0;
+			margin-top: 50px;
+			&:before {
+				width: 0;
+			}
+		}
+		img {
+			max-width: 100%;
+		}
+	}
 }
 
 @media only screen and (max-width: 479px) {
