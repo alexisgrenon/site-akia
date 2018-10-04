@@ -8,11 +8,11 @@ slug: digital-marketing-strategy
 image: /img/marketing-e-commerce.jpg
 overlay: true
 listing:
-  title: Stratégie de marketing digital
+  title: Digital marketing strategy
   description: >-
     Instagram, Facebook, Twitter, Snapchat, AdWords, SEO, Waze ads, Spotify Ads,
-    Influencer marketing, les choix sont nombreux, mais lesquels prioriser? On
-    est là pour vous aider à vous y retrouver.
+    Influencer marketing; there are plenty of choices, but which ones to
+    prioritize? We're here to help you find your way.
   image: /img/strategie-marketing-digital-square.jpg
   subtitle: Marketing
 notloaded:
