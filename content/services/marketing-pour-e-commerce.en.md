@@ -62,14 +62,12 @@ section3:
         Once we understand your business, it's time to find the best approach
         for you. Our team will brainstorm until they find it!
   col2:
-    - title: Stratégie
-      description: >-
-        On vous présente notre stratégie. C’est à ce moment que ça commence à
-        être excitant! 
-    - title: Application de la stratégie
-      description: >-
-        Pas besoin de se casser la tête avec les publicités, les landings pages
-        ou bien l’écriture de contenu, notre équipe s’en charge.
+    - title: Strategy
+      description: We show you our strategy. That's when the thrill starts!
+    - title: Strategy application
+      description: >
+        No need to worry about advertising, landing pages or writing content,
+        our team does it.
   title: Our approach
   description: 'Each step is a big one in getting your project to succeed. '
 ---
