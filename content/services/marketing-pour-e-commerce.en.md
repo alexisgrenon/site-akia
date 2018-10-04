@@ -21,14 +21,15 @@ ordre: '0'
 draft: false
 headerwhite: true
 section1:
-  title: Marketing pour E-commerce
-  description: >-
-    Les paniers d’achats ne se remplissent pas seuls! Donnez un coup de pouce à
-    vos ventes. Notre équipe est là pour vous aider à trouver la stratégie à
-    mettre en place pour améliorer la performance de votre site transactionnel! 
+  title: E-commerce Marketing
+  description: >
+    Shopping baskets don't fill up on their own! Give your sales a boost. Our
+    team is here to help you find the strategy to put in place to improve the
+    performance of your transactional site!
 section2:
-  title: Inclus dans notre service
-  description: 'Voici les champs d’expertise de notre équipe:'
+  title: Included in our service
+  description: |
+    Here are our team's fields of expertise:
   points:
     - title: Tableau de bord de statistiques E-commerce
       description: >-
