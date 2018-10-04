@@ -46,10 +46,10 @@ section2:
         C’est pas simple toute cette histoire de marketing pour E-commerce. À
         travers notre travail, nous éduquons nos clients pour qu’ils comprennent
         mieux notre travail. Vous êtes à un coup de téléphone de notre équipe!
-    - title: La bonne humeur
+    - title: A good mood
       description: >-
-        On le dit pas assez souvent, mais c’est important. Laissez-nous mettre
-        du soleil dans votre journée (même s’il pleut).
+        It's not said often enough, but it's oh so important. Let us brighten
+        your day (even if it's rainy).
 section3:
   col1:
     - title: Découverte du e-commerce
