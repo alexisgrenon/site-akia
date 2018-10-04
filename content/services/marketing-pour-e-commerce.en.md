@@ -36,11 +36,10 @@ section2:
         Nous fournissons un tableau de bords synchronisé en temps réel avec les
         statistiques des différents canaux marketing que nous utilisons. Vous
         pouvez suivre rapidement le progrès des campagnes!
-    - title: Rapports mensuels
-      description: >-
-        Si vous n’êtes pas du genre à regarder les statistiques du tableau de
-        bord en temps réel, pas de problème, nous vous fournirons un rapport
-        mensuel de la situation.
+    - title: Monthly reports
+      description: >
+        If you are not the "real time statistics dashboard' type, no problem,
+        we'll provide you with a monthly report of the situation.
     - title: Answering your questions
       description: >
         This whole E-commerce thing is no joke! Throughout our work, we educate
