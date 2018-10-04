@@ -53,15 +53,14 @@ section3:
   col1:
     - title: E-commerce discovery
       description: >-
-        Il faut se mettre dans l’ambiance. On veut en savoir le plus possible
-        sur votre entreprise! Même l’histoire que tout le monde est tanné
-        d’entendre au bureau, on veut la savoir. Bref, plus on a d’informations,
-        plus on est armé pour remplir vos paniers!
-    - title: Recherche d’opportunités
+        The mood needs to be set. We want to know as much as possible about your
+        company! Even the story that everyone is tired of hearing as the office,
+        we want to know. Basically, the more information you give us, the more
+        we can help fo fill up your carts!
+    - title: Looking out for opportunities
       description: >-
-        Une fois qu’on comprends bien votre entreprise, c’est le temps de
-        trouver la meilleure approche pour vous. C’est le temps de se creuser
-        les méninges pour notre équipe! 
+        Once we understand your business, it's time to find the best approach
+        for you. Our team will brainstorm until they find it!
   col2:
     - title: Stratégie
       description: >-
@@ -72,7 +71,6 @@ section3:
         Pas besoin de se casser la tête avec les publicités, les landings pages
         ou bien l’écriture de contenu, notre équipe s’en charge.
   title: Our approach
-  description: |
-    Each step is important to the success of your project.
+  description: 'Each step is a big one in getting your project to succeed. '
 ---
 
