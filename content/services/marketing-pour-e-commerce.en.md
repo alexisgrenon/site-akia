@@ -51,7 +51,7 @@ section2:
         your day (even if it's rainy).
 section3:
   col1:
-    - title: Découverte du e-commerce
+    - title: E-commerce discovery
       description: >-
         Il faut se mettre dans l’ambiance. On veut en savoir le plus possible
         sur votre entreprise! Même l’histoire que tout le monde est tanné
