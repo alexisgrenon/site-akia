@@ -30,26 +30,23 @@ section1:
     Ads; there's something for every taste! Akia is here to help you choose the
     online marketing platforms that will benefit your business.
 section2:
-  title: Inclus dans notre service
-  description: 'Voici les champs d’expertise de notre équipe:'
+  title: Included in our service
+  description: 'Here are our team''s fields of expertise:'
   points:
-    - title: Stratégie de marketing Business to business (B2B)
-      description: >-
-        Rien de mieux qu’une bonne stratégie de marketing en ligne pour élargir
-        la portée de votre offre aux entreprises. Email marketing, outreach,
-        Linkedin prospecting, influencer marketing…Laissez-nous élargir vos
-        horizons. 
-    - title: Stratégie de marketing Business to consumer (B2C)
-      description: >-
-        Vous avez besoin d’établir votre marque, d’augmenter votre achalandage
-        en magasin, ou de vendre certains produits clés? Nous trouverons la
-        stratégie qui adaptée à vos objectifs. 
-    - title: Publicité en ligne
-      description: >-
-        Facebook, Instagram, AdWords, Waze, Spotify, Quora … Les plateformes
-        sont nombreuses! Le plus difficiles est de trouver laquelle va donner
-        les meilleurs résultats et de communiquer un message qui résonne avec
-        votre clientèle! 
+    - title: Business to business marketing strategy (B2B)
+      description: >
+        There's nothing better than a good online marketing strategy to expand
+        the reach of your business offering. Email marketing, outreach, Linkedin
+        prospecting, influencer marketing ... Let us broaden your horizons.
+    - title: Business to consumer marketing strategy(B2C)
+      description: >
+        You need to build your brand, increase your store traffic, or sell some
+        key products? We'll find the strategy that fits your goals.
+    - title: Online advertising
+      description: >
+        Facebook, Instagram, AdWords, Waze, Spotify, Quora … There are plenty of
+        platforms! The tough part is finding which will give the best results
+        and communicate a message that speaks to your customers!
     - title: La bonne humeur
       description: >-
         On le dit pas assez souvent, mais c’est important. Laissez-nous mettre
