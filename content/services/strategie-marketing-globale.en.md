@@ -59,12 +59,11 @@ section3:
         to know more about your business. A phonecall with you allows us to
         better understand the roots of your business. Nothing better to make it
         bloom!
-    - title: Recherche d’opportunités
+    - title: Looking out for opportunities
       description: >-
-        Une fois qu’on comprends bien votre entreprise et vos objectifs, c’est
-        le temps de trouver le chemin le plus efficace pour les atteindre. On
-        sort le tableau blanc et on se creuse les méninges pour trouver la
-        meilleure approche pour atteindre vos objectifs.
+        Once we understand your business and your goals, it's time to find the
+        best way to reach them. We take out the whiteboard and brainstorm to
+        find the best approach possible. 
   col2:
     - title: Stratégie
       description: >-
@@ -77,6 +76,6 @@ section3:
         vous avez une équipe qualifiée, vous pouvez les laisser appliquer la
         stratégie directement! 
   title: Our approach
-  description: 'Each step is important in getting your project to succeed. '
+  description: 'Each step is a big one in getting your project to succeed. '
 ---
 
