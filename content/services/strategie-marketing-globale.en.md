@@ -1,7 +1,7 @@
 ---
 title: Digital marketing strategy | Akia Marketing
 description: >-
-  Instagram, Facebook, Twitter, Snapchat, AdWords, SEO, Waze ads, Spotify Ads,
+  Instagram, Facebook, Twitter, Snapchat, AdWords, SEO, Waze Ads, Spotify Ads,
   Influencer marketing; there are plenty of choices, but which ones to
   prioritize? We're here to help you find your way.
 slug: digital-marketing-strategy
@@ -10,7 +10,7 @@ overlay: true
 listing:
   title: Digital marketing strategy
   description: >-
-    Instagram, Facebook, Twitter, Snapchat, AdWords, SEO, Waze ads, Spotify Ads,
+    Instagram, Facebook, Twitter, Snapchat, AdWords, SEO, Waze Ads, Spotify Ads,
     Influencer marketing; there are plenty of choices, but which ones to
     prioritize? We're here to help you find your way.
   image: /img/strategie-marketing-digital-square.jpg
@@ -23,14 +23,12 @@ ordre: '0'
 draft: false
 headerwhite: true
 section1:
-  title: Stratégie de marketing digital
-  description: >-
-    Les plateformes de marketing en ligne se multiplient à chaque année et c’est
-    difficile de suivre la cadence. Publicité Facebook, Story instagram,
-    marketing d’influenceurs, publicité AdWords, publicité sur Spotify; il y en
-    a pour les fous et les fins!  Akia est là pour vous aider à choisir les
-    plateformes de marketing en ligne qui seront plus avantageuses pour votre
-    entreprise. 
+  title: Digital marketing strategy
+  description: >
+    Online marketing platforms are growing every year and it's hard to keep up.
+    Facebook Ads, Instagram story, influencer marketing, AdWords Ads, Spotify
+    Ads; there's something for every taste! Akia is here to help you choose the
+    online marketing platforms that will benefit your business.
 section2:
   title: Inclus dans notre service
   description: 'Voici les champs d’expertise de notre équipe:'
