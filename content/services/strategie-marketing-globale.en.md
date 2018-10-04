@@ -53,12 +53,12 @@ section2:
         your day (even if it's rainy).
 section3:
   col1:
-    - title: Découverte de votre entreprise
-      description: >-
-        Quel est votre but avec la campagne de marketing? Une fois déterminé, il
-        faut en savoir plus sur votre entreprise. Un premier appel avec vous
-        nous permet de mieux comprendre les racines de votre entreprise. Rien de
-        mieux pour la faire fleurir!
+    - title: Discovering your business
+      description: >
+        What is your goal with the marketing campaign? Once determined, we need
+        to know more about your business. A phonecall with you allows us to
+        better understand the roots of your business. Nothing better to make it
+        bloom!
     - title: Recherche d’opportunités
       description: >-
         Une fois qu’on comprends bien votre entreprise et vos objectifs, c’est
@@ -76,7 +76,7 @@ section3:
         ou bien l’écriture de contenu, notre équipe s’en charge. À noter que si
         vous avez une équipe qualifiée, vous pouvez les laisser appliquer la
         stratégie directement! 
-  title: Notre démarche
-  description: Chaque étape est importante dans la réussite de votre projet.
+  title: Our approach
+  description: 'Each step is important in getting your project to succeed. '
 ---
 
