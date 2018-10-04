@@ -2,9 +2,9 @@
 title: Digital marketing strategy | Akia Marketing
 description: >-
   Instagram, Facebook, Twitter, Snapchat, AdWords, SEO, Waze ads, Spotify Ads,
-  Influencer marketing, les choix sont nombreux, mais lesquels prioriser? On est
-  là pour vous aider à vous y retrouver. 
-slug: strategie-marketing-digital
+  Influencer marketing; there are plenty of choices, but which ones to
+  prioritize? We're here to help you find your way.
+slug: digital-marketing-strategy
 image: /img/marketing-e-commerce.jpg
 overlay: true
 listing:
