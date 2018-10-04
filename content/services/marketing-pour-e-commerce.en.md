@@ -31,11 +31,11 @@ section2:
   description: |
     Here are our team's fields of expertise:
   points:
-    - title: Tableau de bord de statistiques E-commerce
-      description: >-
-        Nous fournissons un tableau de bords synchronisé en temps réel avec les
-        statistiques des différents canaux marketing que nous utilisons. Vous
-        pouvez suivre rapidement le progrès des campagnes!
+    - title: E-commerce statistics dashboard
+      description: >
+        We provide a real-time synchronized dashboard with the statistics of the
+        different marketing channels we use. You can quickly follow the progress
+        of the campaigns!
     - title: Monthly reports
       description: >
         If you are not the "real time statistics dashboard' type, no problem,
