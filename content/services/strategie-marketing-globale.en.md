@@ -69,12 +69,11 @@ section3:
       description: >-
         We present you our strategy. We clean drafts of the white board, and
         that's when the thrill starts!
-    - title: Application of the strategy
-      description: >-
-        Pas besoin de se casser la tête avec les publicités, les landings pages
-        ou bien l’écriture de contenu, notre équipe s’en charge. À noter que si
-        vous avez une équipe qualifiée, vous pouvez les laisser appliquer la
-        stratégie directement! 
+    - title: Strategy application
+      description: >
+        No need to worry about advertising, landing pages or writing content,
+        our team does it. Note that if you have a qualified team, you can let
+        them apply the strategy directly!
   title: Our approach
   description: 'Each step is a big one in getting your project to succeed. '
 ---
