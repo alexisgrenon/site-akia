@@ -71,7 +71,8 @@ section3:
       description: >-
         Pas besoin de se casser la tête avec les publicités, les landings pages
         ou bien l’écriture de contenu, notre équipe s’en charge.
-  title: Notre démarche
-  description: Chaque étape est importante dans la réussite de votre projet.
+  title: Our approach
+  description: |
+    Each step is important to the success of your project.
 ---
 
