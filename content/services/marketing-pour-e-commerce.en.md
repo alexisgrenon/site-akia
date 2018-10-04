@@ -41,11 +41,11 @@ section2:
         Si vous n’êtes pas du genre à regarder les statistiques du tableau de
         bord en temps réel, pas de problème, nous vous fournirons un rapport
         mensuel de la situation.
-    - title: Répondre à vos questions
-      description: >-
-        C’est pas simple toute cette histoire de marketing pour E-commerce. À
-        travers notre travail, nous éduquons nos clients pour qu’ils comprennent
-        mieux notre travail. Vous êtes à un coup de téléphone de notre équipe!
+    - title: Answering your questions
+      description: >
+        This whole E-commerce thing is no joke! Throughout our work, we educate
+        our clients to better understand what we do. You're still the one who
+        will use the platform every day!
     - title: A good mood
       description: >-
         It's not said often enough, but it's oh so important. Let us brighten
