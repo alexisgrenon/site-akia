@@ -65,11 +65,11 @@ section3:
         best way to reach them. We take out the whiteboard and brainstorm to
         find the best approach possible. 
   col2:
-    - title: Stratégie
+    - title: Strategy
       description: >-
-        On vous présente notre stratégie. On met au propre les brouillons du
-        tableau blanc! C’est à ce moment que ça commence à être excitant!  
-    - title: Application de la stratégie
+        We present you our strategy. We clean drafts of the white board, and
+        that's when the thrill starts!
+    - title: Application of the strategy
       description: >-
         Pas besoin de se casser la tête avec les publicités, les landings pages
         ou bien l’écriture de contenu, notre équipe s’en charge. À noter que si
