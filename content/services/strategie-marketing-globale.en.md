@@ -47,10 +47,10 @@ section2:
         Facebook, Instagram, AdWords, Waze, Spotify, Quora … There are plenty of
         platforms! The tough part is finding which will give the best results
         and communicate a message that speaks to your customers!
-    - title: La bonne humeur
+    - title: A good mood
       description: >-
-        On le dit pas assez souvent, mais c’est important. Laissez-nous mettre
-        du soleil dans votre journée (même s’il pleut).
+        It's not said often enough, but it's oh so important. Let us brighten
+        your day (even if it's rainy).
 section3:
   col1:
     - title: Découverte de votre entreprise
