@@ -66,10 +66,10 @@ section3:
         mieux pour la faire fleurir!
     - title: Recherche d’opportunités
       description: >-
-        Une fois qu’on comprends bien votre entreprise et vos objectifs, c’est
-        le temps de trouver le chemin le plus efficace pour les atteindre. On
-        sort le tableau blanc et on se creuse les méninges pour trouver la
-        meilleure approche pour atteindre vos objectifs.
+        Une fois qu’on comprend bien votre entreprise et vos objectifs, c’est le
+        temps de trouver le chemin le plus efficace pour les atteindre. On sort
+        le tableau blanc et on se creuse les méninges pour trouver la meilleure
+        approche pour atteindre vos objectifs.
   col2:
     - title: Stratégie
       description: >-
