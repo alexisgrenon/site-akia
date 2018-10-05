@@ -29,15 +29,11 @@ section1:
     services and products online. Find out how Akia can help you improve or
     launch your online store.
 section2:
-  title: ' Included in our service'
-  description: |
-    Here are our team's fields of expertise:
   points:
     - title: E-commerce design
       description: >-
-        La sécurité et la crédibilité de votre boutique en ligne seront basées
-        sur son apparence. Laissez-nous le soin de bâtir une plateforme à votre
-        image et dont vous serez fier.
+        The security and credibility of your online store will be based on its
+        appearance. Let us build a platform that you can be proud of.
     - title: Online store conception
       description: >-
         Having a web platform that reflects your style is good, but having one
@@ -57,6 +53,9 @@ section2:
       description: >-
         It's not said often enough, but it's oh so important. Let us brighten
         your day (even if it's rainy).
+  title: ' Included in our service'
+  description: |
+    Here are our team's fields of expertise:
 section3:
   col1:
     - title: Discover your business
