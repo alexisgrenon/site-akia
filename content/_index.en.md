@@ -27,14 +27,14 @@ section2:
       title: A product that looks like you
       description: >-
         Original, corporate, clean, elegant, artistic, there is something for
-        everyone. But the important thing is that it is true to the identity of
-        your company
+        everyone. But the important thing is that it is true to your company's
+        identity
     - class: color-three
       icon: fa fa-question
-      title: Une équipe à l’écoute
-      description: >-
-        Notre équipe est là pour répondre à vos questions et écouter vos
-        préoccupations. Parce que le web c’est pas toujours facile à comprendre!
+      title: A team that listens
+      description: >
+        Our team is here to answer your questions and listen to your concerns.
+        Because the web is not always easy to get!
   description1: >
     Akia is a team of passionate programmers and web marketers. Web platforms
     and e-commerce is our specialty.
