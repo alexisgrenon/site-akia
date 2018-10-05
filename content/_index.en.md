@@ -18,17 +18,17 @@ section2:
   blocks:
     - class: color-one
       icon: fa fa-tachometer
-      title: De la qualité sans se ruiner
+      title: Quality without breaking the bank
       description: >-
-        Akia c’est une petite équipe dynamique. Soudée pour l’efficacité,
-        parfaite pour lancer un projet de qualité rapidement.
+        Akia is a small dynamic team. All working together for efficiency,
+        perfect for launching a quality project quickly.
     - class: color-two
       icon: fa-heart fa
-      title: Un produit qui vous ressemble
+      title: A product that looks like you
       description: >-
-        Original, corporatif, clean, élégant, artistique, il y en a pour tous
-        les goûts. Mais l’important, c’est que ce soit fidèle à l’identité de
-        votre entreprise
+        Original, corporate, clean, elegant, artistic, there is something for
+        everyone. But the important thing is that it is true to the identity of
+        your company
     - class: color-three
       icon: fa fa-question
       title: Une équipe à l’écoute
