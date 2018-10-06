@@ -42,8 +42,8 @@ section2:
 section3:
   btn:
     link: servicesPage
-    subtitle: En apprendre plus
-    title: Plus à propos d’Akia
+    subtitle: Learn more
+    title: More about Akia
   subtitle: Our green touch
   title: 'More than web, we take actions to live in a better world'
   description: >-
@@ -55,53 +55,52 @@ section3:
 section4:
   - number: 64
     suffix: +
-    title: Projets Complétés
+    title: Delivered Projects
   - number: 39
     title: Clients
   - number: 5000
     suffix: +
-    title: Sourires donnés
+    title: Smiles given
   - number: 100
     suffix: M
-    title: Lignes de code
+    title: Code lines
 section5:
   btn:
     link: clientsPage
-    title: Tous nos projets
-  title: Projets récents
-  description: Notre équipe a réalisé plusieurs projets. <br>Jetez-y un coup d'oeil.
+    title: All our projects
+  title: Recent projects
+  description: |
+    Our team has completed several projects. <br> Take a look.
 section6:
   blocks:
     - class: color-one
-      title: Conception de E-commerce
-      description: >-
-        Pour créer un commerce en ligne efficace et fait sur mesure pour vos
-        besoins.
+      title: E-commerce design
+      description: |
+        To create an effective online business that's tailored to your needs.
       icon: flaticon-computer
-      link: services/conception-e-commerce
+      link: services/e-commerce-design
     - class: color-two
-      title: Marketing pour E-commerce
-      description: >-
-        Que ce soit par l’optimisation de la structure du site web, le SEO, la
-        publicité payante ou la création de canaux marketings, nous vous
-        aiderons à mettre en place une stratégie efficace
+      title: E-commerce marketing
+      description: >
+        Whether by optimizing the structure of the website, SEO, paid
+        advertising or the creation of marketing channels, we'll help you set up
+        an effective strategy
       icon: flaticon-round-chart
-      link: services/marketing-pour-e-commerce
+      link: services/e-commerce-marketing
     - class: color-four
-      title: Stratégie marketing globale
-      description: >-
-        Pour déterminer le meilleur angle d’attaque pour votre entreprise et
-        attirer plus de clientèle.
+      title: Global marketing strategy
+      description: To determine the best way of attracting more costumers to your business.
       icon: flaticon-bar-chart
-      link: services/strategie-marketing-digital
+      link: services/digital-marketing-strategy
   btn:
     link: servicesPage
-    title: Voir tous nos services
-  description1: >-
-    De la programmation au marketing web, Akia est là pour développer une
-    relation à long terme.
-  description2: 'Nos spécialités pour propulser vos projets:'
-  title: Nos spécialités
+    title: See all our services
+  description1: >
+    From programming to web marketing, Akia is here to develop a long-term
+    relationship.
+  description2: |
+    Our specialties to propel your projects:
+  title: Our specialties
   image: /img/service-image-3.png
 section7:
   blocks:
@@ -121,11 +120,12 @@ section7:
         consectetur quidem, maiores nemo rem!
       image: /img/logo-doggy.jpg
       name: Gabrielle
-  title: Commentaires
-  description: Ce qu'ils ont à dire <br>à propos de nous
+  title: Comments
+  description: What they have to say <br> about us
   image: /img/commentaires-clients.jpg
 section8:
-  title: Conseils et études de cas
-  description: 'Découvrez le web, tout va bien aller!'
+  title: Advice and case studies
+  description: |
+    Discover the web, everything will be fine!
 ---
 
