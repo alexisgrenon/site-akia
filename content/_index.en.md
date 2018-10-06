@@ -17,24 +17,24 @@ section1:
 section2:
   blocks:
     - class: color-one
-      icon: fa fa-tachometer
       title: Quality without breaking the bank
       description: >-
         Akia is a small dynamic team. All working together for efficiency,
         perfect for launching a quality project quickly.
+      icon: fa fa-tachometer
     - class: color-two
-      icon: fa-heart fa
       title: A product that looks like you
       description: >-
         Original, corporate, clean, elegant, artistic, there is something for
         everyone. But the important thing is that it is true to your company's
         identity
+      icon: fa-heart fa
     - class: color-three
-      icon: fa fa-question
       title: A team that listens
       description: >
         Our team is here to answer your questions and listen to your concerns.
         Because the web is not always easy to get!
+      icon: fa fa-question
   description1: >
     Akia is a team of passionate programmers and web marketers. Web platforms
     and e-commerce is our specialty.
@@ -44,15 +44,14 @@ section3:
     link: servicesPage
     subtitle: En apprendre plus
     title: Plus à propos d’Akia
+  subtitle: Our green touch
+  title: 'More than web, we take actions to live in a better world'
   description: >-
-    Faisons ensemble des pas vers l’avant pour développer la conscience
-    écologique des gens et des entreprises. Donnons un futur propre et convivial
-    pour la prochaine génération. Akia s’implique avec plusieurs projets et
-    organisations dont l'[Association Québecoise Zéro
-    Déchet](https://www.aqzd.ca/).
+    Let's work together to develop the ecological awareness of people and
+    businesses. Let's give a clean and friendly future to the next generation.
+    Akia is involved with several projects and organizations including the Zero
+    Waste Quebec Association.
   image: /img/teamwork-environment.jpg
-  subtitle: Notre touche environnementale
-  title: 'Plus que du web, on s’investit pour vivre dans un monde meilleur.'
 section4:
   - number: 64
     suffix: +
@@ -74,27 +73,27 @@ section5:
 section6:
   blocks:
     - class: color-one
-      icon: flaticon-computer
-      link: services/conception-e-commerce
       title: Conception de E-commerce
       description: >-
         Pour créer un commerce en ligne efficace et fait sur mesure pour vos
         besoins.
+      icon: flaticon-computer
+      link: services/conception-e-commerce
     - class: color-two
-      icon: flaticon-round-chart
-      link: services/marketing-pour-e-commerce
       title: Marketing pour E-commerce
       description: >-
         Que ce soit par l’optimisation de la structure du site web, le SEO, la
         publicité payante ou la création de canaux marketings, nous vous
         aiderons à mettre en place une stratégie efficace
+      icon: flaticon-round-chart
+      link: services/marketing-pour-e-commerce
     - class: color-four
-      icon: flaticon-bar-chart
-      link: services/strategie-marketing-digital
       title: Stratégie marketing globale
       description: >-
         Pour déterminer le meilleur angle d’attaque pour votre entreprise et
         attirer plus de clientèle.
+      icon: flaticon-bar-chart
+      link: services/strategie-marketing-digital
   btn:
     link: servicesPage
     title: Voir tous nos services
