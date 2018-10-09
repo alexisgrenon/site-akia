@@ -1,15 +1,18 @@
 ---
-title: "Conception de commerce en ligne | Akia Marketing"
+title: ' Online business design | Akia Marketing'
 description: >-
-  Nous créons un commerce en ligne sur mesure pour répondre à vos besoins. Efficacité, qualité et sécurité sont nos priorités! 
-slug: conception-e-commerce
+  We create an online business that's tailored to your needs. Efficiency,
+  quality and safety are our priorities!
+slug: e-commerce-conception
 image: /img/conception-e-commerce-square.jpg
 overlay: true
 listing:
-  title: Conception d'E-commerce
-  description: "De la conception à votre première livraison, bâtir une boutique en ligne n'est pas tâche facile. Laissez-nous vous donner un coup de main!"
-  subtitle: Programmation
+  title: E-commerce conception
+  description: >-
+    From design to your first delivery, building an online store is no easy
+    task. Let us give you a hand!
   image: /img/conception-e-commerce.jpg
+  subtitle: Programming
 notloaded:
   need: true
 i18nlanguage: en
@@ -18,49 +21,66 @@ ordre: '0'
 draft: false
 headerwhite: true
 section1:
-  title: Conception d'E-commerce
+  title: E-commerce conception
   description: >-
-    Plus d’un québécois sur deux achète aujourd’hui en ligne. Plus important encore, parmi tout ceux qui n’achète pas, la grande majorité magasine quand même en ligne. On ne le dira jamais assez: en 2018, votre entreprise se doit d’offrir ses services et ses produits en ligne. Découvrez comment Akia peut vous aider à améliorer ou à lancer votre boutique en ligne. 
-  col1: >-
-    Chez Akia, nous nous spécialisons dans la conception et le marketing des E commerce. Ce qui veut dire que nous pouvons non seulement bâtir une plateforme sécuritaire et à votre image, mais nous savons aussi comment amener les clients à trouver, utiliser et transiger sur votre boutique en ligne. Cette fusion de l’expertise technique et marketing sous un même toit nous permet d’offrir une stratégie cohérente qui vous permettra d’atteindre vos objectifs. 
-  col2: >-
-    Notre démarche commence toujours avec la compréhension du domaine d’expertise. Il est primordial que l’équipe se plonge dans votre domaine pour voir les obstacles auxquels vous faites face, les comportements de vos clients et les tendances de votre industrie. Une fois les données récoltées, nous les mettons à profit dans un processus conceptualisation, design et conception de votre plateforme de votre en ligne. De la commande à la livraison, on pense à tout pour vous.
+    In Quebec, more than one person out of two buys online today. More
+    importantly, of all those who do not buy, the vast majority still shop
+    online. There's no other way to say it: in 2018, your company must offer its
+    services and products online. Find out how Akia can help you improve or
+    launch your online store.
 section2:
-  title: Inclus dans notre service 
-  description: >-
-    Voici les champs d’expertise de notre équipe:
   points:
-    - title: Design de votre E-commerce
+    - title: E-commerce design
       description: >-
-        La sécurité et la crédibilité de votre boutique en ligne seront basées sur son apparence. Laissez-nous le soin de bâtir une plateforme à votre image et dont vous serez fier.
-    - title: Conception de votre boutique en ligne
+        The security and credibility of your online store will be based on its
+        appearance. Let us build a platform that you can be proud of.
+    - title: Online store conception
       description: >-
-        C’est bien beau avoir une plateforme web à votre image, mais elle doit fonctionner comme du monde. De la sécurité à l’expérience d’achat, nous mettons en place une plateforme que vous clients adoreront utiliser.
-    - title: Transactions et livraison
+        Having a web platform that reflects your style is good, but having one
+        that works properly is better. From security to the buying experience,
+        we are building a platform that your customers will love to use.
+    - title: Transactions and delivery
       description: >-
-        Il nous fera plaisir de vous guider dans le choix et la mise en place de la bonne plateforme de paiement en ligne, mais aussi dans toute la logistique la gestion de votre nouvelle plateforme web.
-    - title: Répondre à vos questions
+        It will be our pleasure to guide you in choosing and setting up the
+        right online payment platform, but also in all logistics and management
+        of your new web platform.
+    - title: Answering your questions
+      description: >
+        This whole E-commerce thing is no joke! Throughout our work, we educate
+        our clients to better understand what we do. You're still the one who
+        will use the platform every day!
+    - title: A good mood
       description: >-
-        C’est pas simple toute cette histoire d’E-commerce. À travers notre travail, nous éduquons nos clients pour qu’ils comprennent mieux notre travail. C’est quand même vous qui utiliserez votre plateforme au quotidien!
-    - title: La bonne humeur
-      description: >-
-        On le dit pas assez souvent, mais c’est important. Laissez-nous mettre du soleil dans votre journée (même s’il pleut).
+        It's not said often enough, but it's oh so important. Let us brighten
+        your day (even if it's rainy).
+  title: ' Included in our service'
+  description: |
+    Here are our team's fields of expertise:
 section3:
-  title: Notre démarche
-  description: >-
-    Chaque étape est importante dans la réussite de votre projet.
   col1:
-    - title: Découverte de votre entreprise
+    - title: Discover your business
       description: >-
-        Il faut se mettre dans l’ambiance. On veut en savoir le plus possible sur votre entreprise! Même l’histoire que tout le monde est tanné d’entendre au bureau, on veut la savoir. Bref, plus on a d’informations, plus on est armé pour bâtir une boutique en ligne que vous et vos clients aimerez!
-    - title: Analyse et planification
-      description: >-
-        Une fois qu’on comprends bien votre entreprise, c’est le temps de trouver la meilleure solution pour vous. Chaque entreprise a des besoins spécifiques, donc nous prenons le temps de choisir les outils et les technologies les mieux adaptés à vos besoins  
+        The mood needs to be set. We want to know as much as possible about your
+        company! Even the story that everyone is tired of hearing as the office,
+        we want to know. Basically, the more information you give us, the more
+        we can build an online store that you and your customers will love!
+    - title: Analysis and planning
+      description: >
+        Once we understand your business, it's time to find the best solution
+        for you. Each company has specific needs, so we take the time to choose
+        the tools and technologies best suited to them. 
   col2:
     - title: Conception
       description: >-
-        Une fois le plan approuvé, nous entrons en phase de conception. À chaque 2 semaines, notre équipe aura un visuel à vous présenter pour que vous puissiez suivre l'avancement de votre projet. 
-    - title: Mise en ligne
-      description: >-
-        Une mise en ligne mal planifiée peut causer d'énormes problèmes de logistique. Nous prenons donc soin de bien planifier la mise en ligne avec vous, et ferons tous les ajustements pour que votre boutique en ligne soit parfaite!
+        Once the plan is approved, we enter the design phase. Every 2 weeks, our
+        team will have a visual to present you so that you can follow your
+        project's progress. 
+    - title: Going online
+      description: >
+        Poorly scheduled uploading can cause huge logistical problems. We take
+        care to plan the publishing with you as best as possible, and will make
+        all the adjustments so that your online store is perfect!
+  title: Our approach
+  description: Each step is a big one in getting your project to succeed.
 ---
+
