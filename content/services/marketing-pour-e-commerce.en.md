@@ -1,15 +1,18 @@
 ---
-title: "Marketing pour E-commerce | Akia Marketing"
+title: E-commerce Marketing | Akia Marketing
 description: >-
-  Du marketing pour E-commerce adapté à votre réalité. Parce que votre panier mérite d’être bien traité! 
-slug: marketing-pour-e-commerce
+  E-commerce marketing adapted to your day to day life. Because your cart
+  deserves a royal treatment!
+slug: e-commerce-marketing
 image: /img/e-commerce-marketing.jpg
 overlay: true
 listing:
-  title: Marketing pour E-commerce
-  description: "Du marketing pour E-commerce adapté à votre réalité. Parce que votre panier mérite d’être bien traité!"
-  subtitle: Marketing
+  title: E-commerce Marketing
+  description: >-
+    E-commerce marketing adapted to your day to day life. Because your cart
+    deserves a royal treatment!
   image: /img/e-commerce-marketing-square.jpg
+  subtitle: Marketing
 notloaded:
   need: true
 i18nlanguage: en
@@ -18,46 +21,54 @@ ordre: '0'
 draft: false
 headerwhite: true
 section1:
-  title: Marketing pour E-commerce
-  description: >-
-    Les paniers d’achats ne se remplissent pas seuls! Donnez un coup de pouce à vos ventes. Notre équipe est là pour vous aider à trouver la stratégie à mettre en place pour améliorer la performance de votre site transactionnel! 
-  col1: >-
-    Le marketing pour les commerces en ligne diffère légèrement du marketing digital traditionnel. Des données sont disponibles pour chacun des achats que les clients vont faire, donc il y a beaucoup plus à analyser! Et c’est beaucoup plus excitant puisque les efforts marketing se transforment directements en ventes sur le site web! 
-  col2: >-
-    Notre démarche commence toujours avec la compréhension du domaine d’expertise. Il est primordial que l’équipe se plonge dans votre domaine pour voir les obstacles et les embûches à surmonter pour exploiter efficacement les opportunités. Dans un monde où les possibilités de publicité augmentent chaque année, il est important de voir clair et de savoir mettre ses oeufs dans les bons paniers.
+  title: E-commerce Marketing
+  description: >
+    Shopping baskets don't fill up on their own! Give your sales a boost. Our
+    team is here to help you find the strategy to put in place to improve the
+    performance of your transactional site!
 section2:
-  title: Inclus dans notre service 
-  description: >-
-    Voici les champs d’expertise de notre équipe:
+  title: Included in our service
+  description: |
+    Here are our team's fields of expertise:
   points:
-    - title: Tableau de bord de statistiques E-commerce
+    - title: E-commerce statistics dashboard
+      description: >
+        We provide a real-time synchronized dashboard with the statistics of the
+        different marketing channels we use. You can quickly follow the progress
+        of the campaigns!
+    - title: Monthly reports
+      description: >
+        If you are not the "real time statistics dashboard' type, no problem,
+        we'll provide you with a monthly report of the situation.
+    - title: Answering your questions
+      description: >
+        This whole E-commerce thing is no joke! Throughout our work, we educate
+        our clients to better understand what we do. You're still the one who
+        will use the platform every day!
+    - title: A good mood
       description: >-
-        Nous fournissons un tableau de bords synchronisé en temps réel avec les statistiques des différents canaux marketing que nous utilisons. Vous pouvez suivre rapidement le progrès des campagnes!
-    - title: Rapports mensuels
-      description: >-
-        Si vous n’êtes pas du genre à regarder les statistiques du tableau de bord en temps réel, pas de problème, nous vous fournirons un rapport mensuel de la situation.
-    - title: Répondre à vos questions
-      description: >-
-        C’est pas simple toute cette histoire de marketing pour E-commerce. À travers notre travail, nous éduquons nos clients pour qu’ils comprennent mieux notre travail. Vous êtes à un coup de téléphone de notre équipe!
-    - title: La bonne humeur
-      description: >-
-        On le dit pas assez souvent, mais c’est important. Laissez-nous mettre du soleil dans votre journée (même s’il pleut).
+        It's not said often enough, but it's oh so important. Let us brighten
+        your day (even if it's rainy).
 section3:
-  title: Notre démarche
-  description: >-
-    Chaque étape est importante dans la réussite de votre projet.
   col1:
-    - title: Découverte du e-commerce
+    - title: E-commerce discovery
       description: >-
-        Il faut se mettre dans l’ambiance. On veut en savoir le plus possible sur votre entreprise! Même l’histoire que tout le monde est tanné d’entendre au bureau, on veut la savoir. Bref, plus on a d’informations, plus on est armé pour remplir vos paniers!
-    - title: Recherche d’opportunités
+        The mood needs to be set. We want to know as much as possible about your
+        company! Even the story that everyone is tired of hearing as the office,
+        we want to know. Basically, the more information you give us, the more
+        we can help fo fill up your carts!
+    - title: Looking out for opportunities
       description: >-
-        Une fois qu’on comprends bien votre entreprise, c’est le temps de trouver la meilleure approche pour vous. C’est le temps de se creuser les méninges pour notre équipe! 
+        Once we understand your business, it's time to find the best approach
+        for you. Our team will brainstorm until they find it!
   col2:
-    - title: Stratégie
-      description: >-
-        On vous présente notre stratégie. C’est à ce moment que ça commence à être excitant! 
-    - title: Application de la stratégie
-      description: >-
-        Pas besoin de se casser la tête avec les publicités, les landings pages ou bien l’écriture de contenu, notre équipe s’en charge.
+    - title: Strategy
+      description: We show you our strategy. That's when the thrill starts!
+    - title: Strategy application
+      description: >
+        No need to worry about advertising, landing pages or writing content,
+        our team does it.
+  title: Our approach
+  description: 'Each step is a big one in getting your project to succeed. '
 ---
+
