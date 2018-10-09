@@ -1,111 +1,131 @@
 ---
-title: "Akia Marketing | Développement web et marketing pour E-commerce"
+title: Akia Marketing | Web development and e-commerce marketing
 description: >-
-   Akia Marketing est une agence spécialisée dans la conception et le marketing de boutique en ligne pour tous les types d'entreprise.
+  Akia Marketing is an agency specialized in online store design and marketing
+  for all types of businesses
 image: /img/e-commerce-services.jpg
-menuid: home
 draft: false
 section1:
-  subtitle: Akia Marketing
-  line1: Solution complète
-  line2: pour les
+  btn:
+    link: clientsPage
+    title: Our projects
+  image: /img/e-commerce-marketing-2.gif
+  line1: Complete solution
+  line2: for
   line3: E-commerce
-  image: "/img/e-commerce-marketing-2.gif"
-  btn:
-    link: clientsPage
-    title: Nos projets
+  subtitle: Akia Marketing
 section2:
-  description1: >-
-    Akia, c’est une équipe de passionnés de la programmation et du marketing web. Les plateformes web et les E-commerces, c’est notre spécialité.
-  description2: >-
-    Vos projets méritent une solution digne de leur originalité! 
   blocks:
-    - icon: "fa fa-tachometer"
-      title: De la qualité sans se ruiner
-      description: "Akia c’est une petite équipe dynamique. Soudée pour l’efficacité, parfaite pour lancer un projet de qualité rapidement."
-      class: color-one
-    - icon: "fa-heart fa"
-      title: Un produit qui vous ressemble
-      description: "Original, corporatif, clean, élégant, artistique, il y en a pour tous les goûts. Mais l’important, c’est que ce soit fidèle à l’identité de votre entreprise"
-      class: color-two
-    - icon: "fa fa-question"
-      title: Une équipe à l’écoute
-      description: "Notre équipe est là pour répondre à vos questions et écouter vos préoccupations. Parce que le web c’est pas toujours facile à comprendre!"
-      class: color-three
+    - class: color-one
+      title: Quality without breaking the bank
+      description: >-
+        Akia is a small dynamic team. All working together for efficiency,
+        perfect for launching a quality project quickly.
+      icon: fa fa-tachometer
+    - class: color-two
+      title: A product that looks like you
+      description: >-
+        Original, corporate, clean, elegant, artistic, there is something for
+        everyone. But the important thing is that it is true to your company's
+        identity
+      icon: fa-heart fa
+    - class: color-three
+      title: A team that listens
+      description: >
+        Our team is here to answer your questions and listen to your concerns.
+        Because the web is not always easy to get!
+      icon: fa fa-question
+  description1: >
+    Akia is a team of passionate programmers and web marketers. Web platforms
+    and e-commerce is our specialty.
+  description2: Your projects deserve a solution as original as them!
 section3:
-  title: Plus que du web, on s’investit pour vivre dans un monde meilleur.
-  subtitle: Notre touche environnementale
+  btn:
+    link: servicesPage
+    subtitle: Learn more
+    title: More about Akia
+  subtitle: Our green touch
+  title: 'More than web, we take actions to live in a better world'
   description: >-
-    Faisons ensemble des pas vers l’avant pour développer la conscience écologique des gens et des entreprises. Donnons un futur propre et convivial pour la prochaine génération. Akia s’implique avec plusieurs projets et organisations dont l'[Association Québecoise Zéro Déchet](https://www.aqzd.ca/).
+    Let's work together to develop the ecological awareness of people and
+    businesses. Let's give a clean and friendly future to the next generation.
+    Akia is involved with several projects and organizations including the Zero
+    Waste Quebec Association.
   image: /img/teamwork-environment.jpg
-  btn:
-    subtitle: En apprendre plus
-    title: Plus à propos d’Akia
-    link: servicesPage
 section4:
-  - title: Projets Complétés
-    suffix: "+"
-    number: 64
-  - title: Clients
-    suffix: 
-    number: 39
-  - title: Sourires donnés
-    suffix: "+"
-    number: 5000
-  - title: Lignes de code
-    suffix: "M"
-    number: 100
+  - number: 64
+    suffix: +
+    title: Delivered Projects
+  - number: 39
+    title: Clients
+  - number: 5000
+    suffix: +
+    title: Smiles given
+  - number: 100
+    suffix: M
+    title: Code lines
 section5:
-  title: Projets récents
-  description: >-
-    Notre équipe a réalisé plusieurs projets. <br>Jetez-y un coup d'oeil.
   btn:
-    title: Tous nos projets
     link: clientsPage
+    title: All our projects
+  title: Recent projects
+  description: |
+    Our team has completed several projects. <br> Take a look.
 section6:
-  title: Nos spécialités
-  description1: >-
-    De la programmation au marketing web, Akia est là pour développer une relation à long terme.
-  description2: "Nos spécialités pour propulser vos projets:" 
+  blocks:
+    - class: color-one
+      title: E-commerce design
+      description: |
+        To create an effective online business that's tailored to your needs.
+      icon: flaticon-computer
+      link: services/e-commerce-design
+    - class: color-two
+      title: E-commerce marketing
+      description: >
+        Whether by optimizing the structure of the website, SEO, paid
+        advertising or the creation of marketing channels, we'll help you set up
+        an effective strategy
+      icon: flaticon-round-chart
+      link: services/e-commerce-marketing
+    - class: color-four
+      title: Global marketing strategy
+      description: To determine the best way of attracting more costumers to your business.
+      icon: flaticon-bar-chart
+      link: services/digital-marketing-strategy
   btn:
-    title: Voir tous nos services
     link: servicesPage
+    title: See all our services
+  description1: >
+    From programming to web marketing, Akia is here to develop a long-term
+    relationship.
+  description2: |
+    Our specialties to propel your projects:
+  title: Our specialties
   image: /img/service-image-3.png
-  blocks:
-    - icon: flaticon-computer
-      title: Conception de E-commerce
-      description: Pour créer un commerce en ligne efficace et fait sur mesure pour vos besoins.
-      link: services/conception-e-commerce
-      class: color-one
-    - icon: flaticon-round-chart
-      title: Marketing pour E-commerce
-      description: >-
-        Que ce soit par l’optimisation de la structure du site web, le SEO, la publicité payante ou la création de canaux marketings, nous vous aiderons à mettre en place une stratégie efficace
-      link: services/marketing-pour-e-commerce
-      class: color-two
-    - icon: flaticon-bar-chart
-      title: Stratégie marketing globale
-      description: >-
-        Pour déterminer le meilleur angle d’attaque pour votre entreprise et attirer plus de clientèle.
-      link: services/strategie-marketing-digital
-      class: color-four
 section7:
-  title: Commentaires
-  description: >-
-    Ce qu'ils ont à dire <br>à propos de nous
   blocks:
-    - description: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perspiciatis voluptatem facere cum ipsa minus libero, cupiditate nesciunt, pariatur assumenda repellat odio magni in voluptatibus consectetur quidem, maiores nemo rem!
-      name: Gabrielle
-      company: "Le Doggy Café"
+    - company: Le Doggy Café
+      description: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+        perspiciatis voluptatem facere cum ipsa minus libero, cupiditate
+        nesciunt, pariatur assumenda repellat odio magni in voluptatibus
+        consectetur quidem, maiores nemo rem!
       image: /img/logo-doggy.jpg
-    - description: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perspiciatis voluptatem facere cum ipsa minus libero, cupiditate nesciunt, pariatur assumenda repellat odio magni in voluptatibus consectetur quidem, maiores nemo rem!
       name: Gabrielle
-      company: "Le Doggy Café"
+    - company: Le Doggy Café
+      description: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+        perspiciatis voluptatem facere cum ipsa minus libero, cupiditate
+        nesciunt, pariatur assumenda repellat odio magni in voluptatibus
+        consectetur quidem, maiores nemo rem!
       image: /img/logo-doggy.jpg
+      name: Gabrielle
+  title: Comments
+  description: What they have to say <br> about us
   image: /img/commentaires-clients.jpg
 section8:
-  title: Conseils et études de cas
-  description: "Découvrez le web, tout va bien aller!"
+  title: Advice and case studies
+  description: |
+    Discover the web, everything will be fine!
 ---
+
