@@ -7,7 +7,7 @@ description: >-
   dernières années, c’est indéniablement le Messenger Chatbot. Souvent comparé à
   une nouvelle forme d’e-mail marketing, les résultats des outils messenger sont
   bluffants.
-slug: couriel-marleting-vs-messenger-chatbot
+slug: couriel-marketing-vs-messenger-chatbot
 author: robin
 image: /img/bot-cellphone-chat-bot-190363.jpg
 date: '2018-10-02'
@@ -47,9 +47,9 @@ Sachant qu’il y nettement plus de chances que votre message soit lu, le princi
 
 ## Comment installer son Messenger Chatbot ?
 
-Si vous avez déjà une page facebook de créée, lier votre chatbot à votre compte ne vous prendra pas plus d’une dizaine de secondes. En quelques clics vous devriez pouvoir réaliser cette tâche avec succès!
+Si vous avez déjà une page facebook de créée, lier votre chatbot à votre compte ne vous prendra pas plus d’une dizaine de secondes. En quelques clics vous devriez pouvoir réaliser cette tâche avec succès! Les applications disponibles sont nombreuses, mais après en avoir testé plusieurs, nous vous recommandons vivement d'adopter [ManyChat](https://manychat.com/) ou bien [ChatFuel.](https://chatfuel.com/)
 
-Les principaux défis seront maintenant pour vous de :
+Un fois votre compte créé, vos prochains défis seront de :
 
 * bâtir une audience pertinente et engagée
 * proposer du contenu innovant et attrayant
@@ -65,6 +65,9 @@ Les interfaces peuvent varier selon le fournisseur du Chatbot mais les fonctionn
 * **Un outil de génération d’audience** : c’est lui qui vous permettra de faire grandir votre liste de contacts. Il est très important que l’audience soit représentative de votre cible marketing afin d’éviter d’avancer à contre-courant. 
 * **Un outil de bulle messenger pour votre site web** : cet outil vous permettra de créer une option de contact via messenger directement sur votre site web. Chaque personne vous contactant par ce biais deviendra automatiquement un nouveau membre de votre audience.
 * **Un créateur de séquences automatisée** : votre audience est bâtie, il est temps de vous adresser à elle. Grâce à cet outil, vous pourrez créer des discussions automatisées en créant vous même les options de réponse de votre interlocuteur afin de pouvoir le guider.
+
+![](/img/meesenger-bot.gif)
+
 * **Des réponses automatisées pour certains mots-clefs** : vous répondez toujours aux même questions et cela vous fatigue ? Laissez le bot s’en occupez, vous gagnerez un temps précieux !
 * **Des outils de gestion de votre audience** : ou comment affiner son audience pour certains messages plus ciblés. Utilisez des tags et personnalisez vos cibles afin d’avoir de créer des campagnes ciblées pour plus de chances de conversion.
 
