@@ -29,6 +29,10 @@ section1:
     Facebook Ads, Instagram story, influencer marketing, AdWords Ads, Spotify
     Ads; there's something for every taste! Akia is here to help you choose the
     online marketing platforms that will benefit your business.
+  col1: >-
+    On veut toujours être le plus présent possible, mais on ne peut pas être partout en même temps. Parfois on est mieux de limiter les oeufs dans notre panier pour éviter que ça se termine en omelette! Concentrer ses efforts sur moins de moyens marketing, mais avec des efforts plus intelligents! Voilà ce que nous proposons.  
+  col2: >-
+    Que vous ayez besoin de trouver des leads pour du B2B ou du B2C, nous vous aiderons à choisir le moyen le plus efficace. Selon vos besoins, nous pouvons agir seulement en tant que conseillers ou bien s’impliquer dans l’application de la stratégie numérique. Notre philosophie; Vaut mieux faire une campagne bien faite que 20 faites à moitié. Que la campagne soit un succès ou non, c’est important de pouvoir analyser les statistiques et de voir les points forts et faibles de cette dernière.
 section2:
   title: Included in our service
   description: 'Here are our team''s fields of expertise:'

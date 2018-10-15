@@ -27,7 +27,11 @@ section1:
     encore, parmi tout ceux qui n’achètent pas, la grande majorité magasine
     quand même en ligne. On ne le dira jamais assez: en 2018, votre entreprise
     se doit d’offrir ses services et ses produits en ligne. Découvrez comment
-    Akia peut vous aider à améliorer ou à lancer votre boutique en ligne. 
+    Akia peut vous aider à améliorer ou à lancer votre boutique en ligne.
+  col1: >-
+    Chez Akia, nous nous spécialisons dans la conception et le marketing des E commerce. Ce qui veut dire que nous pouvons non seulement bâtir une plateforme sécuritaire et à votre image, mais nous savons aussi comment amener les clients à trouver, utiliser et transiger sur votre boutique en ligne. Cette fusion de l’expertise technique et marketing sous un même toit nous permet d’offrir une stratégie cohérente qui vous permettra d’atteindre vos objectifs. 
+  col2: >-
+    Notre démarche commence toujours avec la compréhension du domaine d’expertise. Il est primordial que l’équipe se plonge dans votre domaine pour voir les obstacles auxquels vous faites face, les comportements de vos clients et les tendances de votre industrie. Une fois les données récoltées, nous les mettons à profit dans un processus conceptualisation, design et conception de votre plateforme de votre en ligne. De la commande à la livraison, on pense à tout pour vous. 
 section2:
   title: Inclus dans notre service
   description: 'Voici les champs d’expertise de notre équipe:'

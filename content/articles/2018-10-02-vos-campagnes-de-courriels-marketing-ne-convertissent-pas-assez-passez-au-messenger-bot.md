@@ -27,6 +27,8 @@ ordre: '0'
 draft: false
 noindex: false
 ---
+# Vos campagnes de courriels marketing ne convertissent pas assez ? Passez au messenger bot !
+
 S’il y a bien une tendance marketing qui se développe constamment ces dernières années, c’est indéniablement le Messenger Chatbot. Souvent comparé à une nouvelle forme d’e-mail marketing, les résultats des outils messenger sont bluffants. Dans cet article, nous allons comparer rapidement cela afin de vous guider vers des campagnes messenger qui convertissent !
 
 ## Un taux d’ouverture nettement supérieur
@@ -66,7 +68,7 @@ Les interfaces peuvent varier selon le fournisseur du Chatbot mais les fonctionn
 * **Un outil de bulle messenger pour votre site web** : cet outil vous permettra de créer une option de contact via messenger directement sur votre site web. Chaque personne vous contactant par ce biais deviendra automatiquement un nouveau membre de votre audience.
 * **Un créateur de séquences automatisée** : votre audience est bâtie, il est temps de vous adresser à elle. Grâce à cet outil, vous pourrez créer des discussions automatisées en créant vous même les options de réponse de votre interlocuteur afin de pouvoir le guider.
 
-![](/img/meesenger-bot.gif)
+<div style='position:relative;padding-bottom:47.5%;max-width: 800px;max-height: 350px;margin: 0 auto 20px;'><iframe src='https://gfycat.com/ifr/PleasantWellwornAidi' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
 
 * **Des réponses automatisées pour certains mots-clefs** : vous répondez toujours aux même questions et cela vous fatigue ? Laissez le bot s’en occupez, vous gagnerez un temps précieux !
 * **Des outils de gestion de votre audience** : ou comment affiner son audience pour certains messages plus ciblés. Utilisez des tags et personnalisez vos cibles afin d’avoir de créer des campagnes ciblées pour plus de chances de conversion.

@@ -26,6 +26,10 @@ section1:
     Shopping baskets don't fill up on their own! Give your sales a boost. Our
     team is here to help you find the strategy to put in place to improve the
     performance of your transactional site!
+  col1: >-
+    Le marketing pour les commerces en ligne diffère légèrement du marketing digital traditionnel. Des données sont disponibles pour chacun des achats que les clients vont faire, donc il y a beaucoup plus à analyser! Et c’est beaucoup plus excitant puisque les efforts marketing se transforment directements en ventes sur le site web! 
+  col2: >-
+    Notre démarche commence toujours avec la compréhension du domaine d’expertise. Il est primordial que l’équipe se plonge dans votre domaine pour voir les obstacles et les embûches à surmonter pour exploiter efficacement les opportunités. Dans un monde où les possibilités de publicité augmentent chaque année, il est important de voir clair et de savoir mettre ses oeufs dans les bons paniers.
 section2:
   title: Included in our service
   description: |
