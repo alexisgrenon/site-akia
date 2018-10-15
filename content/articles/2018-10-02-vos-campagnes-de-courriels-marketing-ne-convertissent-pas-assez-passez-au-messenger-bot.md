@@ -7,7 +7,7 @@ description: >-
   dernières années, c’est indéniablement le Messenger Chatbot. Souvent comparé à
   une nouvelle forme d’e-mail marketing, les résultats des outils messenger sont
   bluffants.
-slug: couriel-marketing-vs-messenger-chatbot
+slug: courriel-marketing-vs-messenger-chatbot
 author: robin
 image: /img/bot-cellphone-chat-bot-190363.jpg
 date: '2018-10-02'
