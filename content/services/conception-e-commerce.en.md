@@ -28,13 +28,13 @@ section1:
     technical and marketing expertise under one roof allows us to offer a
     consistent strategy that will make you achieve your goals.
   col2: >-
-    Notre démarche commence toujours avec la compréhension du domaine
-    d’expertise. Il est primordial que l’équipe se plonge dans votre domaine
-    pour voir les obstacles auxquels vous faites face, les comportements de vos
-    clients et les tendances de votre industrie. Une fois les données récoltées,
-    nous les mettons à profit dans un processus conceptualisation, design et
-    conception de votre plateforme de votre en ligne. De la commande à la
-    livraison, on pense à tout pour vous. 
+    Our approach always begins with the understanding of the area of
+    ​​expertise. It's crucial for the team to immerse themselves in your field
+    to see the obstacles you face, the behaviors of your customers and the
+    trends in your industry. Once the data is collected, we put it to good use
+    in a process of conceptualizing, designing and imagining your online
+    platform. From order to delivery, we think of everything so you don't have
+    to.
   title: E-commerce conception
   description: >-
     In Quebec, more than one person out of two buys online today. More
