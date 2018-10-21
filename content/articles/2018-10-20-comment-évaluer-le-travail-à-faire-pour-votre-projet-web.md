@@ -53,7 +53,7 @@ Une fois les généralités clarifiées, il faut aller plus en profondeur. C'est
 
 Pour mieux illustrer ce qu'on veut dire , voici un exemple de «user stories» que nous avons fait pour une plateforme web. Cette dernière permettait aux municipalités de gérer leurs fournisseurs de services à travers une base de donnée en ligne:
 
-![null](/img/akia-user-story-exemple.jpg)
+<div class="img-infinite-height">![null](/img/akia-user-story-exemple.jpg)</div>
 
 Dans l'exemple ici haut, il y a 3 différents types d'utilisateurs: Employé, Administrateur et Fournisseur. Il est possible d'en avoir plus ou d'en avoir moins, mais il est important de bien les identifier!
 
@@ -69,6 +69,6 @@ Pour classer une fonctionnalité, vous pouvez y assigner un ordre d'importance e
 
 Visuellement, ça ressemble à ça: 
 
-![null](/img/akia-user-story-exemple-2.jpg)
+<div class="img-infinite-height">![null](/img/akia-user-story-exemple-2.jpg)</div>
 
 Bon brainstorming!

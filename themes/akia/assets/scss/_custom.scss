@@ -222,6 +222,11 @@ div.overlayed {
 		max-width: 800px;
 		margin: 20px auto 40px;
 	}
+	.img-infinite-height {
+		img {
+			max-height: none !important;
+		}
+	}
 } 
 /******** ABOUT **********/
 
