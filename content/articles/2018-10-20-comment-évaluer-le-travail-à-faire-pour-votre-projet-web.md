@@ -30,7 +30,7 @@ Vous avez une idée pour un projet web? Vous savez ce que vous voulez, mais il r
 
 Dans la tempête d'idée survoltée, vous devez quand même établir quelques points importants: 
 
-**1. Mission:**
+**1. Mission: **
 
 Quelle est la raison de l'existence de cette nouvelle plateforme? Quel problème permettra-t-elle de régler? La mission doit être simple et concise. Par exemple:
 
@@ -40,7 +40,7 @@ Quelle est la raison de l'existence de cette nouvelle plateforme? Quel problème
 
 **2. Objectifs:**
 
-En lien avec la mission choisie, des objectifs plus précis s'ajoutent pour mieux définir le projet. Les objectifs doivent idéalement suivre la règle SMART:  Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis. Si on prends la mission «Faciliter la planification de voyage» voici quelques exemples d'objectifs:
+En lien avec la mission choisie, des objectifs plus précis s'ajoutent pour mieux définir le projet. Les objectifs doivent idéalement suivre la règle SMART:  Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis. Si on prends la mission «_Faciliter la planification de voyage_» voici quelques exemples d'objectifs:
 
 * Trouver rapidement des hôtels de confiance dans une région définie
 * Réduire le temps de traitement des données d'un client de 20%
@@ -71,4 +71,6 @@ Visuellement, ça ressemble à ça:
 
 ![null](/img/akia-user-story-exemple-2.jpg)
 
-Bon brainstorming!
+## Sommaire
+
+En suivant cette démarche, vous pourrez plus facilement communiquer avec votre équipe le projet que vous voulez réaliser! Et si vous faites affaire avec une agence, elle sera probablement agréablement surprise de votre planification de projet ;) Bon brainstorming!
