@@ -47,8 +47,6 @@ En lien avec la mission choisie, des objectifs plus précis s'ajoutent pour mieu
 
 Il peut y avoir plusieurs objectifs pour un même projet. Pendant votre processus de réflexion, vous pourrez aussi ajuster le nombre d'objectifs en fonction de ce que vous déciderez dans les étapes suivantes! 
 
-
-
 ## Aller plus en détail avec les user stories
 
 Une fois les généralités clarifiées, il faut aller plus en profondeur. C'est à ce moment qu'il faut sortir le café et se creuser les méninges. Vous devrez définir les «users stories» de votre projet en fonction de la mission et des objectifs que vous avez établi dans l'étape précédente! Pour illustrer le concept des «user stories», imaginez que votre plateforme idéale est en ligne et que vous êtes dans la peau d'une des personne qui l'utilise. Imaginez un utilisateur qui navigue sur votre plateforme. Ensuite, imaginez un administrateur de votre entreprise qui utilise votre plateforme. Qu'est-ce qu'ils peuvent faire respectivement? Voilà la question à laquelle il faut répondre! 
@@ -71,8 +69,6 @@ Pour classer une fonctionnalité, vous pouvez y assigner un ordre d'importance e
 
 Visuellement, ça ressemble à ça: 
 
-![](/img/akia-user-story-exemple-2.jpg)
+![null](/img/akia-user-story-exemple-2.jpg)
 
-## Sommaire
-
-La définition des
+Bon brainstorming!
