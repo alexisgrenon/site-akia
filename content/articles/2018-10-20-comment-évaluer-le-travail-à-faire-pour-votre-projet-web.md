@@ -47,10 +47,32 @@ En lien avec la mission choisie, des objectifs plus précis s'ajoutent pour mieu
 
 Il peut y avoir plusieurs objectifs pour un même projet. Pendant votre processus de réflexion, vous pourrez aussi ajuster le nombre d'objectifs en fonction de ce que vous déciderez dans les étapes suivantes! 
 
-****
+
 
 ## Aller plus en détail avec les user stories
 
-Une fois les généralités clarifiées, il faut aller plus en profondeur. C'est à ce moment qu'il faut sortir le café et se creuser les méninges. Vous devrez définir les «users stories» de votre projet! Pour illustrer le concept, imaginez que votre plateforme idéale existe et que vous êtes dans la peau d'une des personne qui l'utilise. Imaginez un utilisateur qui navigue sur votre plateforme. Ensuite, imaginez un administrateur de votre entreprise qui utilise votre plateforme. Qu'est-ce qu'ils peuvent faire respectivement? Voilà la question à laquelle il faut répondre! 
+Une fois les généralités clarifiées, il faut aller plus en profondeur. C'est à ce moment qu'il faut sortir le café et se creuser les méninges. Vous devrez définir les «users stories» de votre projet en fonction de la mission et des objectifs que vous avez établi dans l'étape précédente! Pour illustrer le concept des «user stories», imaginez que votre plateforme idéale est en ligne et que vous êtes dans la peau d'une des personne qui l'utilise. Imaginez un utilisateur qui navigue sur votre plateforme. Ensuite, imaginez un administrateur de votre entreprise qui utilise votre plateforme. Qu'est-ce qu'ils peuvent faire respectivement? Voilà la question à laquelle il faut répondre! 
 
-Pour vous faciliter le travail, voici un exemple de «User Stories» que nous avions fait pour une plateforme web. Cette dernière permettait aux municipalités de gérer leurs fournisseurs de services à travers une base de donnée en ligne:
+Pour mieux illustrer ce qu'on veut dire , voici un exemple de «user stories» que nous avons fait pour une plateforme web. Cette dernière permettait aux municipalités de gérer leurs fournisseurs de services à travers une base de donnée en ligne:
+
+![null](/img/akia-user-story-exemple.jpg)
+
+Dans l'exemple ici haut, il y a 3 différents types d'utilisateurs: Employé, Administrateur et Fournisseur. Il est possible d'en avoir plus ou d'en avoir moins, mais il est important de bien les identifier!
+
+## Définir ce qui est le plus important
+
+Avec l'exercice des user stories, on réalise souvent mieux l'ampleur de notre projet! En lien avec cette réalisation, vous pouvez maintenant définir quelles sont les fonctionnalités les plus importantes et celles qui peuvent attendre! De cette façon, vous pouvez diviser le développement de votre plateforme en plusieurs phases et étaler les coûts! Un autre avantage est que vous pourrez utiliser une version fonctionnelle de votre projet plus rapidement que si vous développez toutes les fonctionnalités d'un coup! 
+
+Pour classer une fonctionnalité, vous pouvez y assigner un ordre d'importance et un code de couleur pour faciliter la compréhension. Voici les ordres d'importance que nous utilisons la majorité du temps: 
+
+* Fonctionnalité primordiale
+* Fonctionnalité importante
+* Fonctionnalité intéressante
+
+Visuellement, ça ressemble à ça: 
+
+![](/img/akia-user-story-exemple-2.jpg)
+
+## Sommaire
+
+La définition des
