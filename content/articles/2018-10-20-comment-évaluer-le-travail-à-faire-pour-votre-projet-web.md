@@ -17,7 +17,7 @@ listing:
 i18nlanguage: fr
 menuid: articles
 ordre: '-5'
-draft: false
+draft: true
 noindex: false
 ---
 ## Comment évaluer le travail à faire pour un projet d'application web
