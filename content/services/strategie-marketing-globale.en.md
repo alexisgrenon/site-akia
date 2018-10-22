@@ -23,16 +23,24 @@ ordre: '0'
 draft: false
 headerwhite: true
 section1:
+  col1: >-
+    We always want to be as present as possible, but we can't be everywhere at
+    the same time. Sometimes it's better to limit the eggs in our basket to
+    prevent them from being scrambled! Focus on less marketing, but with smarter
+    efforts! That's what we propose.
+  col2: >-
+    Whether you need to find leads for B2B or B2C, we'll help you choose the
+    most effective way. Depending on your needs, we can act only as advisors or
+    get involved in implementing the digital strategy. Our philosophy ; A
+    campaign well done is better than 20 half-done. Whether the campaign is
+    successful or not, it's important to be able to analyze the statistics and
+    see its strengths and weaknesses.
   title: Digital marketing strategy
   description: >
     Online marketing platforms are growing every year and it's hard to keep up.
     Facebook Ads, Instagram story, influencer marketing, AdWords Ads, Spotify
     Ads; there's something for every taste! Akia is here to help you choose the
     online marketing platforms that will benefit your business.
-  col1: >-
-    On veut toujours être le plus présent possible, mais on ne peut pas être partout en même temps. Parfois on est mieux de limiter les oeufs dans notre panier pour éviter que ça se termine en omelette! Concentrer ses efforts sur moins de moyens marketing, mais avec des efforts plus intelligents! Voilà ce que nous proposons.  
-  col2: >-
-    Que vous ayez besoin de trouver des leads pour du B2B ou du B2C, nous vous aiderons à choisir le moyen le plus efficace. Selon vos besoins, nous pouvons agir seulement en tant que conseillers ou bien s’impliquer dans l’application de la stratégie numérique. Notre philosophie; Vaut mieux faire une campagne bien faite que 20 faites à moitié. Que la campagne soit un succès ou non, c’est important de pouvoir analyser les statistiques et de voir les points forts et faibles de cette dernière.
 section2:
   title: Included in our service
   description: 'Here are our team''s fields of expertise:'
