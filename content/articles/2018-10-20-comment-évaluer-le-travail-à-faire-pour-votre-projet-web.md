@@ -30,7 +30,7 @@ Vous avez une idée pour un projet web? Vous savez ce que vous voulez, mais il r
 
 Dans la tempête d'idée survoltée, vous devez quand même établir quelques points importants: 
 
-**1. Mission: **
+**1. Mission:**
 
 Quelle est la raison de l'existence de cette nouvelle plateforme? Quel problème permettra-t-elle de régler? La mission doit être simple et concise. Par exemple:
 
@@ -53,11 +53,7 @@ Une fois les généralités clarifiées, il faut aller plus en profondeur. C'est
 
 Pour mieux illustrer ce qu'on veut dire , voici un exemple de «user stories» que nous avons fait pour une plateforme web. Cette dernière permettait aux municipalités de gérer leurs fournisseurs de services à travers une base de donnée en ligne:
 
-<div class="img-infinite-height">
-
-!\[null](/img/akia-user-story-exemple.jpg)
-
-</div>
+<div class="img-infinite-height"><img src="/img/akia-user-story-exemple.jpg" alt="User Stories" /></div>
 
 Dans l'exemple ici haut, il y a 3 différents types d'utilisateurs: Employé, Administrateur et Fournisseur. Il est possible d'en avoir plus ou d'en avoir moins, mais il est important de bien les identifier!
 
@@ -73,11 +69,7 @@ Pour classer une fonctionnalité, vous pouvez y assigner un ordre d'importance e
 
 Visuellement, ça ressemble à ça: 
 
-<div class="img-infinite-height">
-
-!\[null](/img/akia-user-story-exemple-2.jpg)
-
-</div>
+<div class="img-infinite-height"><img src="/img/akia-user-story-exemple-2.jpg" alt="User Stories" /></div>
 
 ## Sommaire
 
