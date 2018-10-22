@@ -21,6 +21,20 @@ ordre: '0'
 draft: false
 headerwhite: true
 section1:
+  col1: >-
+    At Akia, we specialize in e-commerce design and marketing. This means that
+    we're able to build a secure platform that reflects your image, and also to
+    get customers to find, use and trade on your online store. This pairing of
+    technical and marketing expertise under one roof allows us to offer a
+    consistent strategy that will make you achieve your goals.
+  col2: >-
+    Our approach always begins with the understanding of the area of
+    ​​expertise. It's crucial for the team to immerse themselves in your field
+    to see the obstacles you face, the behaviors of your customers and the
+    trends in your industry. Once the data is collected, we put it to good use
+    in a process of conceptualizing, designing and imagining your online
+    platform. From order to delivery, we think of everything so you don't have
+    to.
   title: E-commerce conception
   description: >-
     In Quebec, more than one person out of two buys online today. More
@@ -28,11 +42,10 @@ section1:
     online. There's no other way to say it: in 2018, your company must offer its
     services and products online. Find out how Akia can help you improve or
     launch your online store.
-  col1: >-
-    Chez Akia, nous nous spécialisons dans la conception et le marketing des E commerce. Ce qui veut dire que nous pouvons non seulement bâtir une plateforme sécuritaire et à votre image, mais nous savons aussi comment amener les clients à trouver, utiliser et transiger sur votre boutique en ligne. Cette fusion de l’expertise technique et marketing sous un même toit nous permet d’offrir une stratégie cohérente qui vous permettra d’atteindre vos objectifs. 
-  col2: >-
-    Notre démarche commence toujours avec la compréhension du domaine d’expertise. Il est primordial que l’équipe se plonge dans votre domaine pour voir les obstacles auxquels vous faites face, les comportements de vos clients et les tendances de votre industrie. Une fois les données récoltées, nous les mettons à profit dans un processus conceptualisation, design et conception de votre plateforme de votre en ligne. De la commande à la livraison, on pense à tout pour vous. 
 section2:
+  title: ' Included in our service'
+  description: |
+    Here are our team's fields of expertise:
   points:
     - title: E-commerce design
       description: >-
@@ -57,9 +70,6 @@ section2:
       description: >-
         It's not said often enough, but it's oh so important. Let us brighten
         your day (even if it's rainy).
-  title: ' Included in our service'
-  description: |
-    Here are our team's fields of expertise:
 section3:
   col1:
     - title: Discover your business

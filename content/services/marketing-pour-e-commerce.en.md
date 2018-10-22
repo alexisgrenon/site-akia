@@ -21,15 +21,23 @@ ordre: '0'
 draft: false
 headerwhite: true
 section1:
+  col1: >-
+    Marketing for online businesses differs slightly from traditional digital
+    marketing. Data is available for each of the purchases that customers will
+    make, so there's much more to analyze! And it's much more exciting as
+    marketing efforts translate directly into sales on the website!
+  col2: >-
+    Our approach always begins with the understanding of the area of
+    ​​expertise. It's important for the team to immerse themselves in your field
+    to see the obstacles to overcome in order to cease the opportunities
+    effectively. In a world where advertising opportunities are increasing every
+    year, it's important to see clearly and know how to put your eggs in the
+    right baskets.
   title: E-commerce Marketing
   description: >
     Shopping baskets don't fill up on their own! Give your sales a boost. Our
     team is here to help you find the strategy to put in place to improve the
     performance of your transactional site!
-  col1: >-
-    Le marketing pour les commerces en ligne diffère légèrement du marketing digital traditionnel. Des données sont disponibles pour chacun des achats que les clients vont faire, donc il y a beaucoup plus à analyser! Et c’est beaucoup plus excitant puisque les efforts marketing se transforment directements en ventes sur le site web! 
-  col2: >-
-    Notre démarche commence toujours avec la compréhension du domaine d’expertise. Il est primordial que l’équipe se plonge dans votre domaine pour voir les obstacles et les embûches à surmonter pour exploiter efficacement les opportunités. Dans un monde où les possibilités de publicité augmentent chaque année, il est important de voir clair et de savoir mettre ses oeufs dans les bons paniers.
 section2:
   title: Included in our service
   description: |
