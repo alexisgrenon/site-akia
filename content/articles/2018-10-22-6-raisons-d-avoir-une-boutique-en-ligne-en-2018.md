@@ -21,8 +21,8 @@ categories:
 i18nlanguage: fr
 menuid: articles
 ordre: '0'
-draft: true
-noindex: true
+draft: false
+noindex: false
 ---
 # 6 raisons d'avoir une boutique en ligne en 2018
 
@@ -50,6 +50,8 @@ Par contre, sans boutique en ligne, c'est rare qu'un client lavallois qui entend
 
 Donnez la chance à tous ceux qui vous découvrent de devenir vos clients et profitez de quelques ventes supplémentaires à chaque mois.
 
+La cerise sur le sundae? Avec la période des fêtes qui arrive, vos clients n'auront même plus besoin de se déplacer pour offrir vos produits en cadeau à leur proche. C'est bien faite pareil ;)
+
 ## Augmenter ses revenus
 
 Ça paraît évident, mais vendre en ligne augmentera certainement vos revenus. 
@@ -72,10 +74,21 @@ La bonne nouvelle est qu'avoir une boutique en ligne vous aidera grandement à a
 
 ## Faciliter la gestion de votre boutique
 
+Ce serait vous mentir de vous dire que votre premier mois de vente en ligne sera facile. Avoir une boutique en ligne comporte son lot d'apprentissage.
 
+Cependant, une fois que vos systèmes seront en place et que vos clients s'habitueront lentement à vendre en ligne, vous pourrez:
+
+* progressivement réduire votre nombre de produits à "facer", étiqueter, faire tourner et nettoyer;
+* réduire le temps d'attente à la caisse pour vos clients en magasin
+* faire payer d'avance les clients sur votre boutique en ligne à la place de simplement leur "réserver" un produit
+* avoir plus de temps pour conseiller vos clients (sur le web ou en magasin)
+
+![Livraison gratuite](/img/free-shipping-e-commerce.jpg)
 
 ## Faire découvrir ses produits
 
 On va se le dire, les gens ne se déplacent plus en boutique en "passant par là" pour voir vos nouveaux produits. 
 
 Votre boutique en ligne peut donc être utilisée comme moyen principal pour mettre de l'avant vos nouveaux produits, et inciter vos clients
+
+Vous avez aimé cet article? Vous avez un commentaire, une question ou une insulte pour nous? N'hésitez pas à [nous écrire](https://www.akiamarketing.ca/contact/)!
