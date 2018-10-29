@@ -3,7 +3,7 @@ title: 6 raisons d'avoir une boutique en ligne en 2018
 description: >-
   On ne sera pas les premiers à vous le dire: si votre entreprise n'a pas de
   boutique en ligne en 2018, vous manquez le bateau. Découvrez comment une
-  boutique en ligne pourrait augmenter vos ventes, mais aussi la fidelité de vos
+  boutique en ligne pourrait augmenter vos ventes, mais aussi la fidélité de vos
   clients.
 slug: 6-raisons-d-avoir-une-boutique-en-ligne
 author: felix
@@ -14,7 +14,7 @@ listing:
   description: >-
     On ne sera pas les premiers à vous le dire: si votre entreprise n'a pas de
     boutique en ligne en 2018, vous manquez le bateau. Découvrez comment une
-    boutique en ligne pourrait augmenter vos ventes, mais aussi la fidelité de
+    boutique en ligne pourrait augmenter vos ventes, mais aussi la fidélité de
     vos clients.
 categories:
   - Boutique en ligne
@@ -32,7 +32,7 @@ noindex: false
 
 En moyenne, un cyberacheteur dépense 863$ en une année. **863$**
 
-Les chiffres parlent d'eux-mêmes: vous devez avoir une boutique en ligne en 2018. Découvrez les avantages de vendre en ligne.
+Les chiffres parlent d'eux-mêmes: les gens achètent en ligne. Découvrez pourquoi vous devriez vendre en ligne en 2018.
 
 ## Écouler son inventaire
 
@@ -58,13 +58,13 @@ La cerise sur le sundae? Avec la période des fêtes qui arrive, vos clients n'a
 
 Et par revenus, on ne parle pas seulement des ventes directes de votre site web. Dans la majorité des cas, une boutique en ligne augmente les ventes en magasin.
 
-En effet, vos clients apprécieront voir vos prix et vos nouveaux produits en ligne. Ce sera assez pour les convaincre de se déplacer en magasin et enfin faire cet achat auquel ils pensent depuis quelques temps ;)
+En effet, vos clients apprécieront découvrir vos prix et vos nouveaux produits en ligne. Ce sera assez pour les convaincre de se déplacer en magasin et enfin faire cet achat auquel ils pensent depuis quelques temps ;)
 
 ## Améliorer sa visibilité sur le web
 
 On entend trop souvent des gens nous dire "Je veux être premier sur Google demain matin", en ayant un budget de 300$ par mois.
 
-Je ne veux pas vous décevoir, mais devenir premier sur Google dans votre industrie prendra probablement beaucoup de temps, et possiblement beaucoup d'argent! Sinon, tout le monde le ferait ;)
+Je ne veux pas vous décevoir, mais être premier sur Google dans votre industrie prendra probablement beaucoup de temps, et possiblement beaucoup d'argent! Sinon, tout le monde le ferait ;)
 
 La bonne nouvelle est qu'avoir une boutique en ligne vous aidera grandement à apparaitre sur les premières pages dans Google pour diverses raisons:
 
@@ -89,6 +89,8 @@ Cependant, une fois que vos systèmes seront en place et que vos clients s'habit
 
 On va se le dire, les gens ne se déplacent plus en boutique en "passant par là" pour voir vos nouveaux produits. 
 
-Votre boutique en ligne peut donc être utilisée comme moyen principal pour mettre de l'avant vos nouveaux produits, et inciter vos clients
+Votre boutique en ligne peut donc être utilisée comme moyen principal pour dévoiler vos nouveaux produits, et inciter vos clients à passer à l'achat.
+
+Infolettre, Instagram ou Facebook, tous les moyens sont bons pour partager la nouvelle à vos clients et les inviter à venir faire un tour sur votre site!
 
 _Vous avez aimé cet article? Vous avez un commentaire, une question ou une insulte pour nous? N'hésitez pas à [nous écrire](https://www.akiamarketing.ca/contact/)!_
