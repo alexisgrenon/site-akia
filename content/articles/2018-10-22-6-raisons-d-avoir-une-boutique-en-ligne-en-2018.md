@@ -50,10 +50,32 @@ Par contre, sans boutique en ligne, c'est rare qu'un client lavallois qui entend
 
 Donnez la chance à tous ceux qui vous découvrent de devenir vos clients et profitez de quelques ventes supplémentaires à chaque mois.
 
+## Augmenter ses revenus
+
+Ça paraît évident, mais vendre en ligne augmentera certainement vos revenus. 
+
+Et par revenus, on ne parle pas seulement des ventes directes de votre site web. Dans la majorité des cas, une boutique en ligne augmente les ventes en magasin.
+
+En effet, vos clients apprécieront voir vos prix et vos nouveaux produits en ligne. Ce sera assez pour les convaincre de se déplacer en magasin et enfin faire cet achat auquel ils pensent depuis quelques temps ;)
+
+## Améliorer sa visibilité sur le web
+
+On entend trop souvent des gens nous dire "Je veux être premier sur Google demain matin", en ayant un budget de 300$ par mois.
+
+Je ne veux pas vous décevoir, mais devenir premier sur Google dans votre industrie prendra probablement beaucoup de temps, et possiblement beaucoup d'argent! Sinon, tout le monde le ferait ;)
+
+La bonne nouvelle est qu'avoir une boutique en ligne vous aidera grandement à apparaitre sur les premières pages dans Google pour diverses raisons:
+
+* Les descriptions de vos produits contiennent plusieurs mots-clés en lien avec votre industrie et sont une bonne façon pour Google de comprendre qui vous êtes. Mettez-en des mots!
+* Vos pages catégories décrivent exhaustivement à Google le contenu de votre site, en plus de lister tous vos produits. Assurez-vous d'avoir une description de la catégorie sur ces pages.
+* Après chaque vente en ligne, il vous sera facile de demander à vos clients un commentaire sur Google, ce qui aidera votre référencement.
+
 ## Faciliter la gestion de votre boutique
+
+
 
 ## Faire découvrir ses produits
 
-## Bâtir le profil de ses clients
+On va se le dire, les gens ne se déplacent plus en boutique en "passant par là" pour voir vos nouveaux produits. 
 
-## Augmenter ses revenus
+Votre boutique en ligne peut donc être utilisée comme moyen principal pour mettre de l'avant vos nouveaux produits, et inciter vos clients
