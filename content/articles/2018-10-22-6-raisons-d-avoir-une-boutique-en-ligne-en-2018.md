@@ -91,4 +91,4 @@ On va se le dire, les gens ne se déplacent plus en boutique en "passant par là
 
 Votre boutique en ligne peut donc être utilisée comme moyen principal pour mettre de l'avant vos nouveaux produits, et inciter vos clients
 
-_Vous avez aimé cet article? Vous avez un commentaire, une question ou une insulte pour nous? N'hésitez pas à _[_nous écrire_](https://www.akiamarketing.ca/contact/)_!_
+_Vous avez aimé cet article? Vous avez un commentaire, une question ou une insulte pour nous? N'hésitez pas à [nous écrire](https://www.akiamarketing.ca/contact/)!_
