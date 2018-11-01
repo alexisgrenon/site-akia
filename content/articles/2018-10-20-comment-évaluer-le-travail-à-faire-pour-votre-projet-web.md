@@ -6,6 +6,7 @@ description: >-
   travail nécessaire? Découvrez nos astuces et conseils sur le sujet. 
 slug: evaluer-et-communiquer-un-projet-web
 author: alexis
+image: /img/clients-e-commerce.jpg
 date: '2018-10-20'
 listing:
   title: Comment évaluer le travail à faire pour un projet d'application web
@@ -28,7 +29,7 @@ Vous avez une idée pour un projet web? Vous savez ce que vous voulez, mais il r
 
 À mon avis, c'est l'étape la plus excitante! C'est le moment de rêver et d'imaginer tout ce que votre plateforme pourra accomplir une fois programmée. Envoyer des messages automatiques, trouver les billets d'avion les moins chers, un espace administrateur facile d'utilisation pour vos clients; la limite est votre imagination!  
 
-Dans la tempête d'idée survoltée, vous devez quand même établir quelques points importants: 
+Dans la tempête d'idées survoltées, vous devez quand même établir quelques points importants: 
 
 **1. Mission:**
 
@@ -40,9 +41,9 @@ Quelle est la raison de l'existence de cette nouvelle plateforme? Quel problème
 
 **2. Objectifs:**
 
-En lien avec la mission choisie, des objectifs plus précis s'ajoutent pour mieux définir le projet. Les objectifs doivent idéalement suivre la règle SMART:  Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis. Si on prends la mission «_Faciliter la planification de voyage_» voici quelques exemples d'objectifs:
+En lien avec la mission choisie, des objectifs plus précis s'ajoutent pour mieux définir le projet. Les objectifs doivent idéalement suivre la règle SMART:  Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis. Si on prend la mission «_Faciliter la planification de voyage_» voici quelques exemples d'objectifs:
 
-* Trouver rapidement des hôtels de confiance dans une région définie
+* Trouver en moins de 10 minutes des hôtels de confiance dans une région définie
 * Réduire le temps de traitement des données d'un client de 20%
 
 Il peut y avoir plusieurs objectifs pour un même projet. Pendant votre processus de réflexion, vous pourrez aussi ajuster le nombre d'objectifs en fonction de ce que vous déciderez dans les étapes suivantes! 
