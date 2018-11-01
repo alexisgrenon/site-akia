@@ -36,7 +36,7 @@ Les chiffres parlent d'eux-mêmes: les gens achètent en ligne. Découvrez pourq
 
 ## Écouler son inventaire
 
-Les cyberacheteurs sont souvent à la recherche de rabais. C'est l'occasion idéal de vendre sans effort les produits qui traînent dans votre entrepôt et que vous ne vendrez peut-être jamais. 
+Les cyberacheteurs sont souvent à la recherche de rabais. C'est l'occasion idéale de vendre sans effort les produits qui traînent dans votre entrepôt et que vous ne vendrez peut-être jamais. 
 
 ![Vente du Black Friday](/img/vente-black-friday.jpg)
 
@@ -46,11 +46,11 @@ Toutes les occasions sont bonnes pour faire des ventes en ligne, que ce soit la 
 
 La majorité des clients en boutique provient du traffic piéton et du bouche à oreille. De plus en plus, les commerces se font aussi découvrir via Google. 
 
-Par contre, sans boutique en ligne, c'est rare qu'un client lavallois qui entend parlez d'une boutique sur la Rive-Sud va vraiment s'y déplacer.
+Par contre, sans boutique en ligne, c'est rare qu'un client lavallois qui entend parler d'une boutique sur la Rive-Sud s'y déplace vraiment.
 
-Donnez la chance à tous ceux qui vous découvrent de devenir vos clients et profitez de quelques ventes supplémentaires à chaque mois.
+Donnez la chance à tous ceux qui vous découvrent de devenir vos clients et profitez de quelques ventes supplémentaires à chaque mois !
 
-La cerise sur le sundae? Avec la période des fêtes qui arrive, vos clients n'auront même plus besoin de se déplacer pour offrir vos produits en cadeau à leur proche. C'est bien faite pareil ;)
+La cerise sur le sundae? Avec la période des fêtes qui arrive, vos clients n'auront même plus besoin de se déplacer pour offrir vos produits en cadeau à leurs proches. C'est bien faite pareil ;)
 
 ## Augmenter ses revenus
 
@@ -66,7 +66,7 @@ On entend trop souvent des gens nous dire "Je veux être premier sur Google dema
 
 Je ne veux pas vous décevoir, mais être premier sur Google dans votre industrie prendra probablement beaucoup de temps, et possiblement beaucoup d'argent! Sinon, tout le monde le ferait ;)
 
-La bonne nouvelle est qu'avoir une boutique en ligne vous aidera grandement à apparaitre sur les premières pages dans Google pour diverses raisons:
+La bonne nouvelle, c'est qu'avoir une boutique en ligne vous aidera grandement à apparaitre sur les premières pages dans Google pour diverses raisons:
 
 * Les descriptions de vos produits contiennent plusieurs mots-clés en lien avec votre industrie et sont une bonne façon pour Google de comprendre qui vous êtes. Mettez-en des mots!
 * Vos pages catégories décrivent exhaustivement à Google le contenu de votre site, en plus de lister tous vos produits. Assurez-vous d'avoir une description de la catégorie sur ces pages.
