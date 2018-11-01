@@ -6,6 +6,7 @@ description: >-
   travail nécessaire? Découvrez nos astuces et conseils sur le sujet. 
 slug: evaluer-et-communiquer-un-projet-web
 author: alexis
+image: /img/clients-e-commerce.jpg
 date: '2018-10-20'
 listing:
   title: Comment évaluer le travail à faire pour un projet d'application web
