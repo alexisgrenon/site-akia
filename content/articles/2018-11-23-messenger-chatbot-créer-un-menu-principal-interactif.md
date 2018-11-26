@@ -19,10 +19,6 @@ ordre: '0'
 draft: false
 noindex: false
 ---
-
-
-
-
 Si vous n'avez pas eu la chance de le voir auparavant, nous vous expliquions plus tôt [l'intérêt d'un messenger chatbot pour votre entreprise](https://www.akiamarketing.ca/articles/courriel-marketing-vs-messenger-chatbot/). Une fois votre bot lié à votre page et vos [abonnés inscrits](https://www.akiamarketing.ca/articles/obtenir-abonnes-messenger-bot/), c'est maintenant que le fun commence ! 😊
 
 En effet, dans les articles qui vont suivre cette série, je vais vous expliquer comment jouer avec une audience impliquée et comment lui faire découvrir toute la magie de votre entreprise en lui proposant du contenu fun et interactif ainsi que des moyens de trouver ce qu'elle cherche le plus facilement possible.
@@ -70,7 +66,7 @@ Vous aurez alors la possibilité de créer mon items de menu et sous-menu.
 
 **Pour proposer un message à envoyer:**
 
-![]()
+![](/img/capture-d’écran-2018-11-23-à-15.29.55.png)
 
 Vous pourrez alors sélectionner une séquence de messages que vous avez déjà créée ou bien partir de zéro et créer votre flow. 
 
