@@ -41,7 +41,7 @@ Quelle est la raison de l'existence de cette nouvelle plateforme? Quel problème
 
 **2. Objectifs:**
 
-En lien avec la mission choisie, des objectifs plus précis s'ajoutent pour mieux définir le projet. Les objectifs doivent idéalement suivre la règle SMART:  Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis. Si on prend la mission «_Faciliter la planification de voyage_» voici quelques exemples d'objectifs:
+En lien avec la mission choisie, des objectifs plus précis s'ajoutent pour mieux définir le projet. Les objectifs doivent idéalement suivre la règle SMART:  Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis. Si on prend la mission _«Faciliter la planification de voyage»_ voici quelques exemples d'objectifs:
 
 * Trouver en moins de 10 minutes des hôtels de confiance dans une région définie
 * Réduire le temps de traitement des données d'un client de 20%
@@ -74,4 +74,4 @@ Visuellement, ça ressemble à ça:
 
 ## Sommaire
 
-En suivant cette démarche, vous pourrez plus facilement communiquer avec votre équipe le projet que vous voulez réaliser! Et si vous faites affaire avec une agence, elle sera probablement agréablement surprise de votre planification de projet ;) Bon brainstorming!
+En suivant cette démarche, vous pourrez plus facilement communiquer avec votre équipe le projet que vous voulez réaliser! Et si vous faites affaire avec une agence, elle sera probablement agréablement surprise de votre planification de projet 😉 Bon brainstorming!
