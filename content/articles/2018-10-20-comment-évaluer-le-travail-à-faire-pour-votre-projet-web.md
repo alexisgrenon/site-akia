@@ -21,7 +21,7 @@ ordre: '-5'
 draft: false
 noindex: false
 ---
-## Comment évaluer le travail à faire pour un projet d'application web
+# Comment évaluer le travail à faire pour un projet d'application web
 
 Vous avez une idée pour un projet web? Vous savez ce que vous voulez, mais il reste encore à communiquer ce que vous voulez à votre équipe ou une agence externe. Ça semble simple à première vue, mais il est facile d'escamoter des étapes au début du projet qui pourraient vous ralentir par la suite. Nous en avons vu de toutes les couleurs à travers les années, alors voici nos conseils pour vous aider à communiquer plus facilement avec votre équipe ou avec votre agence! 
 
