@@ -38,9 +38,9 @@ Ce menu sera une interface disponible à chaque fois que votre interlocuteur sou
 
 Voilà à quoi ressemble un exemple de menu principal que nous avons créé pour le [Doggy Café](https://www.facebook.com/LeDoggyCafe/), un café/restaurant où les chiens sont les bienvenus pour venir jouer avec les chiens des autres clients.
 
-![](/img/menu-chatbot-doggycafé1.png)
+![](/img/menu-chatbot-doggycafe-1.png)
 
-![](/img/menu-chatbot-doggycafé-2.png)
+![](/img/menu-chatbot-doggycafe-2.png)
 
 ## 2. Quelles options pour votre menu?
 
@@ -62,11 +62,11 @@ Vous aurez alors la possibilité de créer mon items de menu et sous-menu.
 
 **Pour rediriger vers un lien :**
 
-![](/img/capture-d’écran-2018-11-23-à-15.27.31.png)
+![](/img/bot-messenger-menu-1.png)
 
 **Pour proposer un message à envoyer:**
 
-![](/img/capture-d’écran-2018-11-23-à-15.29.55.png)
+![](/img/bot-messenger-menu-2.png)
 
 Vous pourrez alors sélectionner une séquence de messages que vous avez déjà créée ou bien partir de zéro et créer votre flow. 
 
