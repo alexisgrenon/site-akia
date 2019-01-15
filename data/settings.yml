@@ -43,5 +43,5 @@ email: "hola@akiamarketing.ca"
 sitedescription: "Akia Marketing est une agence spécialisée dans la conception et le marketing de boutique en ligne pour tous les types d'entreprise."
 sitetitle: "Akia Marketing | Développement web et marketing pour E-commerce"
 defaultsocialimage: "/img/logo-akia-couleur-lg.png"
-removefromexternalsearch: true
+removefromexternalsearch: false
 titleautocompletion: false
