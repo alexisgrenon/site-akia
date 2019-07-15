@@ -54,6 +54,8 @@ Avec son branding particulier et ses photos déjantées, gratisography est le si
 
 Lifeofpix est un projet réalisé par l'agence montréalaise LEEROY alors go on les encourage et on utilise leur plateforme! Sans blague, c'est un bon site pour trouver des photos de haute résolution. À chaque semaine ils vont élire un photographe de la semaine alors si tu es photographe, c'est une bonne façon de te faire découvrir! 
 
+![](/img/lifeofpix.jpg "lifeofpix")
+
 ##### 6 | <a href="https://visualhunt.com/" target="_blank">Visualhunt</a>
 
 Pour terminer cet article, je ne pouvais pas passer à côté de Visualhunt. Une immense banque de plus de 350 millions de photos, dont 62 000 sous la licence Créative Commons Zero. À noter que leur outil de téléchargement est très pratique, il vous permet de sélectionner plusieurs photos puis de toutes les télécharger en 1 clic et dans la taille de votre choix.
@@ -63,3 +65,5 @@ Pour terminer cet article, je ne pouvais pas passer à côté de Visualhunt. Une
 ##### BONUS | <a href="https://www.lifeofvids.com/" target="_blank">Lifeofvids</a>
 
 Ce n'est pas un site de photos, mais bien un site de vidéos gratuits! C'est encore une réalisation de l'agence montréalaise LEEROY qui supporte aussi le site web lifeofpix (numéro 5 dans cet article).
+
+![](/img/lifeofvids.jpg "lifeofvids")
