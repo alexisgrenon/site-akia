@@ -1,15 +1,25 @@
 ---
-title: Top 5 des banques d’images libres de droits
+title: Top 6 des banques d’images libres de droits
 description: >-
-  Trouver des photos pour illustrer vos blogues, vos campagnes marketing ou même votre site web peut s’avérer être une tâche ingrate, difficile et souvent longue. Cependant en cherchant un peu il est possible de rendre cette tâche plaisante, simple et même rapide ! Pour vous aider dans votre quête, je vous propose une sélection des meilleurs sites offrant de nombreux choix pertinents, de qualité et surtout gratuits.
+  Trouver des photos pour illustrer vos blogues, vos campagnes marketing ou même
+  votre site web peut s’avérer être une tâche ingrate, difficile et souvent
+  longue. Cependant en cherchant un peu il est possible de rendre cette tâche
+  plaisante, simple et même rapide ! Pour vous aider dans votre quête, je vous
+  propose une sélection des meilleurs sites offrant de nombreux choix
+  pertinents, de qualité et surtout gratuits.
+slug: top-5-des-banques-dimages-libres-de-droits
 author: kamel
+image: /img/article_photo.jpg
+date: 2017-03-23T20:41:25.000Z
 listing:
   title: Top 5 des banques d’images libres de droits
   description: >-
-    Trouver des photos pour illustrer vos blogues, vos campagnes marketing ou même votre site web peut s’avérer être une tâche ingrate, difficile et souvent longue. Cependant en cherchant un peu il est possible de rendre cette tâche plaisante, simple et même rapide ! Pour vous aider dans votre quête, je vous propose une sélection des meilleurs sites offrant de nombreux choix pertinents, de qualité et surtout gratuits.
-date: 2017-03-23T20:41:25+00:00
-slug: top-5-des-banques-dimages-libres-de-droits
-image: /img/article_photo.jpg
+    Trouver des photos pour illustrer vos blogues, vos campagnes marketing ou
+    même votre site web peut s’avérer être une tâche ingrate, difficile et
+    souvent longue. Cependant en cherchant un peu il est possible de rendre
+    cette tâche plaisante, simple et même rapide ! Pour vous aider dans votre
+    quête, je vous propose une sélection des meilleurs sites offrant de nombreux
+    choix pertinents, de qualité et surtout gratuits.
 i18nlanguage: fr
 ---
 # Top 5 des banques d’images libres de droits
@@ -40,8 +50,16 @@ Avec son branding particulier et ses photos déjantées, gratisography est le si
 
 ![Gratisography](/img/gratisography-1.jpg)
 
-##### 5 | <a href="https://visualhunt.com/" target="_blank">Visualhunt</a>
+##### 5 | <a href="https://www.lifeofpix.com/" target="_blank">Lifeofpix</a>
+
+Lifeofpix est un projet réalisé par l'agence montréalaise LEEROY alors go on les encourage et on utilise leur plateforme! Sans blague, c'est un bon site pour trouver des photos de haute résolution. À chaque semaine ils vont élire un photographe de la semaine alors si tu es photographe, c'est une bonne façon de te faire découvrir! 
+
+
+
+##### 6 | <a href="https://visualhunt.com/" target="_blank">Visualhunt</a>
 
 Pour terminer cet article, je ne pouvais pas passer à côté de Visualhunt. Une immense banque de plus de 350 millions de photos, dont 62 000 sous la licence Créative Commons Zero. À noter que leur outil de téléchargement est très pratique, il vous permet de sélectionner plusieurs photos puis de toutes les télécharger en 1 clic et dans la taille de votre choix.
 
 ![Visualhunt](/img/visualhunt-1.jpg)
+
+#####
