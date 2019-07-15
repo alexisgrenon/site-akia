@@ -22,7 +22,7 @@ listing:
     choix pertinents, de qualité et surtout gratuits.
 i18nlanguage: fr
 ---
-# Top 5 des banques d’images libres de droits
+# Top 6 des banques d’images libres de droits
 
 Trouver des photos pour illustrer vos blogues, vos campagnes marketing ou même votre site web peut s’avérer être une tâche ingrate, difficile et souvent longue. Cependant en cherchant un peu il est possible de rendre cette tâche plaisante, simple et même rapide ! Pour vous aider dans votre quête, je vous propose une sélection des meilleurs sites offrant de nombreux choix pertinents, de qualité et surtout gratuits.
 
