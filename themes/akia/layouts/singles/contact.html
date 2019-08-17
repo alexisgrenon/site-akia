@@ -4,17 +4,7 @@
 	Theme Inner Banner 
 ============================================== 
 -->
-<div class="inner-page-banner">
-	<div class="opacity">
-		<h1>Contact US</h1>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li>/</li>
-			<li>Contact</li>
-		</ul>
-	</div> <!-- /.opacity -->
-</div> <!-- /inner-page-banner -->
-
+{{- partial "site/page-header.html" . -}}
 
 <!-- 
 =============================================
@@ -24,26 +14,31 @@
 <div class="contact-us">
 	<div class="container">
 		<div class="row">
+			<div class="col-xs-12">
+				<h6>{{ .Params.section1.title }}</h6>
+			</div>
 			<div class="col-lg-7 col-md-6 col-xs-12">
 				<div class="contact-us-form">
-					<form action="inc/sendemail.php" class="form-validation" autocomplete="off">
-						<input type="email" placeholder="Email Address*" name="email">
-						<input type="text" placeholder="Subject*" name="sub">
-						<textarea placeholder="Your Message*" name="message"></textarea>
-						<button class="p-bg-color hvr-trim-two">SEND MESSAGE</button>
+					<form action="/merci" netlify method="post" name="contact-{{ $.Lang }}" class="form-validation" autocomplete="off">
+						<input type="email" placeholder="{{ i18n "email" }}*" name="email">
+						<input type="text" placeholder="{{ i18n "subject" }}*" name="sub">
+						<textarea placeholder="Message*" name="message"></textarea>
+						<div data-netlify-recaptcha></div>
+						<button type="submit" class="p-bg-color hvr-trim-two" value="{{ i18n "send" }}" style="margin-top: 30px;">{{ i18n "send" }}</button>
 					</form>
 				</div> <!-- /.contact-us-form -->
 			</div> <!-- /.col- -->
 			<div class="col-lg-5 col-md-6 col-xs-12">
 				<div class="contact-address">
-					<h2>Don’t Hesitate to contact with us for any kind of information</h2>
-					<p>Call us for imiditate support this number</p>
-					<a href="#" class="tran3s">880 876 65 455</a>
+					<p>{{ .Params.section1.subtitle }}</p>
+					<a href="tel:{{ .Site.Data.settings.mphone }}" class="tran3s">{{ .Site.Data.settings.phone }}</a>
 					<ul>
-						<li><a href="" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-						<li><a href="" class="tran3s"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						{{ with .Site.Data.settings.socials}}
+						<li><a href="{{ .facebookurl }}" class="tran3s" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="{{ .instagramurl }}" class="tran3s" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="{{ .pinteresturl }}" class="tran3s" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+						<li><a href="{{ .linkedinurl }}" class="tran3s" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						{{ end }}
 					</ul>
 				</div> <!-- /.contact-address -->
 			</div> <!-- /.col- -->
@@ -73,6 +68,6 @@
 
 <!-- Google Map _______________________ -->
 <div id="google-map-area">
-	<div class="google-map" id="contact-google-map" data-map-lat="40.925372" data-map-lng="-74.276544" data-map-title="Find Map" data-map-zoom="12"></div>
+	<div class="google-map" id="contact-google-map" data-map-lat="45.459730" data-map-lng="-73.567492" data-map-title="Venez nous voir!" data-map-zoom="12"></div>
 </div>
 {{ end }}

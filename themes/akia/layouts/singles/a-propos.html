@@ -1,5 +1,233 @@
 {{ define "main" }}
-<main class="main" id="a-propos">
-	
-</main>
+<!-- 
+=============================================
+	Theme Inner Banner 
+============================================== 
+-->
+{{- partial "site/page-header.html" . -}}
+
+<!-- 
+=============================================
+	About Text
+============================================== 
+-->
+{{ with .Params.section1 }}
+<div class="about-text">
+	<div class="container">
+		<div class="title">
+			<h6>{{ .subtitle }}</h6>
+			<h2>{{ .title | markdownify }}</h2>
+		</div>
+		<img src="{{ .image }}" alt="Akia Marketing">
+		<div class="about-tab-wrapper clearfix">
+			<ul class="nav nav-tabs float-left">
+				<li class="active"><a data-toggle="tab" href="#history">Histoire</a></li>
+				<li><a data-toggle="tab" href="#vision">Vision</a></li>
+				<!-- <li><a data-toggle="tab" href="#contact">Contact Us</a></li> -->
+				<!-- <li><a data-toggle="tab" href="#news">News</a></li> -->
+			</ul>
+			<div class="tab-content float-left">
+				<div id="history" class="tab-pane fade in active">
+			    	<p>Akia est né en 2015 avec comme mission d’aider les PME à faire leur virage numérique. De fil en aiguille, nous avons raffiné notre alignement pour se spécialiser dans la conception, optimisation et marketing de plateformes web et E-commerce.</p>
+				</div> <!-- /#history -->
+			  	<div id="vision" class="tab-pane fade">
+			    	<p>Vous aider à comprendre et apprécier le web.</p>
+			  	</div> <!-- /#vision -->
+			  	<!-- <div id="contact" class="tab-pane fade">
+			    	<p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
+			  	</div> --> <!-- /#contact -->
+			  	<!-- <div id="news" class="tab-pane fade">
+			    	<p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
+			  	</div> --> <!-- /#news -->
+			</div>
+		</div> <!-- /.about-tab-wrapper -->
+	</div> <!-- /.container -->
+</div> <!-- /.about-text -->
+{{ end }}
+
+<!-- 
+=============================================
+	Theme Counter
+============================================== 
+-->
+{{ with .Params.section2 }}
+<div class="theme-counter no-border fix">
+	<div class="container">
+		<div class="row">
+    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    			<div class="single-box">
+    				<h2 class="number"><span class="timer" data-from="0" data-to="2730" data-speed="1000" data-refresh-interval="5">0</span>+</h2>
+    				<p>Completed Projects</p>
+    			</div> <!-- /.single-box -->
+    		</div>
+    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    			<div class="single-box">
+    				<h2 class="number"><span class="timer" data-from="0" data-to="39" data-speed="1000" data-refresh-interval="5">0</span></h2>
+    				<p>Availble Country</p>
+    			</div> <!-- /.single-box -->
+    		</div>
+    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    			<div class="single-box">
+    				<h2 class="number"><span class="timer" data-from="0" data-to="125" data-speed="1000" data-refresh-interval="5">0</span>M</h2>
+    				<p>User Worldwide</p>
+    			</div> <!-- /.single-box -->
+    		</div>
+    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    			<div class="single-box border-fix">
+    				<h2 class="number"><span class="timer" data-from="0" data-to="12" data-speed="1000" data-refresh-interval="5">0</span></h2>
+    				<p>Award Winner</p>
+    			</div> <!-- /.single-box -->
+    		</div>
+    	</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /.theme-counter -->
+{{ end }}
+
+
+<!-- 
+=============================================
+	Testimonial
+============================================== 
+-->
+{{ with .Params.section3 }}
+<div class="testimonial-section bg-image">
+	<div class="container">
+		<div class="main-container col-md-6 col-md-offset-6">
+			<div class="theme-title">
+				<h6>Testimonials</h6>
+				<h2>Check what’s our client <br>Say about us</h2>
+			</div> <!-- /.theme-title -->
+			<div class="testimonial-slider">
+				<div class="item">
+					<div class="wrapper">
+						<p>Their testimonial videos aren't production quality, but they get the message across, cover useful &amp; relevant information which goes to show you don't need to invest thousands in production get some testimonial videos up with quality. </p>
+						<div class="name clearfix">
+							<img src="/images/home/3.jpg" alt="">
+							<h5>Rashed Kabir</h5>
+							<span>Gazipur</span>
+						</div>
+					</div> <!-- /.wrapper -->
+				</div> <!-- /.item -->
+				<div class="item">
+					<div class="wrapper">
+						<p>Their testimonial videos aren't production quality, but they get the message across, cover useful &amp; relevant information which goes to show you don't need to invest thousands in production get some testimonial videos up with quality. </p>
+						<div class="name clearfix">
+							<img src="/images/home/4.jpg" alt="">
+							<h5>Zubayer Hasan</h5>
+							<span>Uttara</span>
+						</div>
+					</div> <!-- /.wrapper -->
+				</div> <!-- /.item -->
+			</div> <!-- /.testimonial-slider -->
+		</div> <!-- /.main-container -->
+	</div> <!-- /.container -->
+</div> <!-- /.testimonial-section -->
+{{ end }}
+
+
+<!-- 
+=============================================
+	Our Team Style One 
+============================================== 
+-->
+{{ with .Params.section4 }}
+<div class="our-team-styleOne">
+	<div class="container">
+		<div class="title">
+			<h2>Our team member will ready <br>for your service</h2>
+			<a href="team-v1.html" class="tran3s">See all</a>
+		</div> <!-- /.title -->
+		<div class="row">
+			<div class="col-md-4 col-xs-6">
+				<div class="single-team-member">
+					<div class="image">
+						<img src="/images/team/1.jpg" alt="">
+						<div class="opacity tran3s">
+							<ul class="tran3s">
+								<li><a href="" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+								<li><a href="" class="tran3s"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div> <!-- /.image -->
+					<h6>Rashed Kabir</h6>
+					<p>CO-Founder &amp; Designer</p>
+				</div> <!-- /.single-team-member -->
+			</div> <!-- /.col- -->
+			<div class="col-md-4 col-xs-6">
+				<div class="single-team-member">
+					<div class="image">
+						<img src="/images/team/2.jpg" alt="">
+						<div class="opacity tran3s">
+							<ul class="tran3s">
+								<li><a href="" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+								<li><a href="" class="tran3s"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div> <!-- /.image -->
+					<h6>Mahfuz Riad</h6>
+					<p>CO-Founder &amp; Designer</p>
+				</div> <!-- /.single-team-member -->
+			</div> <!-- /.col- -->
+			<div class="col-md-4 col-xs-6 hidden-sm">
+				<div class="single-team-member">
+					<div class="image">
+						<img src="/images/team/3.jpg" alt="">
+						<div class="opacity tran3s">
+							<ul class="tran3s">
+								<li><a href="" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+								<li><a href="" class="tran3s"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div> <!-- /.image -->
+					<h6>Foqrul Islam</h6>
+					<p>CO-Founder &amp; Designer</p>
+				</div> <!-- /.single-team-member -->
+			</div> <!-- /.col- -->
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /.our-team-styleOne -->
+{{ end }}
+
+<!-- 
+=============================================
+	Trusted Client
+============================================== 
+-->
+{{ with .Params.section5 }}
+<div class="trusted-client">
+	<div class="container">
+		<div class="title">
+			<h2>Ils nous fon</h2>
+			<p>We have show that some of our best partners ho all beside us</p>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-xs-6">
+				<div class="client-img"><img src="/images/logo/p-5.png" alt=""></div>
+			</div>
+			<div class="col-md-4 col-xs-6">
+				<div class="client-img"><img src="/images/logo/p-6.png" alt=""></div>
+			</div>
+			<div class="col-md-4 col-xs-6">
+				<div class="client-img"><img src="/images/logo/p-7.png" alt=""></div>
+			</div>
+			<div class="col-md-4 col-xs-6">
+				<div class="client-img"><img src="/images/logo/p-8.png" alt=""></div>
+			</div>
+			<div class="col-md-4 col-xs-6">
+				<div class="client-img"><img src="/images/logo/p-9.png" alt=""></div>
+			</div>
+			<div class="col-md-4 col-xs-6">
+				<div class="client-img"><img src="/images/logo/p-10.png" alt=""></div>
+			</div>
+		</div>
+	</div> <!-- /.container -->
+</div> <!-- /.trusted-client -->
+{{ end }}
+
 {{ end }}

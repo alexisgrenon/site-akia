@@ -49,16 +49,18 @@ function BannerSlider () {
     banner.camera({ //here I declared some settings, the height and the presence of the thumbnails 
       height: '47%',
       pagination: false,
-      navigation: true,
+      navigation: false,
       thumbnails: false,
       playPause: false,
       pauseOnClick: false,
-      autoPlay:true,
+      autoPlay: false,
       hover: false,
       overlayer: true,
       loader: 'none',
       minHeight: '700px',
-      time: 5500,
+      autoAdvance: false,
+      mobileAutoAdvance: false,
+      // time: 5500,
     });
   };
 }
@@ -103,8 +105,35 @@ function wowAnimation () {
 // Mixitup gallery
 function mixitupGallery () {
   if ($("#mixitUp-item").length) {
-    $("#mixitUp-item").mixItUp()
+    $("#mixitUp-item").mixItUp({
+      callbacks: { 
+          onMixStart: function(state) {
+              showLoader();
+          },
+          onMixEnd: function(state){
+              masonryGrid(); // ******* here call masonry function
+              hideLoader();
+          }
+      }
+    })
   };
+  function masonryGrid(){
+      var $container = $('#mixitUp-item');
+      // initialize
+      $container.masonry({
+          itemSelector: '.grid-item',
+          columnWidth: '.grid-item-placeholder', //as you wish , you can use numeric 
+          isAnimated: true,
+      });
+      $container.masonry('reloadItems');
+      $container.masonry('layout');
+  }
+  function showLoader(){
+    $('.loader-gif').show();
+  }
+  function hideLoader() {
+    $('.loader-gif').hide();
+  }
 }
 
 
@@ -239,23 +268,9 @@ function contactFormValidation () {
         }
       },
       submitHandler: function(form) {
-                $(form).ajaxSubmit({
-                    success: function() {
-                        $('.form-validation :input').attr('disabled', 'disabled');
-                        $('.form-validation').fadeTo( "slow", 1, function() {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor','default');
-                            $('#alert-success').fadeIn();
-                        });
-                    },
-                    error: function() {
-                        $('.form-validation').fadeTo( "slow", 1, function() {
-                            $('#alert-error').fadeIn();
-                        });
-                    }
-                });
+                $(form).submit();
             }
-        });
+    });
   }
 }
 
@@ -387,7 +402,6 @@ jQuery(document).on('ready', function() {
 	   removePlaceholder ();
      BannerSlider ();
      wowAnimation ();
-     mixitupGallery ();
      testimonialSlider ();
      portfolioSlider ();
      partnersLogo ();
@@ -414,6 +428,7 @@ jQuery(window).on('scroll', function () {
 // Window load function
 jQuery(window).on('load', function () {
    (function ($) {
+    mixitupGallery ();
     masonaryBlog ();
     prealoader ()
   })(jQuery);

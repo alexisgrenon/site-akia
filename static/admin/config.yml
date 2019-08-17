@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   accept_roles: #optional - accepts all users if left out
     - admin
-  branch: development # Branch to update (master by default)
+  branch: master # Branch to update (master by default)
 
 media_folder: "themes/akia/source-images" # Folder where user uploaded files should go
 public_folder: "/img" # The src attribute for uploaded media will begin with
@@ -10,10 +10,128 @@ public_folder: "/img" # The src attribute for uploaded media will begin with
 publish_mode: editorial_workflow
 
 collections:
-### AUTRES
-  - name: "articles" # Used in routes, e.g. /admin/collections/blog
-    label: "Articles" # Used in the UI
+### ARTICLES
+  - name: "articles-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles FR" # Used in the UI
     folder: "content/articles" # The path to the folder where the documents are stored
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    editor:
+      preview: true
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "SEO Description", name: "description", widget: "text", required: false}
+      - {label: "Slug/Link (if link is https://www.akiamarketing.ca/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - label: "Author" 
+        name: "author"
+        widget: "select"
+        options:
+          - { label: "Alexis Grenon", value: "alexis" }
+          - { label: "Robin Lamoureux", value: "robin" }
+          - { label: "Kamel Gorieze", value: "kamel" }
+          - { label: "Félix DeBlois-Beaucage", value: "felix" }
+      - {label: "Share image (1200px by 630px)", name: "image", widget: "image" , required: false}
+      - {label: "Publication date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - name: listing
+        label: "Home page and articles page"
+        widget: object
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Summary", name: "description", widget: "text"}
+      - {label: "Categories (separate with commas)", name: "categories", widget: "list", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Menu ID", name: "menuid", widget: "hidden", default: "articles"}
+      - {label: "Priority (0 is the most important)", name: "ordre", widget: "number", default: 0, required: false}
+      - {label: "Text", name: "body", widget: "markdown"}
+      - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+      - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+### SERVICES
+  - name: "services-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Services FR" # Used in the UI
+    folder: "content/services" # The path to the folder where the documents are stored
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "SEO Description", name: "description", widget: "text", required: false}
+      - {label: "Slug/Link (if link is https://www.akiamarketing.ca/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Image", name: "image", widget: "image" , required: false}
+      - {label: "Overlay", name: "overlay", widget: "hidden", default: true, required: false}
+      - name: listing
+        label: "Home page and articles page"
+        widget: object
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Summary", name: "description", widget: "text"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+      - name: notloaded
+        label: "Loading effect"
+        widget: object
+        fields:
+          - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Menu ID", name: "menuid", widget: "hidden", default: "services"}
+      - {label: "Priority (0 is the most important)", name: "ordre", widget: "number", default: 0, required: false}
+      - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+      - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+      - label: "Section 1"
+        name: "section1"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Column 1", name: "col1", widget: "markdown"}
+          - {label: "Column 2", name: "col2", widget: "markdown"}
+      - label: "Section 2"
+        name: "section2"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Points" 
+            name: "points" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - label: "Section 3"
+        name: "section3"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Column 1" 
+            name: "col1" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Column 2" 
+            name: "col2" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+  - name: "services-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Services EN" # Used in the UI
+    folder: "content/services" # The path to the folder where the documents are stored
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: "md"
     format: "yaml-frontmatter"
@@ -26,498 +144,541 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Description", name: "description", widget: "text", required: false}
-      - {label: "Slug/Link (if link is https://www.tinysociety.co/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-      - label: "Author" 
-        name: "author"
-        widget: "select"
-        options:
-          - { label: "Michelle Garofano", value: "michelleg" }
-          - { label: "David Morneau", value: "davidm" }
-          - { label: "Jubaer Ahmed Prodhan", value: "jubaer" }
-      - {label: "Banner and share image (rectangle - 2700px by 1800px)", name: "image", widget: "image" , required: false}
-      - {label: "Add a black overlay?", name: "overlay", widget: "boolean", required: false, default: false}
-      - {label: "Publication date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - name: notloaded
-        label: "Loading effect"
-        widget: object
-        fields:
-          - {label: "Do you need it?", name: "need", required: false, default: true}
+      - {label: "Slug/Link (if link is https://www.akiamarketing.ca/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Image", name: "image", widget: "image" , required: false}
+      - {label: "Overlay", name: "overlay", widget: "hidden", default: true, required: false}
       - name: listing
         label: "Home page and articles page"
         widget: object
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Summary", name: "description", widget: "text"}
-          - {label: "Square Image (square - 800px by 800px)", name: "image", widget: "image", required: false}
-      - {label: "Likes", name: "likes", widget: "string"}
-      - {label: "Categories (separate with commas)", name: "categories", widget: "list", required: false}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+      - name: notloaded
+        label: "Loading effect"
+        widget: object
+        fields:
+          - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
-      - {label: "Menu ID", name: "menuid", widget: "hidden", default: "articles"}
+      - {label: "Menu ID", name: "menuid", widget: "hidden", default: "services"}
       - {label: "Priority (0 is the most important)", name: "ordre", widget: "number", default: 0, required: false}
-      - {label: "Text", name: "body", widget: "markdown"}
       - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+      - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+      - label: "Section 1"
+        name: "section1"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - {label: "Column 1", name: "col1", widget: "markdown"}
+          - {label: "Column 2", name: "col2", widget: "markdown"}
+      - label: "Section 2"
+        name: "section2"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Points" 
+            name: "points" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - label: "Section 3"
+        name: "section3"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Column 1" 
+            name: "col1" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Column 2" 
+            name: "col2" 
+            widget: "list" 
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
-#   - name: "articles-en" # Used in routes, e.g. /admin/collections/blog
-#     label: "Articles - EN" # Used in the UI
-#     folder: "content/articles" # The path to the folder where the documents are stored
-#     slug: "{{identifiant}}.en"
-#     editor:
-#       preview: false
-#     create: true # Allow users to create new documents in this collection
-#     filter: 
-#       field: "i18nlanguage"
-#       value: "en"
-#     fields:
-#       - {label: "Titre", name: "title", widget: "string"}
-#       - {label: "Lien interne (ce qui suit le https://www.lairevisuelle.com/articles)", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-#       - {label: "Identifiant (utilisé à l'interne seulement pour identifié l'article", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
-#       - {label: "Description SEO", name: "description", widget: "text", required: false}
-#       - {label: "Image principale (non requise pour article externe)", name: "image", widget: "image" , required: false}
-#       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-# #      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
-#       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
-#       - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
-#       - {label: "Texte", name: "body", widget: "markdown"}
-#       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
-#   - name: "promotions-fr" # Used in routes, e.g. /admin/collections/blog
-#     label: "Promotions - FR" # Used in the UI
-#     folder: "content/promotions" # The path to the folder where the documents are stored
-#     slug: "{{identifiant}}.en"
-#     editor:
-#       preview: false
-#     create: true # Allow users to create new documents in this collection
-#     filter: 
-#       field: "i18nlanguage"
-#       value: "fr"
-#     fields:
-#       - {label: "Titre SEO", name: "title", widget: "string"}
-#       - {label: "Titre visible", name: "titre", widget: "string"}
-#       - {label: "Lien interne (ce qui suit le https://www.lairevisuelle.com/articles)", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-#       - {label: "Identifiant (utilisé à l'interne seulement pour identifié l'article", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
-#       - {label: "Description SEO", name: "description", widget: "text", required: false}
-#       - {label: "Image principale (non requise pour article externe)", name: "image", widget: "image" , required: false}
-#       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-# #      - {label: "Catégories (séparées de virgules)", name: "categories", widget: "list", required: false}
-#       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
-#       - {label: "Importance (0 étant le plus important)", name: "ordre", widget: "number", default: 0, required: false}
-#       - {label: "Texte", name: "body", widget: "markdown"}
-#       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
-### SETTINGS
-  # - name: "settings"
-  #   label: "Settings"
-  #   editor:
-  #     preview: false
-  #   files:
-  #     - name: "succursales"
-  #       label: "Succursales"
-  #       file: "data/locations.yml"
-  #       description: "Modification des succursales des branches"
-  #       fields:
-  #         - name: shaker
-  #           label: Shaker
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: chocolato
-  #           label: Chocolato
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: frits
-  #           label: "Frit's"
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: tartar
-  #           label: TARTAR station
-  #           widget: list
-  #           create: true
-  #           fields:
-
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: hola
-  #           label: Hola
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: vapo
-  #           label: "Vaposhop"
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: grenouille
-  #           label: Grenouille
-  #           widget: list
-  #           create: true
-  #           fields:
-
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  #         - name: planete
-  #           label: "Planète Nutrition"
-  #           widget: list
-  #           create: true
-  #           fields:
-  #             - {label: "Nom", name: "name", widget: "string"}
-  #             - {label: "Adresse", name: "loc", widget: "string"}
-  #             - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
-  #             - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
-  #             - {label: "Ville", name: "city", widget: "string"}
-  # - name: "pages"
-  #   label: "Pages"
-  #   editor:
-  #     preview: false
-  #   files:
-  #     - name: "accueil-fr"
-  #       label: "Accueil - FR"
-  #       file: "content/_index.md"
-  #       description: "Modification de la page d'accueil"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
-  #         - {label: "Texte Franchises/Licenses", name: "body", widget: "markdown"}
-  #         - label: "Mosaïque Shaker" 
-  #           name: "mshaker" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Chocolato" 
-  #           name: "mchocolato" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque P'tite Grenouille" 
-  #           name: "mgrenouille" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque TARTAR Station" 
-  #           name: "mtartar" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Frit's" 
-  #           name: "mfrits" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Hola" 
-  #           name: "mhola" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Planète Nutrition" 
-  #           name: "mplanete" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Vaposhop" 
-  #           name: "mvapo" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - {label: "Hidden", name: "draft", widget: "hidden", required: false, default: false}
-  #         - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: fr}
-  #     - name: "accueil-en"
-  #       label: "Accueil - EN"
-  #       file: "content/_index.en.md"
-  #       description: "Modification de la page d'accueil"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
-  #         - {label: "Texte Franchises/Licenses", name: "body", widget: "markdown"}
-  #         - label: "Mosaïque Shaker" 
-  #           name: "mshaker" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Chocolato" 
-  #           name: "mchocolato" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque P'tite Grenouille" 
-  #           name: "mgrenouille" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque TARTAR Station" 
-  #           name: "mtartar" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Frit's" 
-  #           name: "mfrits" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Hola" 
-  #           name: "mhola" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Planète Nutrition" 
-  #           name: "mplanete" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - label: "Mosaïque Vaposhop" 
-  #           name: "mvapo" 
-  #           widget: "list" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #         - {label: "Hidden", name: "draft", widget: "hidden", required: false, default: false}
-  #         - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: en}
-  #     - name: "equipe"
-  #       label: "Membres de l'équipe"
-  #       file: "data/equipe.yml"
-  #       description: "Votre équipe, ne pas mettre d'accent dans les noms de fichier svp!"
-  #       fields:
-  #         - name: equipe
-  #           label: Membre
-  #           widget: list
-  #           create: true 
-  #           fields:
-  #             - {label: "Nom", name: "nom", widget: "string"}
-  #             - {label: "Titre", name: "titre", widget: "string"}
-  #             - {label: "Description", name: "description", widget: "text", required: false}
-  #             - {label: "Image", name: "photo", widget: "image", default: "/assets/images/placeholder-team.jpeg"}
-  #             - {label: "Ordre", name: "ordre", widget: "number", required: false}
-  # - name: "services" # Used in routes, e.g. /admin/collections/blog
-  #   label: "Services" # Used in the UI
-  #   folder: "content/services" # The path to the folder where the documents are stored
-  #   slug: "{{identifiant}}"
-  #   create: true # Allow users to create new documents in this collection
-  #   editor:
-  #     preview: false
-  #   filter: 
-  #     field: "i18nlanguage"
-  #     value: "fr"
-  #   fields: # The fields for each document, usually in front matter
-  #     - {label: "Titre SEO", name: "title", widget: "string"}
-  #     - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #     - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-  #     - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
-  #     - label: "Aperçu" 
-  #       name: "resume" 
-  #       widget: "object" 
-  #       fields:
-  #         - {label: "Titre", name: "titre", widget: "string"}
-  #         - {label: "Description", name: "court", widget: "string"}
-  #     - {label: "Image", name: "image", widget: "image" ,required: false}
-  #     - {label: "Image visible sur la page?", name: "needimage", widget: "boolean", required: false, default: false}
-  #     - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
-  #     - {label: "Retirer le bouton?", name: "removebutton", widget: "boolean", required: false, default: false}
-  #     - {label: "Ordre", name: "ordre", widget: "number", required: false}
-  #     - {label: "Retirer des moteurs de recherche", name: "noindex", widget: "boolean", required: false, default: false}
-  #     - {label: "Rendre le service invisible?", name: "draft", widget: "boolean", required: false, default: false}
-  #     - {label: "Texte", name: "body", widget: "markdown", required: false}
-
-  # - name: "formations" # Used in routes, e.g. /admin/collections/blog
-  #   label: "Formations" # Used in the UI
-  #   folder: "content/formations" # The path to the folder where the documents are stored
-  #   slug: "{{identifiant}}"
-  #   editor:
-  #     preview: false
-  #   create: true # Allow users to create new documents in this collection
-  #   filter: 
-  #     field: "i18nlanguage"
-  #     value: "fr"
-  #   fields: # The fields for each document, usually in front matter
-  #     - {label: "Titre SEO", name: "title", widget: "string"}
-  #     - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #     - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-  #     - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
-  #     - {label: "Image", name: "image", widget: "image"}
-  #     - label: "Aperçu" 
-  #       name: "resume" 
-  #       widget: "object" 
-  #       fields:
-  #         - {label: "Titre", name: "titre", widget: "string"}
-  #         - {label: "Note", name: "note", widget: "string"}
-  #         - {label: "Brandcrumbs - Titre", name: "btitre", widget: "string"}
-  #     - label: "Lieu" 
-  #       name: "lieu" 
-  #       widget: "object" 
-  #       fields:
-  #         - {label: "Visible?", name: "need", widget: "boolean", required: false, default: true}
-  #         - {label: "Texte du lien", name: "text", widget: "string", required: false}
-  #         - {label: "Lien", name: "link", widget: "string", required: false}
-  #     - label: "Lien ressources" 
-  #       name: "toplink" 
-  #       widget: "object" 
-  #       fields:
-  #         - {label: "Visible?", name: "need", widget: "boolean", required: false, default: true}
-  #         - {label: "Texte du lien", name: "text", widget: "string", required: false}
-  #         - {label: "Lien", name: "link", widget: "string", required: false}
-  #     - label: "Professeurs" 
-  #       name: "teacher" 
-  #       create: true
-  #       widget: "list" 
-  #       fields:
-  #         - {label: "Image", name: "timage", widget: "image"}
-  #         - {label: "Description", name: "tdesc", widget: "string"} 
-  #     - label: "Ressources - Sidebar" 
-  #       name: "ressources" 
-  #       widget: "object" 
-  #       fields:
-  #         - {label: "Visible?", name: "need", widget: "boolean", required: false, default: false}
-  #         - {label: "Texte", name: "text", widget: "markdown", required: false}
-  #     - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
-  #     - {label: "Ordre", name: "ordre", widget: "number", required: false}
-  #     - {label: "Retirer des moteurs de recherche", name: "noindex", widget: "boolean", required: false, default: false}
-  #     - {label: "Rendre le service invisible?", name: "draft", widget: "boolean", required: false, default: false}
-  #     - {label: "Texte", name: "body", widget: "markdown", required: false}
-  # - name: "mieux-comprendre" # Used in routes, e.g. /admin/collections/blog
-  #   label: "Sujets du mieux-comprendre" # Used in the UI
-  #   folder: "content/ressources/mieux-comprendre" # The path to the folder where the documents are stored
-  #   slug: "{{identifiant}}"
-  #   editor:
-  #     preview: false
-  #   create: true # Allow users to create new documents in this collection
-  #   filter: 
-  #     field: "i18nlanguage"
-  #     value: "fr"
-  #   fields: # The fields for each document, usually in front matter
-  #     - {label: "Titre SEO", name: "title", widget: "string"}
-  #     - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #     - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-  #     - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "string"}
-  #     - {label: "Titre", name: "titre", widget: "string"}
-  #     - {label: "Image", name: "image", widget: "image", required: false}
-  #     - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
-  #     - {label: "Type", name: "type", widget: "hidden", default: "mieuxcomprendre"}
-  #     - {label: "Ordre", name: "ordre", widget: "number", required: false}
-  #     - {label: "Retirer des moteurs de recherche", name: "noindex", widget: "boolean", required: false, default: false}
-  #     - {label: "Rendre le service invisible?", name: "draft", widget: "boolean", required: false, default: false}
-  #     - {label: "Texte", name: "body", widget: "markdown", required: false}
-  # - name: "pages"
-  #   label: "Pages"
-  #   editor:
-  #     preview: false
-  #   files:
-  #     - name: "accueil"
-  #       label: "Accueil"
-  #       file: "content/_index.md"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
-  #         - label: "Image du haut" 
-  #           name: "slider" 
-  #           widget: "object" 
-  #           fields:
-  #             - {label: "Image", name: "image", widget: "image"}
-  #             - {label: "Texte", name: "quote", widget: "markdown"}
-  #         - {label: "Services - Titre", name: "servicestitle", widget: "string"}
-  #         - {label: "À propos - Gauche", name: "aboutleft", widget: "markdown"}
-  #         - {label: "À propos - Droite", name: "aboutright", widget: "markdown"}
-  #         - {label: "Contact - Entête", name: "contact", widget: "markdown"} 
-  #         - {label: "Texte du bouton", name: "btntext", widget: "string"}  
-  #     - name: "services"
-  #       label: "Services"
-  #       file: "content/services/_index.md"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Root page", name: "rootPage", widget: "hidden", default: "true"}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
-  #     - name: "formations"
-  #       label: "Formations"
-  #       file: "content/formations/_index.md"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
-  #         - {label: "Texte", name: "body", widget: "markdown", required: false}
-  #     - name: "a-propos"
-  #       label: "À propos"
-  #       file: "content/singles/a-propos.md"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Titre", name: "titre", widget: "string"}
-  #         - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-  #         - {label: "Layout", name: "layout", widget: "hidden", default: "a-propos"}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
-  #         - {label: "Texte", name: "body", widget: "markdown", required: false}
-  #     - name: "equipe"
-  #       label: "Équipe"
-  #       file: "content/singles/equipe.md"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Titre", name: "titre", widget: "string"}
-  #         - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-  #         - {label: "Layout", name: "layout", widget: "hidden", default: "equipe"}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
-  #     - name: "liens-utiles"
-  #       label: "Liens utiles"
-  #       file: "content/ressources/liens-utiles.md"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Titre", name: "titre", widget: "string"}
-  #         - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-  #         - {label: "Layout", name: "layout", widget: "hidden", default: "liens-utiles"}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
-  #         - {label: "Texte", name: "body", widget: "markdown", required: false}
-  #     - name: "faq"
-  #       label: "FAQ"
-  #       file: "content/ressources/faq.md"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Titre", name: "titre", widget: "string"}
-  #         - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-  #         - {label: "Layout", name: "layout", widget: "hidden", default: "faq"}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
-  #         - {label: "Texte", name: "body", widget: "markdown", required: false}
-  #     - name: "contact"
-  #       label: "Page contact"
-  #       file: "content/singles/contact.md"
-  #       fields:
-  #         - {label: "Titre SEO", name: "title", widget: "string"}
-  #         - {label: "Description SEO", name: "description", widget: "text", required: false}
-  #         - {label: "Titre", name: "titre", widget: "string"}
-  #         - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-  #         - {label: "Layout", name: "layout", widget: "hidden", default: "contact"}
-  #         - {label: "Heures d'ouverture", name: "heures", widget: "string"}
-  #         - {label: "Services - Menu déroulant", name: "services", widget: "list"}
-  #         - {label: "Titre du formulaire", name: "sectiontitle", widget: "string"}
-  #         - {label: "Description sous le formulaire", name: "sectiondescription", widget: "text"}
-  #         - {label: "Image", name: "image", widget: "image", required: false}
+### PAGES
+  - name: "pages-fr"
+    label: "Pages FR"
+    editor:
+      preview: false
+    files:
+      - name: "accueil"
+        label: "Accueil"
+        file: "content/_index.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - label: "Section 1" 
+            name: "section1" 
+            widget: "object" 
+            fields:
+              - {label: "Subtitle (on top)", name: "subtitle", widget: "string"}
+              - {label: "Ligne 1", name: "line1", widget: "string"}
+              - {label: "Ligne 2", name: "line2", widget: "string"}
+              - {label: "Ligne 3", name: "line3", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+          - label: "Section 2" 
+            name: "section2" 
+            widget: "object" 
+            fields:
+              - {label: "Description 1", name: "description1", widget: "text", required: false}
+              - {label: "Description 2", name: "description2", widget: "text", required: false}
+              - label: "3 columns section" 
+                name: "blocks" 
+                widget: "list" 
+                allow_add: false
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Icon (don't change)", name: "icon", widget: "string", default: "fa fa-question"}
+                  - {label: "Classe CSS (don't change)", name: "class", widget: "string", default: "color-one"}
+          - label: "Section 3"
+            name: "section3"
+            widget: "object"
+            fields:
+              - {label: "Titre", name: "title", widget: "string", required: false}
+              - {label: "Sous-ttre", name: "subtitle", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "markdown", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Sous-ttre", name: "subtitle", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+          - label: "Section 4"
+            name: "section4"
+            widget: "list"
+            allow_add: false
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Suffix after the number", name: "suffix", widget: "string", required: false}
+              - {label: "Number", name: "number", widget: "number"}
+          - label: "Section 5"
+            name: "section5"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+          - label: "Section 6" 
+            name: "section6" 
+            widget: "object" 
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description 1", name: "description1", widget: "text", required: false}
+              - {label: "Description 2", name: "description2", widget: "text", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - label: "Services columns section" 
+                name: "blocks" 
+                widget: "list" 
+                allow_add: false
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Icon (don't change)", name: "icon", widget: "string", default: "fa fa-question"}
+                  - {label: "Classe CSS (don't change)", name: "class", widget: "string", default: "color-one"}
+                  - {label: "Link (only the end of it, see default value)", name: "link", widget: "string", default: "services/strategie-marketing-digital"}
+          - label: "Section 7 (invisible currently)"
+            name: "section7"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown", required: false}
+              - label: "Testimonials" 
+                name: "blocks" 
+                widget: "list" 
+                fields:
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Company", name: "company", widget: "string"}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+          - label: "Section 8"
+            name: "section8"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - name: "contact"
+        label: "Contact"
+        file: "content/singles/contact.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - {label: "Slug/Link (if link is https://www.akiamarketing.ca/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "contact", required: false}
+          - {label: "Menu ID", name: "menuid", widget: "hidden", default: "contact", required: false}
+          - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+          - name: notloaded
+            label: "Loading effect"
+            widget: object
+            fields:
+              - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+          - {label: "Title of the page", name: "titre", widget: "string"}
+          - {label: "Breadcrumbs", name: "breadcrumbs", widget: "string"}
+          - label: "Section 1"
+            name: "section1"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "text", required: false}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - name: "services"
+        label: "Services"
+        file: "content/services/_index.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - {label: "Menu ID", name: "menuid", widget: "hidden", default: "services", required: false}
+          - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+          - name: notloaded
+            label: "Loading effect"
+            widget: object
+            fields:
+              - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+          - {label: "Title of the page", name: "titre", widget: "string"}
+          - {label: "Breadcrumbs", name: "breadcrumbs", widget: "string"}
+      - name: "clients"
+        label: "Clients"
+        file: "content/clients/_index.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - {label: "Menu ID", name: "menuid", widget: "hidden", default: "clients", required: false}
+          - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+          - name: notloaded
+            label: "Loading effect"
+            widget: object
+            fields:
+              - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+          - {label: "Title of the page", name: "titre", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Breadcrumbs", name: "breadcrumbs", widget: "string"}
+      - name: "articles"
+        label: "Articles"
+        file: "content/articles/_index.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - {label: "Menu ID", name: "menuid", widget: "hidden", default: "articles", required: false}
+          - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+          - name: notloaded
+            label: "Loading effect"
+            widget: object
+            fields:
+              - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+          - {label: "Title of the page", name: "titre", widget: "string"}
+          - {label: "Breadcrumbs", name: "breadcrumbs", widget: "string"}
+  - name: "pages-en"
+    label: "Pages EN"
+    editor:
+      preview: false
+    files:
+      - name: "home"
+        label: "Home"
+        file: "content/_index.en.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - label: "Section 1" 
+            name: "section1" 
+            widget: "object" 
+            fields:
+              - {label: "Subtitle (on top)", name: "subtitle", widget: "string"}
+              - {label: "Ligne 1", name: "line1", widget: "string"}
+              - {label: "Ligne 2", name: "line2", widget: "string"}
+              - {label: "Ligne 3", name: "line3", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+          - label: "Section 2" 
+            name: "section2" 
+            widget: "object" 
+            fields:
+              - {label: "Description 1", name: "description1", widget: "text", required: false}
+              - {label: "Description 2", name: "description2", widget: "text", required: false}
+              - label: "3 columns section" 
+                name: "blocks" 
+                widget: "list" 
+                allow_add: false
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Icon (don't change)", name: "icon", widget: "string", default: "fa fa-question"}
+                  - {label: "Classe CSS (don't change)", name: "class", widget: "string", default: "color-one"}
+          - label: "Section 3"
+            name: "section3"
+            widget: "object"
+            fields:
+              - {label: "Titre", name: "title", widget: "string", required: false}
+              - {label: "Sous-ttre", name: "subtitle", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "markdown", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Title", name: "title", widget: "string", required: false}
+                  - {label: "Sous-ttre", name: "subtitle", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+          - label: "Section 4"
+            name: "section4"
+            widget: "list"
+            allow_add: false
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Suffix after the number", name: "suffix", widget: "string", required: false}
+              - {label: "Number", name: "number", widget: "number"}
+          - label: "Section 5"
+            name: "section5"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+          - label: "Section 6" 
+            name: "section6" 
+            widget: "object" 
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description 1", name: "description1", widget: "text", required: false}
+              - {label: "Description 2", name: "description2", widget: "text", required: false}
+              - label: "Bouton" 
+                name: "btn" 
+                widget: "object" 
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - label: "Link"
+                    name: "link" 
+                    widget: "select" 
+                    options:
+                      - {label: "Page d'accueil", value: "homePage"}
+                      - {label: "Page portfolio", value: "clientsPage"}
+                      - {label: "Page services", value: "servicesPage"}
+                      - {label: "Page articles", value: "articlesPage"}
+                      - {label: "Page contact", value: "contactPage"}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - label: "Services columns section" 
+                name: "blocks" 
+                widget: "list" 
+                allow_add: false
+                fields:
+                  - {label: "Text", name: "title", widget: "string", required: false}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Icon (don't change)", name: "icon", widget: "string", default: "fa fa-question"}
+                  - {label: "Classe CSS (don't change)", name: "class", widget: "string", default: "color-one"}
+                  - {label: "Link (only the end of it, see default value)", name: "link", widget: "string", default: "services/strategie-marketing-digital"}
+          - label: "Section 7 (invisible currently)"
+            name: "section7"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown", required: false}
+              - label: "Testimonials" 
+                name: "blocks" 
+                widget: "list" 
+                fields:
+                  - {label: "Description", name: "description", widget: "text", required: false}
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Company", name: "company", widget: "string"}
+                  - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+          - label: "Section 8"
+            name: "section8"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+      - name: "contact"
+        label: "Contact"
+        file: "content/singles/contact.en.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - {label: "Slug/Link (if link is https://www.akiamarketing.ca/articles/tiny-house-roof, value is tiny-house-roof)", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "contact", required: false}
+          - {label: "Menu ID", name: "menuid", widget: "hidden", default: "contact", required: false}
+          - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+          - name: notloaded
+            label: "Loading effect"
+            widget: object
+            fields:
+              - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+          - {label: "Title of the page", name: "titre", widget: "string"}
+          - {label: "Breadcrumbs", name: "breadcrumbs", widget: "string"}
+          - label: "Section 1"
+            name: "section1"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "text", required: false}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - name: "services"
+        label: "Services"
+        file: "content/services/_index.en.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - {label: "Menu ID", name: "menuid", widget: "hidden", default: "services", required: false}
+          - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+          - name: notloaded
+            label: "Loading effect"
+            widget: object
+            fields:
+              - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+          - {label: "Title of the page", name: "titre", widget: "string"}
+          - {label: "Breadcrumbs", name: "breadcrumbs", widget: "string"}
+      - name: "clients"
+        label: "Clients"
+        file: "content/clients/_index.en.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - {label: "Menu ID", name: "menuid", widget: "hidden", default: "clients", required: false}
+          - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+          - name: notloaded
+            label: "Loading effect"
+            widget: object
+            fields:
+              - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+          - {label: "Title of the page", name: "titre", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Breadcrumbs", name: "breadcrumbs", widget: "string"}
+      - name: "articles"
+        label: "Articles"
+        file: "content/articles/_index.en.md"
+        fields:
+          - {label: "Titre SEO", name: "title", widget: "string"}
+          - {label: "Description SEO", name: "description", widget: "text", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Hide from website?", name: "draft", widget: "boolean", required: false, default: false}
+          - {label: "Remove from search engine?", name: "noindex", widget: "boolean", required: false, default: false}
+          - {label: "Menu ID", name: "menuid", widget: "hidden", default: "articles", required: false}
+          - {label: "Header White", name: "headerwhite", widget: "hidden", default: true, required: false}
+          - name: notloaded
+            label: "Loading effect"
+            widget: object
+            fields:
+              - {label: "Do you need it?", name: "need", widget: "boolean", required: false, default: true}
+          - {label: "Title of the page", name: "titre", widget: "string"}
+          - {label: "Breadcrumbs", name: "breadcrumbs", widget: "string"}

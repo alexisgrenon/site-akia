@@ -1,14 +1,14 @@
 ---
-title: Our Articles | All You Need To Know About Tiny Houses
+title: "Stratégies de marketing digital et études de cas | Akia Marketing"
 description: >-
-  Discover our numerous articles about tiny homes and join us in the tiny house movement. From plans to energy, we got you covered. 
-image: /img/tiny-house-3.jpg
-titre: What do you want to know about tiny houses?
-notloaded:
-  need: true
-  image: /img/tiny-house-3-loader.jpg
-subtitle:
+  Pour vous informer sur les dernières tendances en matière de E-commerce et de marketing en ligne. 
+image: /img/conseils-web-e-commerce.jpg
 draft: false
 noindex: false
 menuid: articles
+headerwhite: true
+notloaded:
+  need: true
+titre: Conseils web et études de cas
+breadcrumbs: Articles
 ---

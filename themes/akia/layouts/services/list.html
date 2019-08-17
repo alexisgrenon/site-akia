@@ -1,0 +1,44 @@
+{{ define "main" }}
+<!-- 
+=============================================
+	Theme Inner Banner 
+============================================== 
+-->
+{{- partial "site/page-header.html" . -}}
+
+
+<!-- 
+=============================================
+	Our Service V2
+============================================== 
+-->
+<div class="service-version-two" style="margin-top: 100px">
+	<div class="container">
+		{{ range $i, $e := sort .Pages ".Params.ordre" "asce"}}
+		{{ $index := (add $i 1)}}
+		<div class="single-service">
+			<div class="row">
+				<div class="col-md-6 col-xs-12{{ if eq (mod $index 2) 0}} float-right{{ end }}">
+					<div class="image-box">
+						<a href="{{ .Permalink }}">
+							<img src="{{ .Params.listing.image }}" alt="">
+							<div class="opacity tran3s">
+								<!-- <p class="one">{{ .Params.listing.description }}</p> -->
+								<p class="two">{{ .Params.listing.description }}</p>
+							</div>
+						</a>
+					</div>
+				</div> <!-- /.col-lg-6 -->
+				<div class="col-md-6 col-xs-12 text">
+					<p>{{ .Params.listing.subtitle }}</p>
+					<h2>{{ .Params.listing.title }}</h2>
+					<a href="{{ .Permalink }}" class="tran3s">En savoir plus <i class="fa fa-long-arrow-right" aria-hidden="true" style="margin-left: 15px;"></i></a>
+				</div>
+			</div> <!-- /.row -->
+		</div> <!-- /.single-service -->
+		{{ end }}
+
+		
+	</div> <!-- /.container -->
+</div> <!-- /.service-version-two -->
+{{ end }}

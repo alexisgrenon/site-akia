@@ -1,50 +1,132 @@
 ---
-title: "Tiny House Society | Your Only Source For Small Living"
+title: Akia Marketing | Développement web et marketing pour E-commerce
 description: >-
-  Tiny House Society is your ultimate source of information to know anything about tiny homes. From building to legislation, we got you covered. 
-image: /img/tiny-house-2.jpg
-titre: "Tiny House Society | Think Big, Live Tiny"
-subtitle: "It's not just a trend; it's a mindset"
-menuid: home
+  Akia Marketing est une agence spécialisée dans la conception et le marketing
+  de boutique en ligne pour tous les types d'entreprise.
+image: /img/e-commerce-services.jpg
 draft: false
-notloaded: 
-  need: true
-  image: /img/tiny-house-2-loader.jpg
 section1:
-  title: Quote of the week
-  description: >-
-    Own less stuff. Enjoy more freedom. It really is that simple.
-  author: Joshua Becker
-  overlay: true
-  image: "/img/tiny-house-4.jpg"
+  btn:
+    link: clientsPage
+    title: Nos projets
+  image: /img/e-commerce-marketing-2.gif
+  line1: Solution complète
+  line2: pour les
+  line3: E-commerce
+  subtitle: Akia Marketing
 section2:
-  title: "Sustainable Building and Living"
-  category: "Sustainable building and living"
-  class: "category-people"
+  blocks:
+    - class: color-one
+      title: De la qualité sans se ruiner
+      description: >-
+        Akia c’est une petite équipe dynamique. Soudée pour l’efficacité,
+        parfaite pour lancer un projet de qualité rapidement.
+      icon: fa fa-tachometer
+    - class: color-two
+      title: Un produit qui vous ressemble
+      description: >-
+        Original, corporatif, clean, élégant, artistique, il y en a pour tous
+        les goûts. Mais l’important, c’est que ce soit fidèle à l’identité de
+        votre entreprise
+      icon: fa-heart fa
+    - class: color-three
+      title: Une équipe à l’écoute
+      description: >-
+        Notre équipe est là pour répondre à vos questions et écouter vos
+        préoccupations. Parce que le web c’est pas toujours facile à comprendre!
+      icon: fa fa-question
+  description1: >-
+    Akia, c’est une équipe de passionnés de la programmation et du marketing
+    web. Les plateformes web et les E-commerces, c’est notre spécialité.
+  description2: 'Vos projets méritent une solution digne de leur originalité! '
 section3:
-  cols:
-    - title: Architecture and design
-      category: Architecture and design
-      class: "category-places"
-    - title: DIY
-      category: DIY
-      class: "category-stories"
+  btn:
+    link: servicesPage
+    subtitle: En apprendre plus
+    title: Plus à propos d’Akia
+  subtitle: Notre touche environnementale
+  title: 'Plus que du web, on s’investit pour vivre dans un monde meilleur.'
+  description: >-
+    Faisons ensemble des pas vers l’avant pour développer la conscience
+    écologique des gens et des entreprises. Donnons un futur propre et convivial
+    à la prochaine génération. Akia s’implique avec plusieurs projets et
+    organisations dont l'[Association Québecoise Zéro
+    Déchet](https://www.aqzd.ca/).
+  image: /img/teamwork-environment.jpg
 section4:
-  col1:
-    title: About Tiny House Society
-    description1: >-
-      **Living small is a new trend, and we think it is one that needs to last. It is hard not to realize what kind of impact human beings had on our planet and its ecosystems in the last decades. Our influence is growing more every year and it’s not on the positive side of the spectrum. We think that living tiny is not just a trend; it is a mindset.**
-    description2: >-
-      Building a house is the single biggest investment of a lifetime for most of us. It is a big project that can last months, even years in some case. But ultimately it is the place that will become our everyday peaceful nest. We are dedicated to offer the best advices to fit your lifestyle and help you optimize your house. 
-  col2:
-    title: Authors
-  col3:
-    title: Write for us
-    description1: >-
-      **Yes, you can! We’re always looking for some passionate people that want to share their stories and experiences. If you’ve got an idea that can bring more to the Tiny House community, we want to hear about it!  But that idea doesn’t need to redefine the whole Tiny House world! Just some fresh new tips and tricks or fresh story about your personal experience.**
-    description2: >-
-      You don’t have experience writing articles? We’ll help you get on board with our content experts! Innovative and bold Tiny House ideas should be highlighted and you should get the credit for it.
-    btn:
-      text: "Learn more"
-      link: "writePage"
+  - number: 64
+    suffix: +
+    title: Projets Complétés
+  - number: 39
+    title: Clients
+  - number: 5000
+    suffix: +
+    title: Sourires donnés
+  - number: 100
+    suffix: M
+    title: Lignes de code
+section5:
+  btn:
+    link: clientsPage
+    title: Tous nos projets
+  title: Projets récents
+  description: Notre équipe a réalisé plusieurs projets. <br>Jetez-y un coup d'oeil.
+section6:
+  blocks:
+    - class: color-one
+      title: Conception de E-commerce
+      description: >-
+        Pour créer un commerce en ligne efficace et fait sur mesure pour vos
+        besoins.
+      icon: flaticon-computer
+      link: services/conception-e-commerce
+    - class: color-two
+      title: Marketing pour E-commerce
+      description: >-
+        Que ce soit par l’optimisation de la structure du site web, le SEO, la
+        publicité payante ou la création de canaux marketings, nous vous
+        aiderons à mettre en place une stratégie efficace
+      icon: flaticon-round-chart
+      link: services/marketing-pour-e-commerce
+    - class: color-four
+      title: Stratégie marketing globale
+      description: >-
+        Pour déterminer le meilleur angle d’attaque pour votre entreprise et
+        attirer plus de clientèle.
+      icon: flaticon-bar-chart
+      link: services/strategie-marketing-digital
+  btn:
+    link: servicesPage
+    title: Voir tous nos services
+  description1: >-
+    De la programmation au marketing web, Akia est là pour développer une
+    relation à long terme.
+  description2: 'Nos spécialités pour propulser vos projets:'
+  title: Nos spécialités
+  image: /img/service-image-3.png
+section7:
+  blocks:
+    - company: Le Doggy Café
+      description: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+        perspiciatis voluptatem facere cum ipsa minus libero, cupiditate
+        nesciunt, pariatur assumenda repellat odio magni in voluptatibus
+        consectetur quidem, maiores nemo rem!
+      image: /img/logo-doggy.jpg
+      name: Gabrielle
+    - company: Le Doggy Café
+      description: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+        perspiciatis voluptatem facere cum ipsa minus libero, cupiditate
+        nesciunt, pariatur assumenda repellat odio magni in voluptatibus
+        consectetur quidem, maiores nemo rem!
+      image: /img/logo-doggy.jpg
+      name: Gabrielle
+  title: Commentaires
+  description: Ce qu'ils ont à dire <br>à propos de nous
+  image: /img/commentaires-clients.jpg
+section8:
+  title: Conseils et études de cas
+  description: 'Découvrez le web, tout va bien aller!'
 ---
+

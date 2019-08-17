@@ -1,13 +1,12 @@
 ---
-title: "Tiny House Society | Thank you"
+title: "Merci | Akia Marketing"
 description: >-
-  Thank you for your interest in Tiny Houses.
-slug: thank-you
+  Merci de votre intérêt envers nos services.
+slug: merci
 layout: merci
-titre: "Thank you for your interest in Tiny Houses"
+titre: "Merci de votre intérêt envers nos services"
 notloaded:
-  need: true
-image: /img/tiny-house-lovers-contact.jpg
+  need: false
 noindex: true
 ---
-#### We'll get in touch soon! While we're at it, discover our [lastest advices to help you optimize your Tiny House](/articles).
+#### Nous vous répondrons sous peu. D'ici là, jetez un coup d'oeil à nos [conseils marketing](/articles).

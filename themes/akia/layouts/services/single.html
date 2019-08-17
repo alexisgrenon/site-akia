@@ -1,0 +1,92 @@
+{{ define "main" }}
+<!-- 
+=============================================
+	Theme Inner Banner 
+============================================== 
+-->
+<div class="inner-page-banner services-indiv{{ if .Params.notloaded }} not-loaded{{ end }}" data-large="/half{{- .Params.image -}}">
+	<div class="opacity">
+		<h1>{{ .Params.listing.title }}</h1>
+		<ul>
+			<li><a href='{{ $.Scratch.Get "homePage" }}'>{{ i18n "home" }}</a></li>
+			<li>/</li>
+			<li><a href='{{ $.Scratch.Get "servicesPage" }}'>{{ i18n "services" }}</a></li>
+			<li>/</li>
+			<li>{{ .Params.listing.title }}</li>
+		</ul>
+	</div> <!-- /.opacity -->
+</div> <!-- /inner-page-banner -->
+
+
+
+<!-- 
+=============================================
+	Our Service Details
+============================================== 
+-->
+<div class="service-details">
+	<div class="container">
+		<div class="box-wrapper">
+			{{ with .Params.section1 }}
+			<!-- <img src="{{ $.Params.listing.image }}" alt="" class="feature-image"> -->
+			<div class="title clearfix">
+				<h3 class="float-left">{{ .title }}</h3>
+				<a href='{{ $.Scratch.Get "contactPage" }}' class="loan float-right">{{ i18n "contact" }}</a>
+			</div> <!-- /.title -->
+			<div class="top-text">
+				<h4>{{ .description | markdownify }}</h4>
+				<div class="row">
+					<div class="col-md-6 wow fadeInLeft"><p>{{ .col1 | markdownify }}</p></div>
+					<div class="col-md-6 wow fadeInRight"><p>{{ .col2 | markdownify }}</p></div>
+				</div>
+			</div> <!-- /.top-text -->
+			{{ end }}
+			{{ with .Params.section2 }}
+			<div class="middle-text list-box-text wow fadeInUp">
+				<h3>{{ .title }}</h3>
+				<p>{{ .description | markdownify }}</p>
+				<ul>
+					{{ range .points }}
+					<li>
+						<h4>{{ .title }}</h4>
+						<p>{{ .description | markdownify }}</p>
+					</li>
+					{{ end }}
+				</ul>
+			</div> <!-- /.middle-text -->
+			{{ end }}
+			{{ with .Params.section3 }}
+			<div class="bottom-text list-box-text wow fadeInUp">
+				<h3>{{ .title }}</h3>
+				<p>{{ .description | markdownify }}</p>
+				<div class="row">
+					{{ range .col1 }}
+					<div class="col-md-6">
+						<ul>
+							<li>
+								<h4>{{ .title }}</h4>
+								<p>{{ .description | markdownify }}</p>
+							</li>
+						</ul>
+					</div>
+					{{ end }}
+				</div>
+				<div class="row">
+					{{ range .col2 }}
+					<div class="col-md-6">
+						<ul>
+							<li>
+								<h4>{{ .title }}</h4>
+								<p>{{ .description | markdownify }}</p>
+							</li>
+						</ul>
+					</div>
+					{{ end }}
+				</div>
+			</div> <!-- /.bottom-text -->
+			{{ end }}
+		</div> <!-- /.box-wrapper -->
+	</div> <!-- /.container -->
+</div> <!-- /.service-details -->
+
+{{ end }}

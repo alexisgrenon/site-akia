@@ -1,26 +1,66 @@
 main:
-  # - fr: Accueil
-  #   en: Home
-  #   link: homePage
+  - fr: Services
+    en: Services
+    link: servicesPage
+    submenu: false
+    active: services
+    links:
+      - fr:
+        en:
+        link:
+  - fr: Clients
+    en: Clients
+    link: clientsPage
+    submenu: false
+    active: clients
+    links:
+      - fr:
+        en:
+        link:
+  - fr: Articles
+    en: Articles
+    link: articlesPage
+    submenu: false
+    active: articles
+    links:
+      - fr:
+        en:
+        link:
+  # - fr: Notre équipe
+  #   en: Team
+  #   link: aboutPage
   #   submenu: false
+  #   active: about
   #   links:
   #     - fr:
   #       en:
   #       link:
-  - fr: Accueil
-    en: Home
-    link: homePage
-  - fr: Articles
-    en: Articles
-    link: articlesPage
-  - fr: À propos
-    en: About
-    link: aboutPage
   - fr: Contact
     en: Contact
     link: contactPage
-  - fr: Acheter un plan
-    en: Buy a plan
-    link: plansPage
-    color: "#f3c070"
-    space: true
+    submenu: false
+    active: contact
+    links:
+      - fr:
+        en:
+        link:
+footer:
+  left:
+    - fr: Accueil
+      en: Home
+      link: homePage
+    # - fr: À propos
+    #   en: About Us
+    #   link: aboutPage
+    - fr: Services
+      en: Services
+      link: servicesPage
+    - fr: Clients
+      en: Clients
+      link: clientsPage
+    - fr: Contact
+      en: Contact
+      link: contactPage
+    - fr: Articles
+      en: Articles
+      link: articlesPage

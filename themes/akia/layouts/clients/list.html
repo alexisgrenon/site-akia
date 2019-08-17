@@ -1,0 +1,56 @@
+{{ define "main" }}
+<!-- 
+=============================================
+	Theme Inner Banner 
+============================================== 
+-->
+{{- partial "site/page-header.html" . -}}
+
+<!-- 
+=============================================
+	Our Portfolio V1
+============================================== 
+-->
+<div class="gullu-portfolio portfolio-full-width">
+	<div class="container">
+		<div class="mixitUp-menu">
+			<h2>{{ .Params.subtitle | markdownify }}</h2>
+			<ul>
+				<li class="filter active tran3s" data-filter="all">{{ i18n "all" }}</li>
+				{{ range $name, $tag := $.Site.Taxonomies.portfolios }}
+				<li class="filter tran3s" data-filter=".{{ (replace (replace (replace $name "é" "e") "è" "e") "ô" "o") | urlize  }}">{{ $name }}</li>
+				{{ end }}
+			</ul>
+		</div> <!-- End of .mixitUp-menu -->
+	</div> <!-- /.container -->
+
+	<div class="row" id="mixitUp-item">
+		<div id="loader-wrapper" class="loader-gif" style="display: none;">
+		    <div id="loader-gif" style="">
+		        <ul>
+		            <li></li>
+		            <li></li>
+		            <li></li>
+		            <li></li>
+		            <li></li>
+		            <li></li>
+		        </ul>
+		    </div>
+		</div>
+		{{ range $i, $e := sort .Pages ".Params.ordre" "asce" }}
+		<div class="col-md-4 col-xs-6 mix {{ range .Params.portfolios }}{{ (replace (replace (replace . "é" "e") "è" "e") "ô" "o") | urlize  }} {{ end }}grid-item">
+			<div class="single-item">
+				<img src="{{ .Params.image }}" alt="">
+				<div class="opacity tran3s">
+					<a href="{{ if .Params.link.external }}{{ .Params.link.url }}{{ else }}{{ .Permalink }}{{ end }}" {{ if .Params.link.external }}target="_blank" {{ end }}class="tran3s" title="{{ .Params.resume.titre }}">
+						<span class="client-title">{{ .Params.resume.titre }}</span>
+                        <span class="client-type">{{ .Params.resume.court }}</span>
+					</a>
+				</div>
+			</div> <!-- /.single-item -->
+		</div> <!-- /.col-md-4 -->
+		{{ end }}
+		<div class="col-md-4 col-xs-6 grid-item-placeholder">
+	</div> <!-- /.row -->
+</div> <!-- /.gullu-portfolio -->
+{{ end }}

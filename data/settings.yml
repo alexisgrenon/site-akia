@@ -1,23 +1,23 @@
 socials:
-  facebookurl: 'https://www.facebook.com/tinyhouseloversofficial/'
-  linkedinurl: ''
+  facebookurl: 'https://www.facebook.com/akiamarketing/'
+  linkedinurl: 'https://www.linkedin.com/company/akia-marketing'
   twitterurl: ''
   youtubeurl: ''
-  instagramurl: 'https://www.instagram.com/tinyhouse_lovers/'
+  instagramurl: 'https://www.instagram.com/akiamarketing/'
   googleplusurl: ''
-  pinteresturl: ""
+  pinteresturl: "https://www.pinterest.ca/akiamarketing/"
   vimeourl: ""
   dribbleurl: ""
 twitter:
   share: false
   id: ""
 address:
-  road:
+  road: "4437 Rue Wellington"
   app:
-  city:
-  province:
-  postal:
-  country:
+  city: "Verdun"
+  province: "QC"
+  postal: "H4G 1W6"
+  country: "Canada"
 ouverture:
   fr:
     - jour: 
@@ -37,11 +37,11 @@ ouverture:
       heures: 
     - jour: 
       heures: 
-phone: 
-mphone: '+'
-email: 
-sitedescription: "Tiny House Society is your ultimate source of information to know anything about tiny homes. From building to legislation, we got you covered."
-sitetitle: "Tiny House Society | Your Only Source For Small Living"
-defaultsocialimage: "/img/tiny-house-logo-white.jpg"
-removefromexternalsearch: true
+phone: "(514) 247-4110"
+mphone: '+15142474110'
+email: "hola@akiamarketing.ca"
+sitedescription: "Akia Marketing est une agence spécialisée dans la conception et le marketing de boutique en ligne pour tous les types d'entreprise."
+sitetitle: "Akia Marketing | Développement web et marketing pour E-commerce"
+defaultsocialimage: "/img/logo-akia-couleur-lg.png"
+removefromexternalsearch: false
 titleautocompletion: false

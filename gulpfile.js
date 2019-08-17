@@ -24,6 +24,7 @@ const jsFiles = [
                   'themes/akia/assets/js/vendor/jquery.2.2.3.min.js',
                   'themes/akia/assets/js/vendor/bootstrap-select/dist/js/bootstrap-select.js',
                   'themes/akia/assets/js/vendor/bootstrap/bootstrap.min.js',
+                  'themes/akia/assets/js/vendor/masonry.pkgd.js',
                   'themes/akia/assets/js/vendor/Camera-master/scripts/jquery.mobile.customized.min.js',
                   'themes/akia/assets/js/vendor/Camera-master/scripts/jquery.easing.1.3.js', 
                   'themes/akia/assets/js/vendor/Camera-master/scripts/camera.min.js',
@@ -71,9 +72,13 @@ const jsDest = 'themes/akia/static/js';
  
 // resize and optimize images
 gulp.task("image-resize", () => {
-  return gulp.src("themes/akia/source-images/*.{jpg,png,jpeg,JPG}")
+  return gulp.src("themes/akia/source-images/*.{jpg,png,jpeg,JPG,gif}")
     .pipe(newer("themes/akia/static/img"))
-    .pipe(imagemin())
+    .pipe(imagemin([
+        imagemin.gifsicle({interlaced: true}),
+        imagemin.jpegtran({progressive: true}),
+        imagemin.optipng({optimizationLevel: 5})
+      ]))
     .pipe(imageresize({ width: imagexl}))
     .pipe(gulp.dest("themes/akia/static/xl/img"))
     .pipe(imageresize({ width: imagefull }))
@@ -129,11 +134,11 @@ gulp.task('scripts', ['scripts-normal', 'scripts-contact']);
 // watching
 gulp.task("watch", function() {
 
-  browserSync.init({
-      proxy: "http://localhost:1313/"
-  });
+  // browserSync.init({
+  //     proxy: "http://localhost:1313/"
+  // });
 
-  gulp.watch('themes/akia/source-images/*.{jpg,png,jpeg,gif}', ['image-resize'] );
+  gulp.watch('themes/akia/source-images/*.{jpg,png,jpeg,gif,JPG}', ['image-resize'] );
   gulp.watch('themes/akia/assets/scss/**/*.scss', ['sass']);
   gulp.watch('themes/akia/assets/js/**/*.js', ['scripts']);
 });

@@ -5,72 +5,44 @@
     Theme Main Banner
 ============================================== 
 -->
+{{ with .Params.section1 }}
 <div id="theme-main-banner" class="banner-one">
-    <div data-src="images/home/slide-1.jpg">
+    <div data-src="/images/home/slide-1.jpg">
         <div class="camera_caption">
             <div class="container">
-                <h5 class="wow fadeInUp animated">We’r Awesome</h5>
-                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s"><span>Digital Agency</span><br><span>That Help You to</span><br><span>Go Ahead</span></h1>
-                <a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">Explore Now</a>
-                <div class="wow fadeInRight animated image-shape-one" data-wow-delay="0.33s">
+                <h5 class="wow fadeInUp animated" data-wow-offset="-100">{{ .subtitle }}</h5>
+                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s" data-wow-offset="-100"><span>{{ .line1 }}</span><br><span>{{ .line2 }}</span>{{ with .line3 }}<br><span>{{ . }}</span>{{ end }}</h1>
+                {{ with .btn }}
+                {{ $link := .link }}
+                <a href='{{ $.Scratch.Get $link }}' class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">{{ .title }}</a>
+                {{ end }}
+                <!-- <div class="wow fadeInRight animated image-shape-one" data-wow-delay="0.33s">
                     <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="576">
                         <clipPath class="clip1">
                             <use xlink:href="#shape-one" />
                         </clipPath>
                         <g clip-path="url(#shape-one)">
-                            <image width="778" height="576" href="images/home/1.jpg" class="banner-img-one">
+                            <image width="778" height="576" href="/img/annie-spratt-608001-unsplash.jpg" class="banner-img-one">
                             </image>
                         </g>
                     </svg>
                 </div>
-                <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div>
-            </div> <!-- /.container -->
-        </div> <!-- /.camera_caption -->
-    </div>
-    <div data-src="images/home/slide-1.jpg">
-        <div class="camera_caption">
-            <div class="container">
-                <h5 class="wow fadeInUp animated">We’r Awesome</h5>
-                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s"><span>Digital Agency</span><br><span>That Help You to</span><br><span>Go Ahead</span></h1>
-                <a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">Explore Now</a>
-                <div class="wow fadeInRight animated image-shape-one" data-wow-delay="0.33s">
-                    <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="576">
-                        <clipPath class="clip1">
-                            <use xlink:href="#shape-one" />
-                        </clipPath>
-                        <g clip-path="url(#shape-one)">
-                            <image width="778" height="576" href="images/home/1.jpg" class="banner-img-one">
-                            </image>
-                        </g>
-                    </svg>
+                <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div> -->
+                <div class="gif-box">
+                    <!-- <img class="wow fadeInRight animated" src="{{ .image }}" alt=""> -->
+                    <div class="cui-embed"
+                         data-cui-uid="AIMe7p"
+                         data-cui-avatar="https://labs-assets.typeform.com/cui/avatars/AIMe7p/81566dc527f3f5d9584e.jpg"
+                         data-cui-theme="#C7E6DA">
+                    </div>
+                    <script src="https://labs-assets.typeform.com/cui/cui-embed.js" async></script>
                 </div>
-                <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div>
-            </div> <!-- /.container -->
-        </div> <!-- /.camera_caption -->
-    </div>
-    <div data-src="images/home/slide-1.jpg">
-        <div class="camera_caption">
-            <div class="container">
-                <h5 class="wow fadeInUp animated">We’r Awesome</h5>
-                <h1 class="wow fadeInUp animated" data-wow-delay="0.2s"><span>Digital Agency</span><br><span>That Help You to</span><br><span>Go Ahead</span></h1>
-                <a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">Explore Now</a>
-                <div class="wow fadeInRight animated image-shape-one" data-wow-delay="0.33s">
-                    <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="576">
-                        <clipPath class="clip1">
-                            <use xlink:href="#shape-one" />
-                        </clipPath>
-                        <g clip-path="url(#shape-one)">
-                            <image width="778" height="576" href="images/home/1.jpg" class="banner-img-one">
-                            </image>
-                        </g>
-                    </svg>
-                </div>
-                <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div>
+                <!-- <div class="wow fadeInRight animated image-shape-two" data-wow-delay="0.39s"><div class="theme-shape-two"></div></div> -->
             </div> <!-- /.container -->
         </div> <!-- /.camera_caption -->
     </div>
 </div> <!-- /#theme-main-banner -->
-
+{{ end }}
 
 
 <!-- 
@@ -78,37 +50,26 @@
     What We Do
 ============================================== 
 -->
+{{ with .Params.section2 }}
 <div class="what-we-do">
     <div class="container">
-        <h3>The thing that motivates me is a very common form of motivation. And that is, with other folk counting on me, it's so easy to be motivated.</h3>
-        <h6>we work with business &amp; provide solution to client with their business problem</h6>
+        <h3>{{ .description1 }}</h3>
+        <h6>{{ .description2 }}</h6>
 
         <div class="row">
+            {{ range .blocks }}
             <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft">
-                <div class="single-block">
-                    <div class="icon color-one"><i class="flaticon-note"></i></div>
-                    <h6>Financial Advise</h6>
-                    <h5><a href="#" class="tran3s">Market Statics Growth &amp; Advance Analysis</a></h5>
+                <div class="single-block {{ .class }}">
+                    <div class="icon {{ .class }}"><i class="{{ .icon }}"></i></div>
+                    <h6>{{ .title }}</h6>
+                    <h5><a href='{{ $.Scratch.Get "servicesPage" }}' class="tran3s">{{ .description }}</a></h5>
                 </div> <!-- /.single-block -->
             </div> <!-- /.col- -->
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp">
-                <div class="single-block">
-                    <div class="icon color-two middle-block"><i class="flaticon-bar-chart2"></i></div>
-                    <h6>Market Analysis</h6>
-                    <h5><a href="#" class="tran3s">Market Statics Growth &amp; Advance Analysis</a></h5>
-                </div> <!-- /.single-block -->
-            </div> <!-- /.col- -->
-            <div class="col-md-4 hidden-sm col-xs-12 wow fadeInRight">
-                <div class="single-block">
-                    <div class="icon color-three"><i class="flaticon-diamond"></i></div>
-                    <h6>Web Solution</h6>
-                    <h5><a href="#" class="tran3s">Market Statics Growth &amp; Advance Analysis</a></h5>
-                </div> <!-- /.single-block -->
-            </div> <!-- /.col- -->
+            {{ end }}
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </div> <!-- /.what-we-do -->
-
+{{ end }}
 
 
 <!-- 
@@ -116,6 +77,7 @@
     More About Us
 ============================================== 
 -->
+{{ with .Params.section3 }}
 <div class="more-about-us">
     <div class="image-box">
         <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="854" height="632">
@@ -123,7 +85,7 @@
                 <use xlink:href="#shape-one" />
             </clipPath>
             <g clip-path="url(#shape-one)">
-                <image width="854" height="632" href="images/home/2.jpg" class="image-shape">
+                <image width="854" height="632" href="{{ .image }}" class="image-shape">
                 </image>
             </g>
         </svg>
@@ -133,167 +95,126 @@
         <div class="row">
             <div class="col-lg-7 col-md-offset-5">
                 <div class="main-content">
-                    <h2>We’r a dynamic team of creatives people innovation &amp; Marketing Expert.</h2>
+                    <h2>{{ .title }}</h2>
                     <div class="main-wrapper">
-                        <h4>Best Digital Agency in Asia</h4>
-                        <p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design &amp; dev, lead generation, and communications requirents. We work with you, not for you. Although we have great resources.</p>
-                        <img src="images/home/sign.png" alt="sign">
+                        <h4>{{ .subtitle }}</h4>
+                        <p>{{ .description | markdownify }}</p>
+                        <img src="/images/home/sign.png" alt="sign">
+                        {{ with .btn }}
+                        {{ $link := .link }}
                         <div class="button-wrapper p-bg-color">
-                            <span>Learn More</span>
-                            <a href="about-us.html" class="hvr-icon-wobble-horizontal">More About us <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            <span>{{ .subtitle }}</span>
+                            <a href='{{ $.Scratch.Get $link }}' class="hvr-icon-wobble-horizontal">{{ .title }} <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                         </div> <!-- /.button-wrapper -->
+                        {{ end }}
                     </div> <!-- /.main-wrapper -->
                 </div> <!-- /.main-content -->
             </div> <!-- /.col- -->
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </div> <!-- /.more-about-us -->
-
-
-
+{{ end }}
 
 <!-- 
 =============================================
     Theme Counter
 ============================================== 
 -->
+{{ with .Params.section4 }}
 <div class="theme-counter">
     <div class="container">
         <div class="row">
+            {{ range . }}
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                 <div class="single-box">
-                    <h2 class="number"><span class="timer" data-from="0" data-to="2730" data-speed="1000" data-refresh-interval="5">0</span>+</h2>
-                    <p>Completed Projects</p>
+                    <h2 class="number"><span class="timer" data-from="0" data-to="{{ .number }}" data-speed="1000" data-refresh-interval="5">0</span>{{ with .suffix }}{{ . }}{{ end }}</h2>
+                    <p>{{ .title }}</p>
                 </div> <!-- /.single-box -->
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <div class="single-box">
-                    <h2 class="number"><span class="timer" data-from="0" data-to="39" data-speed="1000" data-refresh-interval="5">0</span></h2>
-                    <p>Availble Country</p>
-                </div> <!-- /.single-box -->
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <div class="single-box">
-                    <h2 class="number"><span class="timer" data-from="0" data-to="125" data-speed="1000" data-refresh-interval="5">0</span>M</h2>
-                    <p>User Worldwide</p>
-                </div> <!-- /.single-box -->
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <div class="single-box border-fix">
-                    <h2 class="number"><span class="timer" data-from="0" data-to="12" data-speed="1000" data-refresh-interval="5">0</span></h2>
-                    <p>Award Winner</p>
-                </div> <!-- /.single-box -->
-            </div>
+            {{ end }}
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </div> <!-- /.theme-counter -->
-
+{{ end }}
 
 <!-- 
 =============================================
     Our Portfolio
 ============================================== 
 -->
+{{ with .Params.section5 }}
 <div class="our-portfolio">
     <div class="container">
         <div class="theme-title">
-            <h6>Recent work</h6>
-            <h2>We’ve done lot’s of work, Let’s <br>Check some from here</h2>
-            <a href="portfolio-v1.html" class="tran3s">See All projects</a>
+            <h6>{{ .title }}</h6>
+            <h2>{{ .description | markdownify }}</h2>
+            {{ with .btn }}
+            {{ $link := .link }}
+            <a href='{{ $.Scratch.Get $link }}' class="tran3s">{{ .title }}</a>
+            {{ end }}
         </div> <!-- /.theme-title -->
     </div> <!-- /.container -->
 
     <div class="wrapper">
         <div class="row">
             <div class="portfolio-slider">
+                {{ range $i, $e := (first 8 (sort (where $.Site.RegularPages "Type" "clients") ".Params.ordre" "asce")) }}
                 <div class="item">
-                    <div class="image">
-                        <img src="images/portfolio/1.jpg" alt="">
-                        <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/1.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                    <div class="image" style="height: 275px; overflow: hidden; text-align: center; position: relative;">
+                        <img src="{{ .Params.image }}" alt="" style="min-height: 100%; height:auto; width: 200%; max-width: 200% !important; position: absolute; top: -9999px; bottom: -9999px; left: -9999px; right: -9999px; margin: auto;">
+                        <div class="opacity tran4s">
+                            <a data-fancybox="project" href="{{ if .Params.link.external }}{{ .Params.link.url }}{{ else }}{{ .Permalink }}{{ end }}" {{ if .Params.link.external }}target="_blank" {{ end }}class="tran3s" title="{{ .Params.resume.titre }}">
+                                <span class="client-title">{{ .Params.resume.titre }}</span>
+                                <span class="client-type">{{ .Params.resume.court }}</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="image">
-                        <img src="images/portfolio/2.jpg" alt="">
-                        <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/2.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <img src="images/portfolio/3.jpg" alt="">
-                        <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/3.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <img src="images/portfolio/4.jpg" alt="">
-                        <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
-                    </div>
-                </div>
+                {{ end }}
             </div> <!-- /.portfolio-slider -->
         </div> <!-- /.row -->
     </div> <!-- /.wrapper -->
 </div> <!-- /.our-portfolio -->
-
+{{ end }}
 
 <!-- 
 =============================================
     Home Service Section
 ============================================== 
 -->
+{{ with .Params.section6 }}
 <div class="home-service-section">
     <div class="container">
         <div class="col-md-9 col-md-offset-3 main-container">
             <div class="theme-title">
-                <h6>Our Services</h6>
-                <h2>We provide wide range of web &amp; <br>business services.</h2>
-                <p>We’ve strong  work history with different business services</p>
-                <a href="service-v1.html" class="tran3s">See All Services</a>
+                <h6>{{ .title }}</h6>
+                <h2>{{ .description1 | markdownify }}</h2>
+                <p>{{ .description2 | markdownify }}</p>
+                {{ with .btn }}
+                {{ $link := .link }}
+                <a href='{{ $.Scratch.Get $link }}' class="tran3s">{{ .title }}</a>
+                {{ end }}
             </div> <!-- /.theme-title -->
             <ul class="clearfix row">
+                {{ range .blocks }}
                 <li class="col-md-6">
-                    <div>
-                        <i class="flaticon-user"></i>
-                        <h5><a href="service-v1.html" class="tran3s">Business Consulting</a></h5>
-                        <p>Lorem ipsum dolor sit amet, percipitur sadipscing. </p>
+                    <div class="{{ .class }}">
+                        <i class="{{ .icon }} {{ .class }}"></i>
+                        <h5><a href="{{ .Site.BaseURL }}{{ .link }}" class="tran3s">{{ .title }}</a></h5>
+                        <p>{{ .description }} </p>
                     </div>
                 </li>
-                <li class="col-md-6">
-                    <div>
-                        <i class="flaticon-layers"></i>
-                        <h5><a href="service-v1.html" class="tran3s">Interface Design</a></h5>
-                        <p>Lorem ipsum dolor sit amet, percipitur sadipscing. </p>
-                    </div>
-                </li>
-                <li class="col-md-6">
-                    <div>
-                        <i class="flaticon-bar-chart"></i>
-                        <h5><a href="service-v1.html" class="tran3s">SEO &amp; SMM services</a></h5>
-                        <p>Lorem ipsum dolor sit amet, percipitur sadipscing. </p>
-                    </div>
-                </li>
-                <li class="col-md-6">
-                    <div>
-                        <i class="flaticon-smartphone"></i>
-                        <h5><a href="service-v1.html" class="tran3s">Apps Development</a></h5>
-                        <p>Lorem ipsum dolor sit amet, percipitur sadipscing. </p>
-                    </div>
-                </li>
+                {{ end }}
             </ul>
         </div> <!-- /.main-container -->
-        <img src="images/home/shape-2.png" alt="Image" class="wow fadeInLeft">
+        <img src="{{ .image }}" alt="Image" class="wow fadeInLeft">
     </div> <!-- /.container -->
 </div> <!-- /.home-service-section -->
+{{ end }}
 
-
-
+{{ with .Params.section7 }}
 <!-- ==================== TWO SECTION WRAPPER ====================== -->
-<div class="two-section-wrapper">
-    <!-- 
-    =============================================
-        Testimonial
-    ============================================== 
-    -->
+<!-- <div class="two-section-wrapper">
     <div class="testimonial-section">
         <div class="image-box wow fadeInLeft">
             <svg  version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="854" height="630">
@@ -301,7 +222,7 @@
                     <use xlink:href="#shape-one" />
                 </clipPath>
                 <g clip-path="url(#shape-one)">
-                    <image width="854" height="630" href="images/home/5.jpg" class="image-shape">
+                    <image width="854" height="630" href="{{ .image }}" class="image-shape">
                     </image>
                 </g>
             </svg>
@@ -310,102 +231,28 @@
         <div class="container">
             <div class="main-container col-md-6 col-md-offset-6">
                 <div class="theme-title">
-                    <h6>Testimonials</h6>
-                    <h2>Check what’s our client <br>Say about us</h2>
-                </div> <!-- /.theme-title -->
-                <div class="testimonial-slider">
-                    <div class="item">
-                        <div class="wrapper">
-                            <p>Their testimonial videos aren't production quality, but they get the message across, cover useful &amp; relevant information which goes to show you don't need to invest thousands in production get some testimonial videos up with quality. </p>
-                            <div class="name clearfix">
-                                <img src="images/home/3.jpg" alt="">
-                                <h5>Rashed Kabir</h5>
-                                <span>Gazipur</span>
-                            </div>
-                        </div> <!-- /.wrapper -->
-                    </div> <!-- /.item -->
-                    <div class="item">
-                        <div class="wrapper">
-                            <p>Their testimonial videos aren't production quality, but they get the message across, cover useful &amp; relevant information which goes to show you don't need to invest thousands in production get some testimonial videos up with quality. </p>
-                            <div class="name clearfix">
-                                <img src="images/home/4.jpg" alt="">
-                                <h5>Zubayer Hasan</h5>
-                                <span>Uttara</span>
-                            </div>
-                        </div> <!-- /.wrapper -->
-                    </div> <!-- /.item -->
-                </div> <!-- /.testimonial-slider -->
-            </div> <!-- /.main-container -->
-        </div> <!-- /.container -->
-    </div> <!-- /.testimonial-section -->
-
-    <!-- 
-    =============================================
-        Pricing Plan Style One
-    ============================================== 
-    -->
-    <div class="pricing-plan-one">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-xs-12 wow fadeInLeft">
-                    <div class="theme-title">
-                        <h6>Our pricing</h6>
-                        <h2>Not any hidden <br>charge, Choose you <br>pricing plan</h2>
-                        <p>We have differe type of pricing table to choose with <br>your need with resonable price. </p>
-                    </div> <!-- /.theme-title -->
-                    <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#monthly">Monthly</a></li>
-                        <li><a data-toggle="tab" href="#yearly">Yearly</a></li>
-                    </ul>
-                </div> <!-- /.col- -->
-
-                <div class="col-md-6 col-xs-12 wow fadeInRight">
-                    <div class="tab-content">
-                        <div id="monthly" class="tab-pane fade in active">
-                            <div class="clearfix">
-                                <div class="float-left left-side">
-                                    <span><sub>$</sub>96.<sup>99</sup></span>
-                                    <h6>Business</h6>
-                                    <a href="#">+</a>
-                                </div> <!-- /.left-side -->
-                                <div class="right-side float-left">
-                                    <h6>40% OFF</h6>
-                                    <h4>Weekly Package</h4>
-                                    <ul>
-                                        <li>50GB Bandwidth</li>
-                                        <li>Business & Financ Analysing</li>
-                                        <li>24 hour support</li>
-                                        <li>Customer Managemet</li>
-                                    </ul>
-                                </div> <!-- /.right-side -->
-                            </div>
-                        </div> <!-- /#monthly -->
-                        <div id="yearly" class="tab-pane fade">
-                            <div class="clearfix">
-                                <div class="float-left left-side">
-                                    <span><sub>$</sub>296.<sup>99</sup></span>
-                                    <h6>Business</h6>
-                                    <a href="#">+</a>
-                                </div> <!-- /.left-side -->
-                                <div class="right-side float-left">
-                                    <h6>40% OFF</h6>
-                                    <h4>Weekly Package</h4>
-                                    <ul>
-                                        <li>50GB Bandwidth</li>
-                                        <li>Business & Financ Analysing</li>
-                                        <li>24 hour support</li>
-                                        <li>Customer Managemet</li>
-                                    </ul>
-                                </div> <!-- /.right-side -->
-                            </div>
-                        </div> <!-- /#yearly -->
-                    </div>
+                    <h6>{{ .title }}</h6>
+                    <h2>{{ .description | markdownify }}</h2>
                 </div>
-            </div> <!-- /.row -->
-        </div> <!-- /.container -->
-    </div> <!-- /.pricing-plan-one -->
-</div> <!-- /.two-section-wrapper -->
-
+                <div class="testimonial-slider">
+                    {{ range .blocks }}
+                    <div class="item">
+                        <div class="wrapper">
+                            <p>{{ .description }}</p>
+                            <div class="name clearfix">
+                                <img src="{{ .image }}" alt="">
+                                <h5>{{ .name }}</h5>
+                                <span>{{ .company }}</span>
+                            </div>
+                        </div> 
+                    </div>
+                    {{ end }}
+                </div>
+            </div> 
+        </div> 
+    </div> 
+</div>  -->
+{{ end }}
 
 
 <!-- 
@@ -413,52 +260,31 @@
     Home Blog Section
 ============================================== 
 -->
+{{ with .Params.section8 }}
 <div class="home-blog-section">
     <div class="container">
         <div class="theme-title text-center">
-            <h6>Our News</h6>
-            <h2>News from our company</h2>
+            <h6>{{ .title }}</h6>
+            <h2>{{ .description }}</h2>
         </div> <!-- /.theme-title -->
         <div class="row">
+            {{ range $i, $e := (first 4 (where $.Site.RegularPages "Type" "articles")) }}
             <div class="col-md-6 col-xs-12">
-                <div class="single-blog color-one">
-                    <img src="images/home/6.jpg" alt="">
-                    <h6>Rashed Ka.</h6>
-                    <h5><a href="blog-details.html" class="tran3s">Challange yourself to win the future</a></h5>
-                    <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p>
-                    <a href="blog-details.html" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                <div class="single-blog color-{{ if eq $i 0 }}one{{ else if eq $i 1}}two{{ else if eq $i 2 }}three{{ else }}four{{ end }}">
+                    {{ if isset .Params "author" }}
+                        {{ $author := index .Site.Data.authors .Params.author }}
+                        <img src="{{ $author.image }}" alt="{{ $author.name }}">
+                        <h6>{{ $author.name }}</h6>
+                    {{ end }}
+                    <h5><a href="{{ .Permalink }}" class="tran3s">{{ .Params.listing.title }}</a></h5>
+                    <p>{{ .Params.listing.description }}</p>
+                    <a href="{{ .Permalink }}" class="tran3s hvr-icon-wobble-horizontal">Lire la suite <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div> <!-- /.single-blog -->
             </div> <!-- /.col- -->
-            <div class="col-md-6 col-xs-12">
-                <div class="single-blog color-two">
-                    <img src="images/home/7.jpg" alt="">
-                    <h6>Jannatul Fa.</h6>
-                    <h5><a href="blog-details.html" class="tran3s">Challange yourself to win the future</a></h5>
-                    <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p>
-                    <a href="blog-details.html" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div> <!-- /.single-blog -->
-            </div> <!-- /.col- -->
-            <div class="col-md-6 col-xs-12">
-                <div class="single-blog color-three">
-                    <img src="images/home/8.jpg" alt="">
-                    <h6>Fred Johnston</h6>
-                    <h5><a href="blog-details.html" class="tran3s">Challange yourself to win the future</a></h5>
-                    <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p>
-                    <a href="blog-details.html" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div> <!-- /.single-blog -->
-            </div> <!-- /.col- -->
-            <div class="col-md-6 col-xs-12">
-                <div class="single-blog color-four">
-                    <img src="images/home/9.jpg" alt="">
-                    <h6>Austin Cross</h6>
-                    <h5><a href="blog-details.html" class="tran3s">Challange yourself to win the future</a></h5>
-                    <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p>
-                    <a href="blog-details.html" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div> <!-- /.single-blog -->
-            </div> <!-- /.col- -->
+            {{ end }}
         </div> <!-- /.row -->
     </div> <!-- /.container -->
 </div> <!-- /.home-blog-section -->
-
+{{ end }}
 
 {{ end }}
