@@ -16,7 +16,9 @@
   ],
   "author": "Akia Marketing",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "natives": "^1.1.6"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "concurrent-transform": "^1.0.0",
