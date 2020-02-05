@@ -39,4 +39,8 @@ Dès le premier mois, nous avons enregistré près de 100 clics qui redirigent v
 
 **Temps moyen passé sur le site web pour les utilisateurs venant des Ads:** 3 minutes 22 sec
 
+
+
 ## Conclusion:
+
+Avec Ad Grant, le Groupe ES récolte des visites pertinentes de son site web sans effort.
