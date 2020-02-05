@@ -21,14 +21,22 @@ ordre: 0
 draft: false
 noindex: false
 ---
-## Résultats:
-
-Dès le premier mois, nous avons enregistré près de 200 clics qui redirigent vers le site web du client. Nous avons u
-
 ## À propos de Groupe Entreprises en Santé:
+
+Depuis les 15 dernières années, le groupe est le chef de file du mouvement santé et mieux-être en milieu de travail au Québec. Il offre aux gestionnaires et hauts dirigeants du Québec des outils pour instaurer des meilleures pratiques en santé globale.
 
 ## Objectifs:
 
-
+* Augmenter la notoriété du groupe
+* Augmenter la visibilité de la tournée des leaders engagés (série d'événements qui se déroulent partout à travers le Québec)
+* Augmenter la visibilité des services offerts par le groupe (conférences, ateliers et webinaires)
 
 ## Résultats:
+
+Dès le premier mois, nous avons enregistré près de 100 clics qui redirigent vers le site web du client et plus de 300 clics dans le mois suivant. Au total, c'est tout près de 1200 vues des publicités pour le premier mois et près de 3000 pour le mois suivant.
+
+![](/img/Ad-grant-screenshot.PNG)
+
+**Temps moyen passé sur le site web pour les utilisateurs venant des Ads:** 3 minutes 22 sec
+
+## Conclusion:
