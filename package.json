@@ -4,7 +4,8 @@
   "description": "Basic gulp file to process images in hugo",
   "main": "no",
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "prod": "gulp prod"
   },
   "repository": {
     "type": "git",
@@ -21,23 +22,14 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "concurrent-transform": "^1.0.0",
-    "create-react-class": "^15.6.3",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-image-resize": "^0.13.1",
-    "gulp-imagemin": "^4.1.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-rename": "^1.2.3",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0",
-    "netlify-cms": "^1.8.4",
-    "netlify-cms-widget-native-color": "^2.2.0",
-    "prop-types": "^15.6.1",
-    "react-immutable-proptypes": "^2.1.0",
-    "run-sequence": "^2.2.1",
-    "slate": "^0.33.6"
+    "gulp-uglify": "^3.0.0"
   }
 }
