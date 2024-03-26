@@ -9,6 +9,7 @@ slug:
 ordre: 9
 image: /img/le5e.jpg
 i18n: fr
+draft: true
 portfolios:
   - Réseaux sociaux
 link:

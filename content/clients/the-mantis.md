@@ -16,4 +16,5 @@ portfolios:
 link:
   external: true
   url: https://www.facebook.com/enviromantis/
+draft: true
 ---

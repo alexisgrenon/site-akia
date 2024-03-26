@@ -9,6 +9,7 @@ slug:
 ordre: 4
 image: /img/eatizz-design-web.jpg
 i18n: fr
+draft: true
 portfolios:
   - Design
 link:

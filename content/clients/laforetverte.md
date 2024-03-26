@@ -9,6 +9,7 @@ slug:
 ordre: 11
 image: /img/laforetverte-boutique-en-ligne.jpg
 i18n: fr
+draft: true
 portfolios:
   - E-commerce
   - SEO

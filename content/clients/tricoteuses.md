@@ -14,4 +14,5 @@ portfolios:
 link:
   external: true
   url: https://ecoledetricot.com/
+draft: true
 ---

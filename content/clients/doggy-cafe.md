@@ -9,6 +9,7 @@ slug:
 ordre: 1
 image: /img/doggy-cafe-reseaux-sociaux.jpg
 i18n: fr
+draft: true
 portfolios:
   - Réseaux sociaux
 link:
