@@ -6,8 +6,8 @@ resume:
   court: Stratégie marketing
 identifiant:
 slug:
-ordre: 33
-image: /img/e-commerce-marketing.jpg
+ordre: 4
+image: /img/Resto-plateau.png
 i18n: fr
 portfolios:
   - Marketing
