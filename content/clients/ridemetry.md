@@ -16,5 +16,4 @@ portfolios:
 link:
   external: true
   url: https://ridemetry.com
-draft: true
 ---

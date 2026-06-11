@@ -20,6 +20,10 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir = false
 
 #CUSTOM PARAMS
+[security]
+  [security.funcs]
+    getenv = ['(?i)^(HUGO_|CI)', 'IS_PROD']
+
 [params]
   ## Include google maps, with API Key
   googleapikey = "AIzaSyDhBhixIN3u8BHQ86aS_TD0D0W9J2w9ikg"
