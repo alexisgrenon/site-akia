@@ -4,3 +4,4 @@
 
 [build.environment]
   HUGO_VERSION = "0.42"
+  HUGO_EXTENDED = "false"
