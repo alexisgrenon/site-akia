@@ -1,8 +1,8 @@
 ---
-title: Akia Marketing | Développement web et marketing pour E-commerce
+title: Akia | Conception de sites web et marketing au Québec
 description: >-
-  Akia Marketing est une agence spécialisée dans la conception et le marketing
-  de boutique en ligne pour tous les types d'entreprise.
+  Akia est une agence web québécoise spécialisée dans la conception de sites web
+  et le marketing digital pour les PME, OSBL et organisations du Québec.
 image: /img/e-commerce-services.jpg
 draft: false
 section1:
@@ -10,61 +10,55 @@ section1:
     link: clientsPage
     title: Nos projets
   image: /img/e-commerce-marketing-2.gif
-  line1: Solution complète
-  line2: pour les
-  line3: E-commerce
-  subtitle: Akia Marketing
+  line1: Conception web
+  line2: et marketing pour
+  line3: votre organisation
+  subtitle: Akia
 section2:
   blocks:
     - class: color-one
       title: De la qualité sans se ruiner
       description: >-
-        Akia c’est une petite équipe dynamique. Soudée pour l’efficacité,
+        Akia c'est une petite équipe dynamique. Soudée pour l'efficacité,
         parfaite pour lancer un projet de qualité rapidement.
       icon: fa fa-tachometer
     - class: color-two
       title: Un produit qui vous ressemble
       description: >-
         Original, corporatif, clean, élégant, artistique, il y en a pour tous
-        les goûts. Mais l’important, c’est que ce soit fidèle à l’identité de
-        votre entreprise
+        les goûts. Mais l'important, c'est que ce soit fidèle à l'identité de
+        votre organisation.
       icon: fa-heart fa
     - class: color-three
-      title: Une équipe à l’écoute
+      title: Une équipe à l'écoute
       description: >-
         Notre équipe est là pour répondre à vos questions et écouter vos
-        préoccupations. Parce que le web c’est pas toujours facile à comprendre!
+        préoccupations. Parce que le web c'est pas toujours facile à comprendre!
       icon: fa fa-question
   description1: >-
-    Akia, c’est une équipe de passionnés de la programmation et du marketing
-    web. Les plateformes web et les E-commerces, c’est notre spécialité.
-  description2: 'Vos projets méritent une solution digne de leur originalité! '
+    Akia, c'est une équipe de passionnés de la programmation et du marketing
+    web. On travaille avec des PME, des OSBL et des organisations du Québec
+    qui veulent une présence web à leur image.
+  description2: 'Vos projets méritent une solution digne de leur originalité!'
 section3:
   btn:
     link: servicesPage
     subtitle: En apprendre plus
-    title: Plus à propos d’Akia
-  subtitle: Notre touche environnementale
-  title: 'Plus que du web, on s’investit pour vivre dans un monde meilleur.'
+    title: Nos services
+  subtitle: Notre approche
+  title: 'Plus que du web, on bâtit des relations durables.'
   description: >-
-    Faisons ensemble des pas vers l’avant pour développer la conscience
-    écologique des gens et des entreprises. Donnons un futur propre et convivial
-    à la prochaine génération. Akia s’implique avec plusieurs projets et
-    organisations dont l'[Association Québecoise Zéro
-    Déchet](https://www.aqzd.ca/).
+    On prend le temps de comprendre votre réalité — que vous soyez une CPE,
+    un OSBL ou une PME — pour vous livrer une solution web et marketing
+    qui correspond vraiment à vos besoins et à votre budget.
   image: /img/teamwork-environment.jpg
 section4:
-  - number: 64
+  - number: 70
     suffix: +
-    title: Projets Complétés
-  - number: 39
+    title: Projets complétés
+  - number: 45
+    suffix: +
     title: Clients
-  - number: 5000
-    suffix: +
-    title: Sourires donnés
-  - number: 100
-    suffix: M
-    title: Lignes de code
 section5:
   btn:
     link: clientsPage
@@ -74,25 +68,24 @@ section5:
 section6:
   blocks:
     - class: color-one
-      title: Conception de E-commerce
+      title: Conception de sites web
       description: >-
-        Pour créer un commerce en ligne efficace et fait sur mesure pour vos
-        besoins.
+        Pour créer un site web efficace, moderne et fait sur mesure pour
+        votre organisation.
       icon: flaticon-computer
       link: services/conception-e-commerce
     - class: color-two
-      title: Marketing pour E-commerce
+      title: Marketing digital
       description: >-
-        Que ce soit par l’optimisation de la structure du site web, le SEO, la
-        publicité payante ou la création de canaux marketings, nous vous
-        aiderons à mettre en place une stratégie efficace
+        SEO, publicité payante, médias sociaux — on vous aide à mettre en
+        place une stratégie marketing qui génère de vrais résultats.
       icon: flaticon-round-chart
       link: services/marketing-pour-e-commerce
     - class: color-four
       title: Stratégie marketing globale
       description: >-
-        Pour déterminer le meilleur angle d’attaque pour votre entreprise et
-        attirer plus de clientèle.
+        Pour déterminer le meilleur angle d'attaque pour votre organisation
+        et attirer plus de clientèle.
       icon: flaticon-bar-chart
       link: services/strategie-marketing-digital
   btn:
@@ -106,22 +99,27 @@ section6:
   image: /img/service-image-3.png
 section7:
   blocks:
-    - company: Le Doggy Café
+    - company: Tiny Society
       description: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
-        perspiciatis voluptatem facere cum ipsa minus libero, cupiditate
-        nesciunt, pariatur assumenda repellat odio magni in voluptatibus
-        consectetur quidem, maiores nemo rem!
-      image: /img/logo-doggy.jpg
-      name: Gabrielle
-    - company: Le Doggy Café
+        L'équipe d'Akia a su capter l'essence de notre marque dès le départ.
+        Le résultat final était exactement ce qu'on cherchait — moderne, clair
+        et fidèle à notre identité. En plus, ils sont super agréables à travailler!
+      image: /img/tinysociety-site-web.jpg
+      name: Molly
+    - company: InBeat
       description: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
-        perspiciatis voluptatem facere cum ipsa minus libero, cupiditate
-        nesciunt, pariatur assumenda repellat odio magni in voluptatibus
-        consectetur quidem, maiores nemo rem!
-      image: /img/logo-doggy.jpg
-      name: Gabrielle
+        On cherchait une équipe qui comprend le marketing autant que le web.
+        Akia a livré les deux. Notre nouveau site convertit beaucoup mieux
+        qu'avant et on a vu une différence notable depuis le lancement.
+      image: /img/e-commerce-services.jpg
+      name: David
+    - company: Reduze
+      description: >-
+        Professionnels, rapides et à l'écoute. Akia a su s'adapter à nos
+        contraintes de budget sans jamais sacrifier la qualité. On les
+        recommande sans hésiter à n'importe quelle PME québécoise.
+      image: /img/e-commerce-marketing.jpg
+      name: Paul-Antoine
   title: Commentaires
   description: Ce qu'ils ont à dire <br>à propos de nous
   image: /img/commentaires-clients.jpg
@@ -129,4 +127,3 @@ section8:
   title: Conseils et études de cas
   description: 'Découvrez le web, tout va bien aller!'
 ---
-

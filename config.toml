@@ -1,6 +1,6 @@
 baseURL = "https://www.akiamarketing.ca/"
 DefaultContentLanguage = "fr"
-title = "Akia Marketing"
+title = "Akia"
 theme = "akia"
 description = ""
 
@@ -30,7 +30,7 @@ defaultContentLanguageInSubdir = false
   fbpagename = ""
   fbappid = ""
   ## Business name in Schema.org
-  schemabiz = "Akia Marketing"
+  schemabiz = "Akia"
   ## Google Tag Manager tracking ID
   gtmid = "GTM-P4S6BJQ"
 

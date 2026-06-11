@@ -1,16 +1,16 @@
 ---
-title: Conception de commerce en ligne | Akia Marketing
+title: Conception de sites web | Akia
 description: >-
-  Nous créons un commerce en ligne sur mesure pour répondre à vos besoins.
-  Efficacité, qualité et sécurité sont nos priorités! 
+  Nous créons des sites web sur mesure pour les PME, OSBL et organisations du Québec.
+  Efficacité, qualité et modernité sont nos priorités!
 slug: conception-e-commerce
 image: /img/conception-e-commerce-square.jpg
 overlay: true
 listing:
-  title: Conception d'E-commerce
+  title: Conception de sites web
   description: >-
-    De la conception à votre première livraison, bâtir une boutique en ligne
-    n'est pas tâche facile. Laissez-nous vous donner un coup de main!
+    Bâtir un site web à votre image, c'est plus qu'une question de design.
+    Laissez-nous vous guider du début à la fin!
   image: /img/conception-e-commerce.jpg
   subtitle: Programmation
 notloaded:
@@ -22,53 +22,45 @@ draft: false
 headerwhite: true
 section1:
   col1: >-
-    Chez Akia, nous nous spécialisons dans la conception et le marketing des E
-    commerce. Ce qui veut dire que nous pouvons non seulement bâtir une
-    plateforme sécuritaire et à votre image, mais nous savons aussi comment
-    amener les clients à trouver, utiliser et transiger sur votre boutique en
-    ligne. Cette fusion de l’expertise technique et marketing sous un même toit
-    nous permet d’offrir une stratégie cohérente qui vous fera atteindre vos
-    objectifs.
+    Chez Akia, nous nous spécialisons dans la conception de sites web et le marketing
+    digital. Nous pouvons non seulement bâtir un site performant et à votre image,
+    mais nous savons aussi comment amener les visiteurs à vous trouver et à passer
+    à l’action. Cette fusion de l’expertise technique et marketing sous un même toit
+    nous permet d’offrir une stratégie cohérente qui vous fera atteindre vos objectifs.
   col2: >-
-    Notre démarche commence toujours avec la compréhension du domaine
-    d’expertise. Il est primordial que l’équipe se plonge dans votre domaine
-    pour voir les obstacles auxquels vous faites face, les comportements de vos
-    clients et les tendances de votre industrie. Une fois les données récoltées,
-    nous les mettons à profit dans un processus conceptualisation, design et
-    conception de votre plateforme de votre en ligne. De la commande à la
-    livraison, on pense à tout pour vous. 
-  title: Conception d'E-commerce
+    Notre démarche commence toujours avec la compréhension de votre réalité.
+    Il est primordial que l’équipe se plonge dans votre organisation pour voir
+    les obstacles auxquels vous faites face, les comportements de vos clients
+    et les tendances de votre secteur. Une fois les données récoltées, nous les
+    mettons à profit dans un processus de conceptualisation, de design et de
+    développement de votre site web. On pense à tout pour vous.
+  title: Conception de sites web
   description: >-
-    Plus d’un québécois sur deux achète aujourd’hui en ligne. Plus important
-    encore, parmi tout ceux qui n’achètent pas, la grande majorité magasine
-    quand même en ligne. On ne le dira jamais assez: en 2018, votre entreprise
-    se doit d’offrir ses services et ses produits en ligne. Découvrez comment
-    Akia peut vous aider à améliorer ou à lancer votre boutique en ligne.
+    Que vous soyez une PME, un OSBL, une CPE ou une association, votre présence
+    web est souvent le premier contact que les gens ont avec vous. Découvrez comment
+    Akia peut vous aider à créer ou à améliorer votre site web.
 section2:
   title: Inclus dans notre service
   description: 'Voici les champs d’expertise de notre équipe:'
   points:
-    - title: Design de votre E-commerce
+    - title: Design de votre site web
       description: >-
-        La sécurité et la crédibilité de votre boutique en ligne seront basées
-        sur son apparence. Laissez-nous le soin de bâtir une plateforme à votre
-        image et dont vous serez fier.
-    - title: Conception de votre boutique en ligne
+        La crédibilité de votre organisation passe par son apparence en ligne.
+        Laissez-nous le soin de bâtir un site à votre image et dont vous serez fier.
+    - title: Développement sur mesure
       description: >-
-        C’est bien beau d'avoir une plateforme web à votre image, mais elle doit
-        fonctionner comme du monde. De la sécurité à l’expérience d’achat, nous
-        mettons en place une plateforme que vous clients adoreront utiliser.
-    - title: Transactions et livraison
+        Un beau design c’est bien, mais ça doit aussi fonctionner. De la navigation
+        à la performance, nous développons un site que vos visiteurs adoreront utiliser.
+    - title: Sites pour OSBL, CPEs et PMEs
       description: >-
-        Il nous fera plaisir de vous guider dans le choix et la mise en place de
-        la bonne plateforme de paiement en ligne, mais aussi dans toute la
-        logistique et la gestion de votre nouvelle plateforme web.
+        On comprend vos réalités — budget serré, équipes réduites, besoins spécifiques.
+        On bâtit des solutions adaptées à votre contexte, pas des solutions
+        génériques copiées-collées.
     - title: Répondre à vos questions
       description: >-
-        C’est pas simple toute cette histoire d’E-commerce. À travers notre
-        travail, nous éduquons nos clients pour qu’ils comprennent mieux notre
-        travail. C’est quand même vous qui utiliserez votre plateforme au
-        quotidien!
+        Le web c’est pas toujours simple. À travers notre travail, nous éduquons
+        nos clients pour qu’ils comprennent mieux ce qu’on fait. C’est quand même
+        vous qui utiliserez votre site au quotidien!
     - title: La bonne humeur
       description: >-
         On le dit pas assez souvent, mais c’est important. Laissez-nous mettre
