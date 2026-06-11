@@ -12,6 +12,6 @@ i18n: fr
 portfolios:
   - Site web
 link:
-  external: false
-  url:
+  external: true
+  url: https://innovlog.ca/
 ---

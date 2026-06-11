@@ -13,6 +13,7 @@ portfolios:
   - Site web
   - Design
   - E-commerce
+  - Marketing
 link:
   external: true
   url: https://www.badmintonquebec.com/

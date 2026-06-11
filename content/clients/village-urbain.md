@@ -1,17 +1,17 @@
 ---
-title: Resto Plateau
+title: Village Urbain
 description: Stratégie marketing
 resume:
-  titre: Resto Plateau
+  titre: Village Urbain
   court: Stratégie marketing
 identifiant:
 slug:
-ordre: 33
+ordre: 34
 image: /img/e-commerce-marketing.jpg
 i18n: fr
 portfolios:
   - Marketing
 link:
   external: true
-  url: https://restoplateau.com/
+  url: https://villageurbain.org/
 ---
