@@ -73,14 +73,14 @@ section6:
         Pour créer un site web efficace, moderne et fait sur mesure pour
         votre organisation.
       icon: flaticon-computer
-      link: services/conception-e-commerce
+      link: services/conception-sites-web
     - class: color-two
       title: Marketing digital
       description: >-
         SEO, publicité payante, médias sociaux — on vous aide à mettre en
         place une stratégie marketing qui génère de vrais résultats.
       icon: flaticon-round-chart
-      link: services/marketing-pour-e-commerce
+      link: services/marketing-digital
     - class: color-four
       title: Stratégie marketing globale
       description: >-

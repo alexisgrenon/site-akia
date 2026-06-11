@@ -3,7 +3,7 @@ title: Conception de sites web | Akia
 description: >-
   Nous créons des sites web sur mesure pour les PME, OSBL et organisations du Québec.
   Efficacité, qualité et modernité sont nos priorités!
-slug: conception-e-commerce
+slug: conception-sites-web
 image: /img/conception-e-commerce-square.jpg
 overlay: true
 listing:

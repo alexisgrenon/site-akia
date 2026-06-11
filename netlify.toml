@@ -2,5 +2,29 @@
   publish = "public"
   command = "hugo"
 
+[[redirects]]
+  from = "/services/conception-e-commerce"
+  to = "/services/conception-sites-web"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/marketing-pour-e-commerce"
+  to = "/services/marketing-digital"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/e-commerce-conception"
+  to = "/services/web-design"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/e-commerce-marketing"
+  to = "/services/digital-marketing"
+  status = 301
+  force = true
+
 [build.environment]
   HUGO_VERSION = "0.92.0"

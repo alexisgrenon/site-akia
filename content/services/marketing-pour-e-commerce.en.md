@@ -3,7 +3,7 @@ title: E-commerce Marketing | Akia Marketing
 description: >-
   E-commerce marketing adapted to your day to day life. Because your cart
   deserves a royal treatment!
-slug: e-commerce-marketing
+slug: digital-marketing
 image: /img/e-commerce-marketing.jpg
 overlay: true
 listing:

@@ -3,7 +3,7 @@ title: Marketing digital | Akia
 description: >-
   Du marketing digital adapté à votre réalité. On vous aide à vous faire voir
   par les bonnes personnes, au bon moment.
-slug: marketing-pour-e-commerce
+slug: marketing-digital
 image: /img/e-commerce-marketing.jpg
 overlay: true
 listing:

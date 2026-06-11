@@ -3,7 +3,7 @@ title: ' Online business design | Akia Marketing'
 description: >-
   We create an online business that's tailored to your needs. Efficiency,
   quality and safety are our priorities!
-slug: e-commerce-conception
+slug: web-design
 image: /img/conception-e-commerce-square.jpg
 overlay: true
 listing:
